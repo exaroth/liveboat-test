@@ -1,1 +1,285 @@
-{"id":"46aP2QbqUqBrWfYqAibo8xS24qkvbDNgWZUrxgZ6XNcyUn6fFxkgS1aSWJWwPwaqFp34erWr8NxVvd6jro8uiaPvDUjw","title":"top scoring links : kubernetes","displayTitle":"Reddit - Kubernetes","url":"https://www.reddit.com/r/kubernetes/top/.rss?sort=top&t=day&limit=6","feedLink":"https://www.reddit.com/r/kubernetes/top/?sort=top&t=day&limit=6","items":[{"title":"What to Expect in a Kubernetes Interview for an Operator Developer?","url":"https://www.reddit.com/r/kubernetes/comments/1hneskm/what_to_expect_in_a_kubernetes_interview_for_an/","date":1735305873,"author":"/u/Acrobatic-Poetry3130","unread":true,"desc":"","content":"<!-- SC_OFF --><div class=\"md\"><p>I am currently developing a Kubernetes Operator for a product, but prior to this, I had no hands-on experience with Kubernetes, nor have I managed a production-grade Kubernetes cluster. Despite this, I am eager to transition into roles focused on Kubernetes. Considering my background, what might an interview process look like for someone like me?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Acrobatic-Poetry3130\"> /u/Acrobatic-Poetry3130 </a> <br/> <span><a href=\"https://www.reddit.com/r/kubernetes/comments/1hneskm/what_to_expect_in_a_kubernetes_interview_for_an/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/kubernetes/comments/1hneskm/what_to_expect_in_a_kubernetes_interview_for_an/\">[comments]</a></span>","flags":null,"enclosureUrl":"","enclosureMime":""},{"title":"Cilium connectivity test timing out on Talos","url":"https://www.reddit.com/r/kubernetes/comments/1hnd3ki/cilium_connectivity_test_timing_out_on_talos/","date":1735299471,"author":"/u/BrocoLeeOnReddit","unread":true,"desc":"","content":"<!-- SC_OFF --><div class=\"md\"><p>Hey everybody, I&#39;m trying to get into k8s+Cilium in my homelab and I have installed Talos Linux (1 Control Plane, 1 Worker) in Proxmox.</p> <p>I have applied the patch file that disabled the default CLI and kube-proxy in Talos (as described in the <a href=\"https://www.talos.dev/v1.9/kubernetes-guides/network/deploying-cilium/\">Talos docs</a>) and then deployed the Cilium Helm chart with the following values:</p> <pre><code>ipam: mode: kubernetes k8sServiceHost: localhost k8sServicePort: 7445 kubeProxyReplacement: true securityContext: capabilities: ciliumAgent: - CHOWN - KILL - NET_ADMIN - NET_RAW - IPC_LOCK - SYS_ADMIN - SYS_RESOURCE - DAC_OVERRIDE - FOWNER - SETGID - SETUID cleanCiliumState: - NET_ADMIN - SYS_ADMIN - SYS_RESOURCE cgroup: autoMount: enabled: false hostRoot: /sys/fs/cgroup bgpControlPlane: enabled: true hubble: enabled: true metrics: enabled: - dns - drop - tcp - flow - port-distribution - icmp - httpV2:exemplars=true;labelsContext=source_ip,source_namespace,source_workload,destination_ip,destination_namespace,destination_workload,traffic_direction enableOpenMetrics: true relay: enabled: true ui: enabled: true operator: prometheus: enabled: true prometheus: enabled: true </code></pre> <p>The Problem is that if I run <code>cilium connectivity test</code>, a timeout occurs.</p> <p>Apparently, the client deployment in ns cilium-test-1 fails to come online:</p> <pre><code># k describe deployment/client -n cilium-test-1 Name: client Namespace: cilium-test-1 CreationTimestamp: Fri, 27 Dec 2024 11:26:46 +0100 Labels: kind=client name=client Annotations: 1 Selector: kind=client,name=client Replicas: 1 desired | 0 updated | 0 total | 0 available | 1 unavailable StrategyType: RollingUpdate MinReadySeconds: 0 RollingUpdateStrategy: 25% max unavailable, 25% max surge Pod Template: Labels: kind=client name=client Service Account: client Containers: client: Image: Port: &lt;none&gt; Host Port: &lt;none&gt; Command: /usr/bin/pause Environment: &lt;none&gt; Mounts: &lt;none&gt; Volumes: &lt;none&gt; Node-Selectors: &lt;none&gt; Tolerations: &lt;none&gt; Conditions: Type Status Reason ---- ------ ------ Available False MinimumReplicasUnavailable ReplicaFailure True FailedCreate Progressing False ProgressDeadlineExceeded OldReplicaSets: &lt;none&gt; NewReplicaSet: client-645b68dcf7 (0/1 replicas created) Events: &lt;none&gt;deployment.kubernetes.io/revision:quay.io/cilium/alpine-curl:v1.10.0@sha256:913e8c9f3d960dde03882defa0edd3a919d529c2eb167caa7f54194528bde364 </code></pre> <p>Any Idea how I can troubleshoot this?</p> <p>I can deploy other resources and they are reachable and <code>cilium status</code> also says everything is up and running but I&#39;m wondering why the connectivity-test is failing; but I don&#39;t know what I could have misconfigured since this is basically a fresh cluster.</p> <p>EDIT: This is quite embarrassing, shortly after posting this, I found this issue:</p> <p>And the <a href=\"https://www.talos.dev/v1.9/kubernetes-guides/network/deploying-cilium/#known-issues\">Talos docs</a> also mention this problem, though I was confused because I didn&#39;t have the same error they described so I dismissed it.</p> <p>The problem comes from the enforcement of pod security in Talos. To be able to run the test, I had to run:</p> <pre><code>kubectl label namespace cilium-test-1 pod-security.kubernetes.io/enforce=privileged </code></pre> <p>After that <code>cilium connectivity test</code> runs just fine.</p> <p>I&#39;ll leave this open in case anybody else struggles with this.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/BrocoLeeOnReddit\"> /u/BrocoLeeOnReddit </a> <br/> <span><a href=\"https://www.reddit.com/r/kubernetes/comments/1hnd3ki/cilium_connectivity_test_timing_out_on_talos/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/kubernetes/comments/1hnd3ki/cilium_connectivity_test_timing_out_on_talos/\">[comments]</a></span>","flags":null,"enclosureUrl":"","enclosureMime":""},{"title":"Weekly: Share your victories thread","url":"https://www.reddit.com/r/kubernetes/comments/1hnck9x/weekly_share_your_victories_thread/","date":1735297211,"author":"/u/gctaylor","unread":true,"desc":"","content":"<!-- SC_OFF --><div class=\"md\"><p>Got something working? Figure something out? Make progress that you are excited about? Share here!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/gctaylor\"> /u/gctaylor </a> <br/> <span><a href=\"https://www.reddit.com/r/kubernetes/comments/1hnck9x/weekly_share_your_victories_thread/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/kubernetes/comments/1hnck9x/weekly_share_your_victories_thread/\">[comments]</a></span>","flags":null,"enclosureUrl":"","enclosureMime":""},{"title":"The Inevitable Future of Kubernetes: Why the Orchestrator Should Follow the Path of the Linux Kernel","url":"https://www.reddit.com/r/kubernetes/comments/1hnb6fr/the_inevitable_future_of_kubernetes_why_the/","date":1735291063,"author":"/u/kvaps","unread":true,"desc":"","content":"<table> <tr><td> <a href=\"https://www.reddit.com/r/kubernetes/comments/1hnb6fr/the_inevitable_future_of_kubernetes_why_the/\"> <img src=\"https://external-preview.redd.it/3dnZsJnPtTG-FrSyuoRRVQKDb_D0JqxFXcXY49LRfJQ.jpg?width=640&amp;crop=smart&amp;auto=webp&amp;s=9bd93ad77dd004b1278b2483244c0e6207a4c0d6\" alt=\"The Inevitable Future of Kubernetes: Why the Orchestrator Should Follow the Path of the Linux Kernel\" title=\"The Inevitable Future of Kubernetes: Why the Orchestrator Should Follow the Path of the Linux Kernel\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/kvaps\"> /u/kvaps </a> <br/> <span><a href=\"https://blog.aenix.io/the-inevitable-future-of-kubernetes-why-the-orchestrator-should-follow-the-path-of-the-linux-367f49916712\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/kubernetes/comments/1hnb6fr/the_inevitable_future_of_kubernetes_why_the/\">[comments]</a></span> </td></tr></table>","flags":null,"enclosureUrl":"","enclosureMime":""},{"title":"What K8s feature request is at the top of your Christmas wishlist?","url":"https://www.reddit.com/r/kubernetes/comments/1hmyn9e/what_k8s_feature_request_is_at_the_top_of_your/","date":1735248831,"author":"/u/_K8s","unread":true,"desc":"","content":"&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/_K8s\"> /u/_K8s </a> <br/> <span><a href=\"https://www.reddit.com/r/kubernetes/comments/1hmyn9e/what_k8s_feature_request_is_at_the_top_of_your/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/kubernetes/comments/1hmyn9e/what_k8s_feature_request_is_at_the_top_of_your/\">[comments]</a></span>","flags":null,"enclosureUrl":"","enclosureMime":""},{"title":"Kubernetes Security Implementation Guide","url":"https://www.reddit.com/r/kubernetes/comments/1hmu1qz/kubernetes_security_implementation_guide/","date":1735236376,"author":"/u/rasvi786","unread":true,"desc":"","content":"<!-- SC_OFF --><div class=\"md\"><p><a href=\"https://medium.com/@rasvihostings/kubernetes-security-implementation-guide-d853bc6a86f2\">Comprehensive guide covering Kubernetes security implementations</a></p> <h1>Best Practices</h1> <ul> <li>Use minimal base images</li> <li>Enable runtime security features (seccomp, AppArmor)</li> <li>Regular security audits using tools like kubesec</li> <li>Implement least privilege principle</li> <li>Monitor pod and container logs</li> <li>Use mTLS for service-to-service communication</li> </ul> <p>This quick guide will help you implement and secure your application in Kubernetes.<br/> <a href=\"https://medium.com/@rasvihostings/kubernetes-security-implementation-guide-d853bc6a86f2\">https://medium.com/@rasvihostings/kubernetes-security-implementation-guide-d853bc6a86f2</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/rasvi786\"> /u/rasvi786 </a> <br/> <span><a href=\"https://www.reddit.com/r/kubernetes/comments/1hmu1qz/kubernetes_security_implementation_guide/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/kubernetes/comments/1hmu1qz/kubernetes_security_implementation_guide/\">[comments]</a></span>","flags":null,"enclosureUrl":"","enclosureMime":""}]}
+{
+  "id": "46aP2QbqUqBrWfYqAibo8xS24qkvbDNgWZUrxgZ6XNcyUn6fFxkgS1aSWJWwPwaqFp34erWr8NxVvd6jro8uiaPvDUjw",
+  "title": "top scoring links : kubernetes",
+  "displayTitle": "Reddit - Kubernetes",
+  "url": "https://www.reddit.com/r/kubernetes/top/.rss?sort=top&t=day&limit=6",
+  "feedLink": "https://www.reddit.com/r/kubernetes/top/?sort=top&t=day&limit=6",
+  "is_query": false,
+  "items": [
+    {
+      "title": "Longhorn fatal error on HELM deployment - when following official documentation",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1hoyh0p/longhorn_fatal_error_on_helm_deployment_when/",
+      "date": 1735486727,
+      "author": "/u/BunkerFrog",
+      "unread": true,
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi, I had tried different instances, fresh installation and setup of whole cluster, bare metal / vm still the same issue.</p> <p>While followinf official documentation I had prepared all requirements, set up cluster with <strong>Microk8s</strong> and decided to <a href=\"https://longhorn.io/docs/1.7.2/deploy/install/install-with-helm/\">deploy with Helm</a></p> <p>During deployment pod <strong>longhorn-driver-deployer</strong> always crash</p> <pre><code>level=error msg=&quot;failed to get arg root-dir. Need to specify \\&quot;--kubelet-root-dir\\&quot; in your Longhorn deployment yaml.: failed to get kubelet root dir, no related proc for root-dir detection, error out&quot; func=app.deployCSIDriver file=&quot;driver.go:287&quot; level=fatal msg=&quot;Error deploying driver: failed to start CSI driver: failed to get arg root-dir. Need to specify \\&quot;--kubelet-root-dir\\&quot; in your Longhorn deployment yaml.: failed to get kubelet root dir, no related proc for root-dir detection, error out&quot; func=app.DeployDriverCmd.func1 file=&quot;driver.go:142&quot; </code></pre> <p>Documentation do not point any need for changing configuration in Helm deployment.</p> <p>Anyone had this problem before?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/BunkerFrog\"> /u/BunkerFrog </a> <br/> <span><a href=\"https://www.reddit.com/r/kubernetes/comments/1hoyh0p/longhorn_fatal_error_on_helm_deployment_when/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/kubernetes/comments/1hoyh0p/longhorn_fatal_error_on_helm_deployment_when/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "How to Implement Federation Between AWS EKS and On-Premises Kubernetes Cluster?",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1hoy9fl/how_to_implement_federation_between_aws_eks_and/",
+      "date": 1735486119,
+      "author": "/u/Fenri3",
+      "unread": true,
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey everyone,</p> <p>I&#39;m trying to implement federation between my AWS EKS cluster and an on-premises Kubernetes cluster. However, I can&#39;t seem to find any comprehensive resources or guides on how to do this effectively.</p> <p>I want to ensure that the setup is robust and doesn&#39;t solely rely on tools like ChatGPT for guidance. Has anyone here successfully implemented this before? If so, could you share your approach or any useful resources that helped you along the way?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Fenri3\"> /u/Fenri3 </a> <br/> <span><a href=\"https://www.reddit.com/r/kubernetes/comments/1hoy9fl/how_to_implement_federation_between_aws_eks_and/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/kubernetes/comments/1hoy9fl/how_to_implement_federation_between_aws_eks_and/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "Cloud architecture diagramming and design tools",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1hox3p0/cloud_architecture_diagramming_and_design_tools/",
+      "date": 1735482580,
+      "author": "/u/EquivalentDepthFrom",
+      "unread": true,
+      "content": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/EquivalentDepthFrom\"> /u/EquivalentDepthFrom </a> <br/> <span><a href=\"https://cloudarchitecture.tools/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/kubernetes/comments/1hox3p0/cloud_architecture_diagramming_and_design_tools/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "How to set up (microk8s) node as master AND worker?",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1houwtv/how_to_set_up_microk8s_node_as_master_and_worker/",
+      "date": 1735474686,
+      "author": "/u/BunkerFrog",
+      "unread": true,
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi, I do have 4 nodes already in cluster but when checking roles I do have none</p> <pre><code>root@SILVER-NODE-1 ~ # kubectl get nodes NAME STATUS ROLES AGE VERSION silver-node-1 Ready &lt;none&gt; 10d v1.31.3 silver-node-2 Ready &lt;none&gt; 9d v1.31.3 silver-node-3 Ready &lt;none&gt; 9d v1.31.3 silver-node-4 Ready &lt;none&gt; 9d v1.31.3 </code></pre> <p>I would like to set up #1 and #2 as redundant masters but as they all four are same hardware spec I would like to set them up as workers too, and #3 and #4 as plain workers</p> <pre><code>silver-node-1 master worker silver-node-2 master worker silver-node-3 worker silver-node-4 worker </code></pre> <p>I do know this is not an optimal setup. I do know that I can set up role with:</p> <pre><code>kubectl label node mynode node-role.kubernetes.io/worker=worker </code></pre> <p>But had no luck to set up both roles.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/BunkerFrog\"> /u/BunkerFrog </a> <br/> <span><a href=\"https://www.reddit.com/r/kubernetes/comments/1houwtv/how_to_set_up_microk8s_node_as_master_and_worker/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/kubernetes/comments/1houwtv/how_to_set_up_microk8s_node_as_master_and_worker/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "I just implemented a cool thing in flux for managing dependencies in my k8s cluster",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1hoq6bi/i_just_implemented_a_cool_thing_in_flux_for/",
+      "date": 1735454181,
+      "author": "/u/Upper-Aardvark-6684",
+      "unread": true,
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>I wanted to manage dependencies at application level when they are deployed in cluster by flux. I wanted to deploy database first and then the other services which are dependent on database. After researching I realized that Kubernetes doesn&#39;t have such feature as it was made to be eventually consistent, so if services are deployed with database, services will keep failing and keep retrying until it connects to database.<br/> I discovered that we can manage dependencies at kustomization level in flux. I used the flux &quot;wait&quot; parameter (<a href=\"https://fluxcd.io/flux/components/kustomize/kustomizations/#wait\">https://fluxcd.io/flux/components/kustomize/kustomizations/#wait</a>) that waits for all kustomization resources to get ready by doing healthchecks. So in database kustomization I added &quot;wait&quot; and &quot;dependeOn&quot; in services kustomization so they come up after database is ready. Btw, I have kustomizations for each service and database. Also you flux health check parameter is useful.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Upper-Aardvark-6684\"> /u/Upper-Aardvark-6684 </a> <br/> <span><a href=\"https://www.reddit.com/r/kubernetes/comments/1hoq6bi/i_just_implemented_a_cool_thing_in_flux_for/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/kubernetes/comments/1hoq6bi/i_just_implemented_a_cool_thing_in_flux_for/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "Problem with networking on fresh Talos installation",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1honu05/problem_with_networking_on_fresh_talos/",
+      "date": 1735445659,
+      "author": "/u/rkj",
+      "unread": true,
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>I&#39;ve just installed fresh Talos cluster on Proxmox following standard guide. Installed metallb using helm, but when trying to add default address pool I was getting errors:</p> <p><code>kubectl apply -f default-pool.yaml Error from server (InternalError): error when creating &quot;default-pool.yaml&quot;: Internal error occurred: failed calling webhook &quot;ipaddresspoolvalidationwebhook.metallb.io&quot;: failed to call webhook: Post &quot;https://metallb-webhook-service.metallb-system.svc:443/validate-metallb-io-v1beta1-ipaddresspool?timeout=10s&quot;: context deadline exceeded</code></p> <p>Took me lot of debugging to figure out the network between pods on different hosts do not work, but works internally, pointing to issue with tunneling. I know nothing how it works or why, and long back and forth with ChatGPT didn&#39;t help much. Finally Claude suggested to add &quot;VNI&quot; to the flannel config and that fixed the issue.</p> <p>Is this a problem with default Talos install, with my proxmox setup or some other thing I should read about? Any links would be appreciated or explanation what is going on. Thanks!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/rkj\"> /u/rkj </a> <br/> <span><a href=\"https://www.reddit.com/r/kubernetes/comments/1honu05/problem_with_networking_on_fresh_talos/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/kubernetes/comments/1honu05/problem_with_networking_on_fresh_talos/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "ArgoCD: The cluster https://kubernetes.default.svc has no assigned shard.",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1homs94/argocd_the_cluster_httpskubernetesdefaultsvc_has/",
+      "date": 1735442096,
+      "author": "/u/MuscleLazy",
+      "unread": true,
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>I installed ArgoCD with the official helm chart and when I look at the 2 controller pods, I get these warnings:</p> <pre><code>time=&quot;2024-12-28T23:54:30Z&quot; level=warning msg=&quot;conflict when getting shard from shard mapping configMap. Retrying (0/3)&quot; time=&quot;2024-12-28T23:54:30Z&quot; level=warning msg=&quot;conflict when getting shard from shard mapping configMap. Retrying (1/3)&quot; time=&quot;2024-12-28T23:54:30Z&quot; level=warning msg=&quot;conflict when getting shard from shard mapping configMap. Retrying (2/3)&quot; time=&quot;2024-12-28T23:54:30Z&quot; level=warning msg=&quot;conflict when getting shard from shard mapping configMap. Retrying (3/3)&quot; time=&quot;2024-12-28T23:54:34Z&quot; level=warning msg=&quot;The cluster https://kubernetes.default.svc has no assigned shard.&quot; </code></pre> <p>Everything is functional, I can create applications and ArgoCD works as expected. Looking into UI, I see <code>kubernetes.default.svc</code> listed under Clusters. I created an <a href=\"https://github.com/argoproj/argo-cd/issues/21181\">issue</a> with all related technical details, which already has several ThumbsUp, I presume others experience the same behaviour.</p> <p>I was wondering if the smart people in this Reddit can help me figure where is the problem. Thank you and happy holidays!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/MuscleLazy\"> /u/MuscleLazy </a> <br/> <span><a href=\"https://www.reddit.com/r/kubernetes/comments/1homs94/argocd_the_cluster_httpskubernetesdefaultsvc_has/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/kubernetes/comments/1homs94/argocd_the_cluster_httpskubernetesdefaultsvc_has/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "Me Again - Wordpress not establishing database connection in K3s",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1hoknj3/me_again_wordpress_not_establishing_database/",
+      "date": 1735435325,
+      "author": "/u/P3X-99",
+      "unread": true,
+      "content": "<!-- SC_OFF --><div class=\"md\"><p><a href=\"https://www.reddit.com/r/kubernetes/comments/1gqa2xe/wordpress_cannot_establish_database_connection_in/\">https://www.reddit.com/r/kubernetes/comments/1gqa2xe/wordpress_cannot_establish_database_connection_in/</a></p> <p><a href=\"https://gist.github.com/P3X-99/88140a0ac36408e62940db552f1f74ad\">Github Gist</a></p> <p>Hello again. Some of you might remember me from my last post here. I thought I had it solved, and then I edited my deployments so that certain pods would go on certain machines, and that broke everything again.</p> <p>I&#39;ve learned from last time, and here&#39;s everything I have to give.</p> <p>I&#39;ve exec-ed into the MySQL pod, made sure the username and password for wordpress is the same as what is setup in the secret.</p> <p>The database is indeed running as confirmed with MySQL workbench when I make it external. Plus if i mash F5 on the &quot;Error establishing a database connection&quot; screen I can see the CPU spike on the mysql pod in the kubernetes dashboard, a bit caveman I know, but it shows that Wordpress is at least reaching MySQL. So it&#39;s not any issue with internal networking.</p> <p>Given how I had a bit of an issue with passwords and the mysql root password a little while ago, I think it&#39;s something to do with that.</p> <p>If i ignore the secret file and put everything to plain text, that still gets me the error however.</p> <p>Any help would be appreciated, and happy to help you help me. Thank you!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/P3X-99\"> /u/P3X-99 </a> <br/> <span><a href=\"https://www.reddit.com/r/kubernetes/comments/1hoknj3/me_again_wordpress_not_establishing_database/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/kubernetes/comments/1hoknj3/me_again_wordpress_not_establishing_database/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "How to increase etcd(running as static pod) memory in k8s cluster ? In production, I have set alerts for memory usage of pods and I am getting alert for etcd memory usage above 80%. What should I do ?",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1hoej9o/how_to_increase_etcdrunning_as_static_pod_memory/",
+      "date": 1735417817,
+      "author": "/u/Upper-Aardvark-6684",
+      "unread": true,
+      "content": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Upper-Aardvark-6684\"> /u/Upper-Aardvark-6684 </a> <br/> <span><a href=\"https://www.reddit.com/r/kubernetes/comments/1hoej9o/how_to_increase_etcdrunning_as_static_pod_memory/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/kubernetes/comments/1hoej9o/how_to_increase_etcdrunning_as_static_pod_memory/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "Kubernetes not scheduling pod on node",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1ho7d0e/kubernetes_not_scheduling_pod_on_node/",
+      "date": 1735398073,
+      "author": "/u/Fantastic_Second6548",
+      "unread": true,
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>When running kubectl as root I get this error: Couldn&#39;t get current server API group list: Get &quot;<a href=\"https://127.0.0.1:38805/api\">https://127.0.0.1:38805/api</a>? timeout=32s&quot;: dial tcp 127.0.0.1:38805: connect: connection refused</p> <p>But when I run it from user it runs okay</p> <p>When I run kubectl config view as root and as user I get 2 different outputs.</p> <p>I also do journalctl -u kubelet and got: error referenced variable KUBELET_KUBEADM_ARGS unset environment variable evaluates to and empty string. But when I checked printenv there&#39;s no variables set related to kubelet I don&#39;t understand</p> <p>I tried swapoff -a I tried systemctl reset kubelet I tried export KUBELET_KUBEADM_ARGS=value I tried to remove all taints from all the nodes Nothing works</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Fantastic_Second6548\"> /u/Fantastic_Second6548 </a> <br/> <span><a href=\"https://www.reddit.com/r/kubernetes/comments/1ho7d0e/kubernetes_not_scheduling_pod_on_node/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/kubernetes/comments/1ho7d0e/kubernetes_not_scheduling_pod_on_node/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "Has anyone been able to get websockets to work?",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1ho71ch/has_anyone_been_able_to_get_websockets_to_work/",
+      "date": 1735397067,
+      "author": "/u/3141521",
+      "unread": true,
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>[SOLVED] i had to find the right incantation of ngjnx annotations so it would proxy the Upgrade header through. It was being overwritten by &quot;keep-alive&quot;. I figured it out by going through each header in the working local version against the failing prod version and seeing keep alive existing but not the upgrade one. Will donate 100 dollars to charittt thanks all</p> <p>I&#39;m using line, nginx and go. My we socket works perfectly locally with docker-compose. When I try to deploy to kube I get &quot;failed to upgrade web socket&quot;. I have tried all kinds of nginx annotations but nothing works. any advice to get it working? If honestly pay 100 bucks if someone could help me get this working </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/3141521\"> /u/3141521 </a> <br/> <span><a href=\"https://www.reddit.com/r/kubernetes/comments/1ho71ch/has_anyone_been_able_to_get_websockets_to_work/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/kubernetes/comments/1ho71ch/has_anyone_been_able_to_get_websockets_to_work/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "Upgrade Kubernetes from 1.23 to 1.32",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1ho5dhc/upgrade_kubernetes_from_123_to_132/",
+      "date": 1735391443,
+      "author": "/u/TaoBeier",
+      "unread": true,
+      "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/kubernetes/comments/1ho5dhc/upgrade_kubernetes_from_123_to_132/\"> <img src=\"https://preview.redd.it/mu8vlwaq9l9e1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=ebd1ff96ae5b61d9cf372adbd8651b5b3500d7d6\" alt=\"Upgrade Kubernetes from 1.23 to 1.32\" title=\"Upgrade Kubernetes from 1.23 to 1.32\" /> </a> </td><td> <!-- SC_OFF --><div class=\"md\"><p>I&#39;ve a server that&#39;s been running smoothly for exactly 1000 days. It&#39;s a single-node Kubernetes v1.23 cluster.</p> <p>I&#39;m planning to upgrade it to v1.32.</p> <p>Is there anything you would like to suggest to me?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/TaoBeier\"> /u/TaoBeier </a> <br/> <span><a href=\"https://i.redd.it/mu8vlwaq9l9e1.jpeg\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/kubernetes/comments/1ho5dhc/upgrade_kubernetes_from_123_to_132/\">[comments]</a></span> </td></tr></table>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "how do you use harbor?",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1hnydmf/how_do_you_use_harbor/",
+      "date": 1735362007,
+      "author": "/u/amaankhan4u",
+      "unread": true,
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey there, </p> <p>Happy holidays everyone! I was curious to know from the community that how they are using harbor as a container registry? Is it a centralized registry working with some in-cluster registry like spegel/trow? Or its used as a single registry. Can someone suggest me with a good production like setup with best practices around security/authN/authZ/policies/RBAC etc.</p> <p>Thanks!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/amaankhan4u\"> /u/amaankhan4u </a> <br/> <span><a href=\"https://www.reddit.com/r/kubernetes/comments/1hnydmf/how_do_you_use_harbor/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/kubernetes/comments/1hnydmf/how_do_you_use_harbor/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "Need Help with k3s and kube-vip",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1hnsktb/need_help_with_k3s_and_kubevip/",
+      "date": 1735343495,
+      "author": "/u/hardboiledhank",
+      "unread": true,
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>I am trying to build an HA cluster. I have resorted to using k3s and kube-vip for the sake of simplicity.</p> <p>So, I initiated my first k3s control plane node, easy.</p> <p>I join a second control plan node to the first one, easy.</p> <p>Join a third, easy</p> <p>Join 5 agents, easy.</p> <p>Man only 15-20 min to make a cluster, that was oddly easy, right?</p> <p>Well, I guess if you dont want to use kube-vip.</p> <p>Feeling happy with my new cluster, I decided to take a little break and come back to get kube-vip going, only to realize that I actually need to get it setup to get going BEFORE creating the cluster. D&#39;oh!</p> <p>Ok, no worries, i will back my VMs up, i can get back to this state, and ill revert to my checkpoint post OS install, all clean. Cool. Let&#39;s get kube-vip going.</p> <p>Follow process here: <a href=\"https://kube-vip.io/docs/usage/k3s/\">K3s | kube-vip</a></p> <p>Get to step 3, follow process here: <a href=\"https://kube-vip.io/docs/installation/daemonset/#generating-a-manifest\">DaemonSet | kube-vip</a></p> <p>Ok, cool, all that is done, initiate cluster.</p> <p>Wow that worked, cool, let&#39;s joining the 2nd control plane node now. It was so easy last time!</p> <p>Wait, what? I am getting errors now... This isnt like last time at all.</p> <p>make sure kube-vip is running, yup. Ok cool. ping it from the host its on, works, cool.</p> <p>verify i have right IP in --tls-san and in my join command, yep.</p> <p>Interesting, lets ping the gateway, ok that works, lets ping the vip from 2nd control plane. Not working.</p> <p>Pings that were working prior to using kube-vip now do not work. Something must be wrong there.</p> <p>Also, k3s-server is consuming 130-140% cpu on control plane 1 and kubectl service is unresponsive to requests.</p> <p>Is it supposed to be this hard? I am losing literal days to this stuff, and I havent even accomplished anytihng yet. Sure Ive learned a few things, mostly how not to do stuff. Time is just flying by and the hours melting away. I refuse to believe it is designed to just be confusing and impossible. Why would anyone spend the time to do that? People have spent many hours of their lives working hard to make this as easy as possible for people like me. Why am I struggling so hard with the basics?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/hardboiledhank\"> /u/hardboiledhank </a> <br/> <span><a href=\"https://www.reddit.com/r/kubernetes/comments/1hnsktb/need_help_with_k3s_and_kubevip/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/kubernetes/comments/1hnsktb/need_help_with_k3s_and_kubevip/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "I Solved My Own Problem: AI Automated Backend & Infra Engineering- Could This Save You Hours?",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1hnrdrx/i_solved_my_own_problem_ai_automated_backend/",
+      "date": 1735340106,
+      "author": "/u/Ok-Guide-4239",
+      "unread": true,
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>As a fullstack &amp; infra engineer with a cybersecurity background, I’ve spent years trying to solve the same issue: devs focus on features (as they should), but infra—scaling, security, APIs, deployments—always gets left behind. Then product managers review the feature, realize specs weren’t followed, and the vicious cycle starts again.</p> <p>That’s why I built <a href=\"https://get-nexify.vercel.app/\">Nexify AI</a>: a tool designed to accelerate backend development by turning specs into <strong>secure, scalable microservices, fully tested, and Kubernetes-ready.</strong> My vision? To make infrastructure development seamless, scalable, and stress-free.</p> <p><strong>You write what you need in plain language (specs), and AI delivers.</strong></p> <p>Example:</p> <blockquote> </blockquote> <p>Boom. Done in minutes. No guesswork, no late-night infra panic attacks.</p> <p>Here’s where it gets exciting: product managers, engineers, even devops teams can tweak the specs, and the AI generates a new PR with updated features, tests, and documentation. It’s like turning endless review cycles into a single, fast iteration.</p> <p>I’m opening it up now because I want to know:</p> <ul> <li>Does this hit a pain point for you?</li> <li>What’s your biggest backend struggle right now?</li> <li>Would you pay for something like this? <strong>(As I figured—AI infra is token-draining as hell, so I need to sort that out. Lol.)</strong></li> </ul> <p>My vision is to accelerate backend development and bring something genuinely new to the world. I can’t solve everything, so help me focus: what would actually make your life easier?</p> <p>Here’s the site again: <a href=\"https://get-nexify.vercel.app/\">Nexify AI</a></p> <p><strong>As I mentioned earlier, it’s token draining, so I’ve limited the tokens that can be used, or else I’ll go bankrupt.</strong></p> <p>Would love your feedback—thanks!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Ok-Guide-4239\"> /u/Ok-Guide-4239 </a> <br/> <span><a href=\"https://www.reddit.com/r/kubernetes/comments/1hnrdrx/i_solved_my_own_problem_ai_automated_backend/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/kubernetes/comments/1hnrdrx/i_solved_my_own_problem_ai_automated_backend/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "Kubernetes DNS Resolution Help",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1hnpw8h/kubernetes_dns_resolution_help/",
+      "date": 1735336103,
+      "author": "/u/HolidayCupcake9745",
+      "unread": true,
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Greetings everyone, i am new to K8s and recently i set up my 1 master 2 worker cluster using kubeadm and calico as CNI My biggest gripe is the DNS resolution of the services i deploy. It doesnt work until i add the entry of “namespace.svc.cluster.local” in the etc/resolv.conf of the worker node. So it means everytime i create a new namespace and deploy my application i have to add dns entry in all worker nodes etc/resolv.conf? I installed busybox for debugging and i found out i cant nslookup for kubernetes.default i get NxError but when i nslookup kubernetes.default.svc.cluster.local i get expected result i.e 10.96.0.1. I chatgped and searched everywhere but i cant figure this out please help me</p> <p>Just for further context i m using calico for networking my pod CIDR is 172.24.0.0/16 and my host network is on 192.168.x.x</p> <p>UPDATE: after one of the comment’s recommendations i uninstalled calico and gave cilium a try. I chose 10.244.0.0/24 as my pod cidr and I successfully installed it. Now everything was looking good cilium test -wait showed all good. But when i do cilium connectivity test it deploys a sample app and service for testing the connectivity and it failed at the step below</p> <p>timeout reached waiting for NodePort 192.168.250.114:31457 (cilium-test-1/echo-same-node) (last error: error with exec request (pod=cilium-test-1/client-b65598b6f-knt7l, container=): context deadline exceeded: &quot;&quot;) Please note this is master node and my worker node passed this test successfully. Then i did actual field test of my DNS resolution. And yes it worked everything was resolving nicely. But heres the new problem. Now lets say you deploy a service as NodePort on your any worker nodes. You access it from outside using workernodeip:nodeport it works but when i use masternodeip:nodeport it fails. This should work coz kube-proxy is there it doesn’t matter which node ip you use it should work so any idea guys ?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/HolidayCupcake9745\"> /u/HolidayCupcake9745 </a> <br/> <span><a href=\"https://www.reddit.com/r/kubernetes/comments/1hnpw8h/kubernetes_dns_resolution_help/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/kubernetes/comments/1hnpw8h/kubernetes_dns_resolution_help/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "happy new year, From Hobby to Opportunity: Building a Community Through Blogging",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1hnkckf/happy_new_year_from_hobby_to_opportunity_building/",
+      "date": 1735321465,
+      "author": "/u/rasvi786",
+      "unread": true,
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>I started blogging as a hobby, but it quickly turned into an incredible opportunity to build a community and share knowledge. Within just three months, my content gained almost one million views on Reddit.</p> <p>Recently, I was selected by a publication with 100 million views, and my Medium blog has started to gain traction as well. Now, I’m focusing on growing my Substack, dedicating myself fully to creating and sharing valuable content for free.</p> <p>I’m committed to spending the time needed to produce high-quality content, even if it takes longer. Thank you for your support it means a lot to me!</p> <p><a href=\"https://differ.blog/me\">https://differ.blog/me</a></p> <p><a href=\"https://medium.com/@rasvihostings\">https://medium.com/@rasvihostings</a><br/> <a href=\"https://substack.com/@mohamedrasvi?utm_source=user-menu\">https://substack.com/@mohamedrasvi?utm_source=user-menu</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/rasvi786\"> /u/rasvi786 </a> <br/> <span><a href=\"https://www.reddit.com/r/kubernetes/comments/1hnkckf/happy_new_year_from_hobby_to_opportunity_building/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/kubernetes/comments/1hnkckf/happy_new_year_from_hobby_to_opportunity_building/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "Trouble deploying helm to argocd",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1hnhy16/trouble_deploying_helm_to_argocd/",
+      "date": 1735315162,
+      "author": "/u/trunking9284",
+      "unread": true,
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi all, trying to use argocd to deploy a Helm chart for GitLab-CE in my Kubernetes cluster. However, arocd is not picking up the values from my values file. Does anyone know if this is the correct method in deploying or if there is a better way. I can get the application to deploy, but argo does not pick up any resources</p> <p>My Chart File:</p> <pre><code>name: mychartname version: 1.0.0 apiVersion: v2 dependencies: - name: gitlab version: &quot;8.7.1&quot; repository: &quot;https://charts.gitlab.io/gitlab&quot; </code></pre> <p>Values File:</p> <pre><code>gitlab: certmanager: rbac: create: false certmanager-issuer: email: testing@gmail.com gitlab: toolbox: backups: cron: enabled: true schedule: 0 21 * * * objectStorage: backend: azure config: key: config secret: backup-az-creds gitlab-runner: install: false global: appConfig: backups: bucket: gitlab-backup-bucket tmpBucket: gitlab-temp-buclet edition: ce hosts: domain: testing.com externalIP: 192.168.10.180 ingress: configureCertmanager: false kas: enabled: false prometheus: install: false </code></pre> <p>Application Manifest file</p> <pre><code>apiVersion: argoproj.io/v1alpha1 kind: Application metadata: name: gitlab spec: destination: name: &#39;&#39; namespace: gitlab-ce server: https://kubernetes.default.svc source: path: gitlab-helm/ repoURL: https://gitlab.com/new-test/k8s-setup.git targetRevision: master sources: [] project: default syncPolicy: syncOptions: - CreateNamespace=true </code></pre> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/trunking9284\"> /u/trunking9284 </a> <br/> <span><a href=\"https://www.reddit.com/r/kubernetes/comments/1hnhy16/trouble_deploying_helm_to_argocd/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/kubernetes/comments/1hnhy16/trouble_deploying_helm_to_argocd/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "NodeJS migrations in Kubernetes",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1hng4x0/nodejs_migrations_in_kubernetes/",
+      "date": 1735310068,
+      "author": "/u/CyberSpaceJunkie",
+      "unread": true,
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi, </p> <p>In CI we build and push our dockerfile to a registry and then we restart the deployment with an image pull policy always.</p> <p>I want to use InitContainers to run migrations before restarting the deployment.<br/> This causes the problem that multiple api pods will try to start the migration and causing issues.</p> <p>I can run a manual job through CI before restarting deployment. But as we use Kustomize, our configmaps have a random suffix.</p> <p>So I was thinking maybe running a cronjob with suspend:true and creating a new job from cron in CI when needed.</p> <p>How do you guys handle this?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/CyberSpaceJunkie\"> /u/CyberSpaceJunkie </a> <br/> <span><a href=\"https://www.reddit.com/r/kubernetes/comments/1hng4x0/nodejs_migrations_in_kubernetes/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/kubernetes/comments/1hng4x0/nodejs_migrations_in_kubernetes/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "What to Expect in a Kubernetes Interview for an Operator Developer?",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1hneskm/what_to_expect_in_a_kubernetes_interview_for_an/",
+      "date": 1735305873,
+      "author": "/u/Acrobatic-Poetry3130",
+      "unread": true,
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>I am currently developing a Kubernetes Operator for a product, but prior to this, I had no hands-on experience with Kubernetes, nor have I managed a production-grade Kubernetes cluster. Despite this, I am eager to transition into roles focused on Kubernetes. Considering my background, what might an interview process look like for someone like me?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Acrobatic-Poetry3130\"> /u/Acrobatic-Poetry3130 </a> <br/> <span><a href=\"https://www.reddit.com/r/kubernetes/comments/1hneskm/what_to_expect_in_a_kubernetes_interview_for_an/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/kubernetes/comments/1hneskm/what_to_expect_in_a_kubernetes_interview_for_an/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "Cilium connectivity test timing out on Talos",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1hnd3ki/cilium_connectivity_test_timing_out_on_talos/",
+      "date": 1735299471,
+      "author": "/u/BrocoLeeOnReddit",
+      "unread": true,
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey everybody, I&#39;m trying to get into k8s+Cilium in my homelab and I have installed Talos Linux (1 Control Plane, 1 Worker) in Proxmox.</p> <p>I have applied the patch file that disabled the default CLI and kube-proxy in Talos (as described in the <a href=\"https://www.talos.dev/v1.9/kubernetes-guides/network/deploying-cilium/\">Talos docs</a>) and then deployed the Cilium Helm chart with the following values:</p> <pre><code>ipam: mode: kubernetes k8sServiceHost: localhost k8sServicePort: 7445 kubeProxyReplacement: true securityContext: capabilities: ciliumAgent: - CHOWN - KILL - NET_ADMIN - NET_RAW - IPC_LOCK - SYS_ADMIN - SYS_RESOURCE - DAC_OVERRIDE - FOWNER - SETGID - SETUID cleanCiliumState: - NET_ADMIN - SYS_ADMIN - SYS_RESOURCE cgroup: autoMount: enabled: false hostRoot: /sys/fs/cgroup bgpControlPlane: enabled: true hubble: enabled: true metrics: enabled: - dns - drop - tcp - flow - port-distribution - icmp - httpV2:exemplars=true;labelsContext=source_ip,source_namespace,source_workload,destination_ip,destination_namespace,destination_workload,traffic_direction enableOpenMetrics: true relay: enabled: true ui: enabled: true operator: prometheus: enabled: true prometheus: enabled: true </code></pre> <p>The Problem is that if I run <code>cilium connectivity test</code>, a timeout occurs.</p> <p>Apparently, the client deployment in ns cilium-test-1 fails to come online:</p> <pre><code># k describe deployment/client -n cilium-test-1 Name: client Namespace: cilium-test-1 CreationTimestamp: Fri, 27 Dec 2024 11:26:46 +0100 Labels: kind=client name=client Annotations: 1 Selector: kind=client,name=client Replicas: 1 desired | 0 updated | 0 total | 0 available | 1 unavailable StrategyType: RollingUpdate MinReadySeconds: 0 RollingUpdateStrategy: 25% max unavailable, 25% max surge Pod Template: Labels: kind=client name=client Service Account: client Containers: client: Image: Port: &lt;none&gt; Host Port: &lt;none&gt; Command: /usr/bin/pause Environment: &lt;none&gt; Mounts: &lt;none&gt; Volumes: &lt;none&gt; Node-Selectors: &lt;none&gt; Tolerations: &lt;none&gt; Conditions: Type Status Reason ---- ------ ------ Available False MinimumReplicasUnavailable ReplicaFailure True FailedCreate Progressing False ProgressDeadlineExceeded OldReplicaSets: &lt;none&gt; NewReplicaSet: client-645b68dcf7 (0/1 replicas created) Events: &lt;none&gt;deployment.kubernetes.io/revision:quay.io/cilium/alpine-curl:v1.10.0@sha256:913e8c9f3d960dde03882defa0edd3a919d529c2eb167caa7f54194528bde364 </code></pre> <p>Any Idea how I can troubleshoot this?</p> <p>I can deploy other resources and they are reachable and <code>cilium status</code> also says everything is up and running but I&#39;m wondering why the connectivity-test is failing; but I don&#39;t know what I could have misconfigured since this is basically a fresh cluster.</p> <p>EDIT: This is quite embarrassing, shortly after posting this, I found this issue:</p> <p>And the <a href=\"https://www.talos.dev/v1.9/kubernetes-guides/network/deploying-cilium/#known-issues\">Talos docs</a> also mention this problem, though I was confused because I didn&#39;t have the same error they described so I dismissed it.</p> <p>The problem comes from the enforcement of pod security in Talos. To be able to run the test, I had to run:</p> <pre><code>kubectl label namespace cilium-test-1 pod-security.kubernetes.io/enforce=privileged </code></pre> <p>After that <code>cilium connectivity test</code> runs just fine.</p> <p>I&#39;ll leave this open in case anybody else struggles with this.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/BrocoLeeOnReddit\"> /u/BrocoLeeOnReddit </a> <br/> <span><a href=\"https://www.reddit.com/r/kubernetes/comments/1hnd3ki/cilium_connectivity_test_timing_out_on_talos/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/kubernetes/comments/1hnd3ki/cilium_connectivity_test_timing_out_on_talos/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "Weekly: Share your victories thread",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1hnck9x/weekly_share_your_victories_thread/",
+      "date": 1735297211,
+      "author": "/u/gctaylor",
+      "unread": true,
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Got something working? Figure something out? Make progress that you are excited about? Share here!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/gctaylor\"> /u/gctaylor </a> <br/> <span><a href=\"https://www.reddit.com/r/kubernetes/comments/1hnck9x/weekly_share_your_victories_thread/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/kubernetes/comments/1hnck9x/weekly_share_your_victories_thread/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "The Inevitable Future of Kubernetes: Why the Orchestrator Should Follow the Path of the Linux Kernel",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1hnb6fr/the_inevitable_future_of_kubernetes_why_the/",
+      "date": 1735291063,
+      "author": "/u/kvaps",
+      "unread": true,
+      "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/kubernetes/comments/1hnb6fr/the_inevitable_future_of_kubernetes_why_the/\"> <img src=\"https://external-preview.redd.it/3dnZsJnPtTG-FrSyuoRRVQKDb_D0JqxFXcXY49LRfJQ.jpg?width=640&amp;crop=smart&amp;auto=webp&amp;s=9bd93ad77dd004b1278b2483244c0e6207a4c0d6\" alt=\"The Inevitable Future of Kubernetes: Why the Orchestrator Should Follow the Path of the Linux Kernel\" title=\"The Inevitable Future of Kubernetes: Why the Orchestrator Should Follow the Path of the Linux Kernel\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/kvaps\"> /u/kvaps </a> <br/> <span><a href=\"https://blog.aenix.io/the-inevitable-future-of-kubernetes-why-the-orchestrator-should-follow-the-path-of-the-linux-367f49916712\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/kubernetes/comments/1hnb6fr/the_inevitable_future_of_kubernetes_why_the/\">[comments]</a></span> </td></tr></table>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "What K8s feature request is at the top of your Christmas wishlist?",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1hmyn9e/what_k8s_feature_request_is_at_the_top_of_your/",
+      "date": 1735248831,
+      "author": "",
+      "unread": true,
+      "content": "<br/> <span><a href=\"https://www.reddit.com/r/kubernetes/comments/1hmyn9e/what_k8s_feature_request_is_at_the_top_of_your/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/kubernetes/comments/1hmyn9e/what_k8s_feature_request_is_at_the_top_of_your/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "Kubernetes Security Implementation Guide",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1hmu1qz/kubernetes_security_implementation_guide/",
+      "date": 1735236376,
+      "author": "/u/rasvi786",
+      "unread": true,
+      "content": "<!-- SC_OFF --><div class=\"md\"><p><a href=\"https://medium.com/@rasvihostings/kubernetes-security-implementation-guide-d853bc6a86f2\">Comprehensive guide covering Kubernetes security implementations</a></p> <h1>Best Practices</h1> <ul> <li>Use minimal base images</li> <li>Enable runtime security features (seccomp, AppArmor)</li> <li>Regular security audits using tools like kubesec</li> <li>Implement least privilege principle</li> <li>Monitor pod and container logs</li> <li>Use mTLS for service-to-service communication</li> </ul> <p>This quick guide will help you implement and secure your application in Kubernetes.<br/> <a href=\"https://medium.com/@rasvihostings/kubernetes-security-implementation-guide-d853bc6a86f2\">https://medium.com/@rasvihostings/kubernetes-security-implementation-guide-d853bc6a86f2</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/rasvi786\"> /u/rasvi786 </a> <br/> <span><a href=\"https://www.reddit.com/r/kubernetes/comments/1hmu1qz/kubernetes_security_implementation_guide/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/kubernetes/comments/1hmu1qz/kubernetes_security_implementation_guide/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    }
+  ]
+}
