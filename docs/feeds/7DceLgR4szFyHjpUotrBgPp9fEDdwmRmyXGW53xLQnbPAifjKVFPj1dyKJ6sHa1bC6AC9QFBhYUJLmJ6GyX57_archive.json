@@ -1,1 +1,274 @@
-{"id":"7DceLgR4szFyHjpUotrBgPp9fEDdwmRmyXGW53xLQnbPAifjKVFPj1dyKJ6sHa1bC6AC9QFBhYUJLmJ6GyX57","title":"top scoring links : linux","displayTitle":"Reddit - Linux","url":"https://www.reddit.com/r/linux/top/.rss?sort=top&t=day&limit=6","feedLink":"https://www.reddit.com/r/linux/top/?sort=top&t=day&limit=6","items":[{"title":"Thank you, r/linux !","url":"https://www.reddit.com/r/linux/comments/1hndhqn/thank_you_rlinux/","date":1735301104,"author":"/u/oodoodoo","unread":true,"desc":"","content":"<!-- SC_OFF --><div class=\"md\"><p>For the past few months, i was thinking about switching to Linux. At first i was sceptical, i wasnt sure if i could do the same stuff i used to do on Windows, i wasnt sure if i could play the games i played on Windows. Then the Steam Deck arrived and it opened my eyes. I quickly chose a Distro that looked nice to me, and had a decent amount of users. The switch was painless and i had absolutely no problems, thanks to THIS sub! All the people here have been super nice and helpful, even when tackled with super beginner noob questions.</p> <p>Thats it! Thank you!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/oodoodoo\"> /u/oodoodoo </a> <br/> <span><a href=\"https://www.reddit.com/r/linux/comments/1hndhqn/thank_you_rlinux/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/linux/comments/1hndhqn/thank_you_rlinux/\">[comments]</a></span>","flags":null,"enclosureUrl":"","enclosureMime":""},{"title":"What are the meaningful differences between modern terminal emulators?","url":"https://www.reddit.com/r/linux/comments/1hn700x/what_are_the_meaningful_differences_between/","date":1735274181,"author":"/u/jsonathan","unread":true,"desc":"","content":"<!-- SC_OFF --><div class=\"md\"><p>For example, Ghostty just came out and I don&#39;t understand what differentiates it from other emulators. I understand that it&#39;s cross-platform and GPU-accelerated. But what I mean is –– in the real world, what is the typical developer gaining by switching to this terminal from, say, Alacritty? What&#39;s the value proposition? Are there things Ghostty can do that other terminals can&#39;t? Do those things matter? Do any of these Rust/Zig/Go &quot;high-performance&quot; terminal emulators actually matter for the regular-brained developer?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/jsonathan\"> /u/jsonathan </a> <br/> <span><a href=\"https://www.reddit.com/r/linux/comments/1hn700x/what_are_the_meaningful_differences_between/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/linux/comments/1hn700x/what_are_the_meaningful_differences_between/\">[comments]</a></span>","flags":null,"enclosureUrl":"","enclosureMime":""},{"title":"How to know what I should be donating to be Linux?","url":"https://www.reddit.com/r/linux/comments/1hn43zm/how_to_know_what_i_should_be_donating_to_be_linux/","date":1735264656,"author":"/u/NoCSForYou","unread":true,"desc":"","content":"<!-- SC_OFF --><div class=\"md\"><p>Ive always been confused by this. For instance I use Firefox, zotero and freecad. But it doesn&#39;t make sense to only donate to those. I use wifi, I use a terminal, I use zsh, I use ... Obviously those programs need funding too.</p> <p>It shouldn&#39;t just be the front end packages that get all the funding, the end stuff needs finding too. </p> <p>I can have about 1000 packages on my system and it&#39;s going to be logistically difficult to donate 1/1000 of 200$. I can donate to the front end packages but do they distribute the funding to their dev/make/runtime dependency packages? </p> <p>Perhaps bash is a dependency for about half my programs. Does that mean bash should get more money than all other programs? </p> <p>I don&#39;t know what to do. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/NoCSForYou\"> /u/NoCSForYou </a> <br/> <span><a href=\"https://www.reddit.com/r/linux/comments/1hn43zm/how_to_know_what_i_should_be_donating_to_be_linux/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/linux/comments/1hn43zm/how_to_know_what_i_should_be_donating_to_be_linux/\">[comments]</a></span>","flags":null,"enclosureUrl":"","enclosureMime":""},{"title":"Tuifoop, a terminal game in Bash","url":"https://www.reddit.com/r/linux/comments/1hn2krz/tuifoop_a_terminal_game_in_bash/","date":1735259958,"author":"/u/christos_71","unread":true,"desc":"","content":"&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/christos_71\"> /u/christos_71 </a> <br/> <span><a href=\"https://i.redd.it/ngcbmsapea9e1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/linux/comments/1hn2krz/tuifoop_a_terminal_game_in_bash/\">[comments]</a></span>","flags":null,"enclosureUrl":"","enclosureMime":""},{"title":"The Performance Benefits Of Linux 6.12 LTS Over Linux 6.6 LTS","url":"https://www.reddit.com/r/linux/comments/1hmzql2/the_performance_benefits_of_linux_612_lts_over/","date":1735251808,"author":"/u/BinkReddit","unread":true,"desc":"","content":"&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/BinkReddit\"> /u/BinkReddit </a> <br/> <span><a href=\"https://www.phoronix.com/review/linux-66-612-lts\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/linux/comments/1hmzql2/the_performance_benefits_of_linux_612_lts_over/\">[comments]</a></span>","flags":null,"enclosureUrl":"","enclosureMime":""},{"title":"Ghostty terminal is out!","url":"https://www.reddit.com/r/linux/comments/1hmxpg1/ghostty_terminal_is_out/","date":1735246304,"author":"/u/TheTwelveYearOld","unread":true,"desc":"","content":"&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/TheTwelveYearOld\"> /u/TheTwelveYearOld </a> <br/> <span><a href=\"https://ghostty.org/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/linux/comments/1hmxpg1/ghostty_terminal_is_out/\">[comments]</a></span>","flags":null,"enclosureUrl":"","enclosureMime":""}]}
+{
+  "id": "7DceLgR4szFyHjpUotrBgPp9fEDdwmRmyXGW53xLQnbPAifjKVFPj1dyKJ6sHa1bC6AC9QFBhYUJLmJ6GyX57",
+  "title": "top scoring links : linux",
+  "displayTitle": "Reddit - Linux",
+  "url": "https://www.reddit.com/r/linux/top/.rss?sort=top&t=day&limit=6",
+  "feedLink": "https://www.reddit.com/r/linux/top/?sort=top&t=day&limit=6",
+  "is_query": false,
+  "items": [
+    {
+      "title": "About the Arcan vs Wayland Arguments",
+      "url": "https://www.reddit.com/r/linux/comments/1hozpi9/about_the_arcan_vs_wayland_arguments/",
+      "date": 1735490182,
+      "author": "/u/The-Malix",
+      "unread": true,
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>I was once enthusiastic about Arcan, but I don&#39;t think it has any chance of success anymore (which doesn&#39;t mean it&#39;s a bad thing either)</p> <p>Wayland being more and more the default means the ecosystem is being increasingly deprecating (or at least not relying on) x11 APIs</p> <p>If Wayland becomes the overwhelming default (I guess in 2-3 years), Arcan will only serve to cover what Xwayland already covers, but this time, Arcan wouldn&#39;t have an &quot;ArcWayland&quot; support layer (by that, I mean a Wayland layer on top of Arcan)</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/The-Malix\"> /u/The-Malix </a> <br/> <span><a href=\"https://www.reddit.com/r/linux/comments/1hozpi9/about_the_arcan_vs_wayland_arguments/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/linux/comments/1hozpi9/about_the_arcan_vs_wayland_arguments/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "YT-X v0.4.0 Workflow - \"New Year, New Way to Explore YouTube!\" xD",
+      "url": "https://www.reddit.com/r/linux/comments/1hovg3s/ytx_v040_workflow_new_year_new_way_to_explore/",
+      "date": 1735476844,
+      "author": "/u/BenX855",
+      "unread": true,
+      "content": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/BenX855\"> /u/BenX855 </a> <br/> <span><a href=\"https://www.reddit.com/r/unixporn/comments/1hou2s7/oc_ytx_v040_workflow_new_year_new_way_to_explore/?utm_source=share&amp;utm_medium=web3x&amp;utm_name=web3xcss&amp;utm_term=1&amp;utm_content=share_button\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/linux/comments/1hovg3s/ytx_v040_workflow_new_year_new_way_to_explore/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "About Astra linux",
+      "url": "https://www.reddit.com/r/linux/comments/1hosu3j/about_astra_linux/",
+      "date": 1735465804,
+      "author": "/u/miharussian",
+      "unread": true,
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>I recently found out from my friend that all his teachers use some sort of linux distro called astra linux. So after some research i found out that astra linux is an Russian Debian based linux distro made originally for the Russian military in the 2010&#39;s but now getting more accesible for instance teachers doctors and other people like that also Astra linux has been partnering with some tech companies to put stickers saying: Ready for Astra(In Russian of course) so my prediction is that soon most PC&#39;s and laptops in russia will be running linux so Hurray!!! But i am seriosly very glad that a whole country will switch to linux.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/miharussian\"> /u/miharussian </a> <br/> <span><a href=\"https://www.reddit.com/r/linux/comments/1hosu3j/about_astra_linux/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/linux/comments/1hosu3j/about_astra_linux/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "Upgrading Ubuntu Past EOL",
+      "url": "https://www.reddit.com/r/linux/comments/1holak4/upgrading_ubuntu_past_eol/",
+      "date": 1735437294,
+      "author": "/u/kennethjor",
+      "unread": true,
+      "content": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/kennethjor\"> /u/kennethjor </a> <br/> <span><a href=\"https://kennethjorgensen.com/blog/2024/upgrading-ubuntu-past-eol/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/linux/comments/1holak4/upgrading_ubuntu_past_eol/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "Seergdb v2.5 released.",
+      "url": "https://www.reddit.com/r/linux/comments/1hoinq7/seergdb_v25_released/",
+      "date": 1735429432,
+      "author": "/u/epasveer",
+      "unread": true,
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>A new version of Seergdb (frontend to gdb) has been released.</p> <p>This version adds some new features. As well, it also fixes some bad regression bugs on my part.</p> <p><a href=\"https://github.com/epasveer/seer\">https://github.com/epasveer/seer</a><br/> <a href=\"https://github.com/epasveer/seer/releases/tag/v2.5\">https://github.com/epasveer/seer/releases/tag/v2.5</a></p> <p>Give it a try and offer any feedback or create new issues.</p> <p>Thanks.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/epasveer\"> /u/epasveer </a> <br/> <span><a href=\"https://www.reddit.com/r/linux/comments/1hoinq7/seergdb_v25_released/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/linux/comments/1hoinq7/seergdb_v25_released/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "Mastering Key Remapping on Linux: A Practical Guide with xremap",
+      "url": "https://www.reddit.com/r/linux/comments/1hohsln/mastering_key_remapping_on_linux_a_practical/",
+      "date": 1735426929,
+      "author": "/u/paolomainardi",
+      "unread": true,
+      "content": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/paolomainardi\"> /u/paolomainardi </a> <br/> <span><a href=\"https://www.paolomainardi.com/posts/linux-remapping-keys-with-xremap/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/linux/comments/1hohsln/mastering_key_remapping_on_linux_a_practical/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "Codasip enables secure Linux by donating CHERI RISC-V SDK to the CHERI Alliance",
+      "url": "https://www.reddit.com/r/linux/comments/1hoa3kp/codasip_enables_secure_linux_by_donating_cheri/",
+      "date": 1735405809,
+      "author": "/u/grahamperrin",
+      "unread": true,
+      "content": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/grahamperrin\"> /u/grahamperrin </a> <br/> <span><a href=\"https://pressat.co.uk/releases/codasip-enables-secure-linux-by-donating-cheri-risc-v-sdk-to-the-cheri-alliance-7ca8fad127234b1f5fdb547078dac752/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/linux/comments/1hoa3kp/codasip_enables_secure_linux_by_donating_cheri/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "Kando is now available on Flathub!",
+      "url": "https://www.reddit.com/r/linux/comments/1ho9xdp/kando_is_now_available_on_flathub/",
+      "date": 1735405344,
+      "author": "/u/Schneegans",
+      "unread": true,
+      "content": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Schneegans\"> /u/Schneegans </a> <br/> <span><a href=\"https://i.redd.it/qc7yaihfem9e1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/linux/comments/1ho9xdp/kando_is_now_available_on_flathub/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "Can I throw this away?",
+      "url": "https://www.reddit.com/r/linux/comments/1ho90e9/can_i_throw_this_away/",
+      "date": 1735402822,
+      "author": "/u/Would_Bang________",
+      "unread": true,
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>I&#39;m not familiar with Linux. I found these while sorting out some of my father&#39;s old stuff. I found iso&#39;s online, but I thought I&#39;d ask here first if it&#39;s fine to get rid of. Thank you. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Would_Bang________\"> /u/Would_Bang________ </a> <br/> <span><a href=\"https://i.redd.it/8ucsmfck7m9e1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/linux/comments/1ho90e9/can_i_throw_this_away/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "Opt Green: Coordinating a Windows 10-to-Linux upcycling campaign across Free Software communities worldwide",
+      "url": "https://www.reddit.com/r/linux/comments/1ho3bkf/opt_green_coordinating_a_windows_10tolinux/",
+      "date": 1735382877,
+      "author": "/u/Doener23",
+      "unread": true,
+      "content": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Doener23\"> /u/Doener23 </a> <br/> <span><a href=\"https://media.ccc.de/v/38c3-opt-green-coordinating-a-windows-10-to-linux-upcycling-campaign-across-free-software-communities-worldwide\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/linux/comments/1ho3bkf/opt_green_coordinating_a_windows_10tolinux/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "Happy Birthday Linus Torvalds..!",
+      "url": "https://www.reddit.com/r/linux/comments/1ho2tyf/happy_birthday_linus_torvalds/",
+      "date": 1735380686,
+      "author": "/u/Winter-Ad-3826",
+      "unread": true,
+      "content": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Winter-Ad-3826\"> /u/Winter-Ad-3826 </a> <br/> <span><a href=\"https://i.redd.it/lpt84i5rdk9e1.jpeg\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/linux/comments/1ho2tyf/happy_birthday_linus_torvalds/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "Bottles will be the first major software that will use cosmic toolkit.",
+      "url": "https://www.reddit.com/r/linux/comments/1hnycag/bottles_will_be_the_first_major_software_that/",
+      "date": 1735361886,
+      "author": "/u/Zery12",
+      "unread": true,
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>bottles next (next version rewrited in rust) will still have a gtk version, but the libcosmic is gonna be the main version.</p> <p>also the first major linux software to use both C# and .NET</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Zery12\"> /u/Zery12 </a> <br/> <span><a href=\"https://i.redd.it/ahlj6anuti9e1.jpeg\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/linux/comments/1hnycag/bottles_will_be_the_first_major_software_that/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "GIMP 3 RC2 released today! https://www.gimp.org/news/2024/12/27/gimp-3-0-RC2-released/ - check out the text styling engine in filters>generic>text styling",
+      "url": "https://www.reddit.com/r/linux/comments/1hns46c/gimp_3_rc2_released_today/",
+      "date": 1735342169,
+      "author": "/u/CinnamonCajaCrunch",
+      "unread": true,
+      "content": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/CinnamonCajaCrunch\"> /u/CinnamonCajaCrunch </a> <br/> <span><a href=\"https://i.redd.it/9hisp9o57h9e1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/linux/comments/1hns46c/gimp_3_rc2_released_today/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "Italy fines OpenAI over ChatGPT privacy rules breach",
+      "url": "https://www.reddit.com/r/linux/comments/1hnq47s/italy_fines_openai_over_chatgpt_privacy_rules/",
+      "date": 1735336698,
+      "author": "/u/Alexander_Selkirk",
+      "unread": true,
+      "content": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Alexander_Selkirk\"> /u/Alexander_Selkirk </a> <br/> <span><a href=\"https://www.channelnewsasia.com/business/italy-fines-openai-over-chatgpt-privacy-rules-breach-4819041\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/linux/comments/1hnq47s/italy_fines_openai_over_chatgpt_privacy_rules/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "You did it! You helped KDE raise €50,000... and €100,000 elsewhere.",
+      "url": "https://www.reddit.com/r/linux/comments/1hnntqz/you_did_it_you_helped_kde_raise_50000_and_100000/",
+      "date": 1735330577,
+      "author": "/u/imbev",
+      "unread": true,
+      "content": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/imbev\"> /u/imbev </a> <br/> <span><a href=\"/r/kde/comments/1hnmfrd/you_did_it_you_helped_kde_raise_50000_and_100000/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/linux/comments/1hnntqz/you_did_it_you_helped_kde_raise_50000_and_100000/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "Rust and libcosmic in Bottles Next",
+      "url": "https://www.reddit.com/r/linux/comments/1hnnm6z/rust_and_libcosmic_in_bottles_next/",
+      "date": 1735329988,
+      "author": "/u/TallMasterShifu",
+      "unread": true,
+      "content": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/TallMasterShifu\"> /u/TallMasterShifu </a> <br/> <span><a href=\"https://usebottles.com/posts/2024-12-27-rust-libcosmic-next/?s=09\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/linux/comments/1hnnm6z/rust_and_libcosmic_in_bottles_next/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "CentOS Stream 10 vs. AlmaLinux 10 Beta vs. RHEL 10 Beta Performance Benchmarks",
+      "url": "https://www.reddit.com/r/linux/comments/1hnkhvc/centos_stream_10_vs_almalinux_10_beta_vs_rhel_10/",
+      "date": 1735321842,
+      "author": "/u/gabriel_3",
+      "unread": true,
+      "content": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/gabriel_3\"> /u/gabriel_3 </a> <br/> <span><a href=\"https://www.phoronix.com/review/centos-stream-10-benchmarks\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/linux/comments/1hnkhvc/centos_stream_10_vs_almalinux_10_beta_vs_rhel_10/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "LQDE Update (New Screenshots) - Lighticity - ETA - 31/12/2024",
+      "url": "https://www.reddit.com/r/linux/comments/1hne4cy/lqde_update_new_screenshots_lighticity_eta/",
+      "date": 1735303539,
+      "author": "/u/sash-au",
+      "unread": true,
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>This is a follow up to my previous post about LQDE and I would just like to let you know that I am here and working on the project and I am trying hard to make a release by 31/12/2024 and that I have chosen to use &quot;Lighticity&quot; (as in Felicity) as a project name for the time being - subject to change. I have done an extensive search on the Global Brand Database (WIPO) and just about everything that I entered was taken and this name was free / unused. Also, I have uploaded more screenshots for you to see. The first one shows a different panel configuration (dock style with auto size) along the awesome search capabilities of the file manager. The second one shows a different panel theme and the built-in clipboard manager (read the description in it) and the third shows one part of the dashboard.</p> <p><a href=\"https://imgur.com/a/U7ssH91\">https://imgur.com/a/U7ssH91</a></p> <p>A full video demo and screenshots will be released soon.</p> <p>Not everything will be ready when it gets released but I will try to get done as much as possible by 31/12/2024. Again this is developed with Qt and C++ and code will be GPL.</p> <p>Another thing, Custom Actions support working with multiple file selections, both on the Desktop and the File Manager. I thought I&#39;d mention this.</p> <p>Original post here: <a href=\"https://www.reddit.com/r/linux/comments/1hciopf/announcing_xlde_lqde_qt_based_and_extensible/\">https://www.reddit.com/r/linux/comments/1hciopf/announcing_xlde_lqde_qt_based_and_extensible/</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/sash-au\"> /u/sash-au </a> <br/> <span><a href=\"https://www.reddit.com/r/linux/comments/1hne4cy/lqde_update_new_screenshots_lighticity_eta/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/linux/comments/1hne4cy/lqde_update_new_screenshots_lighticity_eta/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "Thank you, r/linux !",
+      "url": "https://www.reddit.com/r/linux/comments/1hndhqn/thank_you_rlinux/",
+      "date": 1735301104,
+      "author": "/u/oodoodoo",
+      "unread": true,
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>For the past few months, i was thinking about switching to Linux. At first i was sceptical, i wasnt sure if i could do the same stuff i used to do on Windows, i wasnt sure if i could play the games i played on Windows. Then the Steam Deck arrived and it opened my eyes. I quickly chose a Distro that looked nice to me, and had a decent amount of users. The switch was painless and i had absolutely no problems, thanks to THIS sub! All the people here have been super nice and helpful, even when tackled with super beginner noob questions.</p> <p>Thats it! Thank you!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/oodoodoo\"> /u/oodoodoo </a> <br/> <span><a href=\"https://www.reddit.com/r/linux/comments/1hndhqn/thank_you_rlinux/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/linux/comments/1hndhqn/thank_you_rlinux/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "What are the meaningful differences between modern terminal emulators?",
+      "url": "https://www.reddit.com/r/linux/comments/1hn700x/what_are_the_meaningful_differences_between/",
+      "date": 1735274181,
+      "author": "/u/jsonathan",
+      "unread": true,
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>For example, Ghostty just came out and I don&#39;t understand what differentiates it from other emulators. I understand that it&#39;s cross-platform and GPU-accelerated. But what I mean is –– in the real world, what is the typical developer gaining by switching to this terminal from, say, Alacritty? What&#39;s the value proposition? Are there things Ghostty can do that other terminals can&#39;t? Do those things matter? Do any of these Rust/Zig/Go &quot;high-performance&quot; terminal emulators actually matter for the regular-brained developer?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/jsonathan\"> /u/jsonathan </a> <br/> <span><a href=\"https://www.reddit.com/r/linux/comments/1hn700x/what_are_the_meaningful_differences_between/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/linux/comments/1hn700x/what_are_the_meaningful_differences_between/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "How to know what I should be donating to be Linux?",
+      "url": "https://www.reddit.com/r/linux/comments/1hn43zm/how_to_know_what_i_should_be_donating_to_be_linux/",
+      "date": 1735264656,
+      "author": "/u/NoCSForYou",
+      "unread": true,
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Ive always been confused by this. For instance I use Firefox, zotero and freecad. But it doesn&#39;t make sense to only donate to those. I use wifi, I use a terminal, I use zsh, I use ... Obviously those programs need funding too.</p> <p>It shouldn&#39;t just be the front end packages that get all the funding, the end stuff needs finding too. </p> <p>I can have about 1000 packages on my system and it&#39;s going to be logistically difficult to donate 1/1000 of 200$. I can donate to the front end packages but do they distribute the funding to their dev/make/runtime dependency packages? </p> <p>Perhaps bash is a dependency for about half my programs. Does that mean bash should get more money than all other programs? </p> <p>I don&#39;t know what to do. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/NoCSForYou\"> /u/NoCSForYou </a> <br/> <span><a href=\"https://www.reddit.com/r/linux/comments/1hn43zm/how_to_know_what_i_should_be_donating_to_be_linux/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/linux/comments/1hn43zm/how_to_know_what_i_should_be_donating_to_be_linux/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "Tuifoop, a terminal game in Bash",
+      "url": "https://www.reddit.com/r/linux/comments/1hn2krz/tuifoop_a_terminal_game_in_bash/",
+      "date": 1735259958,
+      "author": "/u/christos_71",
+      "unread": true,
+      "content": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/christos_71\"> /u/christos_71 </a> <br/> <span><a href=\"https://i.redd.it/ngcbmsapea9e1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/linux/comments/1hn2krz/tuifoop_a_terminal_game_in_bash/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "The Performance Benefits Of Linux 6.12 LTS Over Linux 6.6 LTS",
+      "url": "https://www.reddit.com/r/linux/comments/1hmzql2/the_performance_benefits_of_linux_612_lts_over/",
+      "date": 1735251808,
+      "author": "/u/BinkReddit",
+      "unread": true,
+      "content": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/BinkReddit\"> /u/BinkReddit </a> <br/> <span><a href=\"https://www.phoronix.com/review/linux-66-612-lts\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/linux/comments/1hmzql2/the_performance_benefits_of_linux_612_lts_over/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "Ghostty terminal is out!",
+      "url": "https://www.reddit.com/r/linux/comments/1hmxpg1/ghostty_terminal_is_out/",
+      "date": 1735246304,
+      "author": "/u/TheTwelveYearOld",
+      "unread": true,
+      "content": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/TheTwelveYearOld\"> /u/TheTwelveYearOld </a> <br/> <span><a href=\"https://ghostty.org/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/linux/comments/1hmxpg1/ghostty_terminal_is_out/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    }
+  ]
+}

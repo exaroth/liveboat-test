@@ -1,1 +1,274 @@
-{"id":"USgKoryE83j5SszZjyr68sh7DjLn4j6MWUagcNjQES7kQ1n2HXebXN4bJpBn8stf6LqSMrbny1unc4R1hi6qmf","title":"top scoring links : golang","displayTitle":"Reddit - Go","url":"https://www.reddit.com/r/golang/top/.rss?sort=top&t=day&limit=6","feedLink":"https://www.reddit.com/r/golang/top/?sort=top&t=day&limit=6","items":[{"title":"Naked returns \"considered harmful\"?","url":"https://www.reddit.com/r/golang/comments/1hnbcd4/naked_returns_considered_harmful/","date":1735291824,"author":"/u/AlexandraLinnea","unread":true,"desc":"","content":"<!-- SC_OFF --><div class=\"md\"><p>In <a href=\"https://bitfieldconsulting.com/posts/defer\">Demystifying defer</a> it says:</p> <blockquote> <p>The Go specification actually allows us to omit the names from the return statement in this case, and this would implicitly return whatever the values of latitude and longitude happen to be at this point. But even though that’s legal syntax, it’s not good practice.</p> <p>It’s always clearer to specify the exact values or variables you’re returning, and there’s no benefit to omitting them. So you should avoid writing these so-called naked returns, even though you’ll sometimes see them in other people’s code.</p> <p>In particular, you should be aware that just because a function has named result parameters, that doesn’t mean you must write a naked return. You can, and should, make your return values explicit.</p> </blockquote> <p>Is it actually harmful to write naked returns? If so, why does anyone do it?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AlexandraLinnea\"> /u/AlexandraLinnea </a> <br/> <span><a href=\"https://www.reddit.com/r/golang/comments/1hnbcd4/naked_returns_considered_harmful/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/golang/comments/1hnbcd4/naked_returns_considered_harmful/\">[comments]</a></span>","flags":null,"enclosureUrl":"","enclosureMime":""},{"title":"Why Go For System Programming","url":"https://www.reddit.com/r/golang/comments/1hn97pr/why_go_for_system_programming/","date":1735282410,"author":"/u/Best-Gas-2203","unread":true,"desc":"","content":"<!-- SC_OFF --><div class=\"md\"><p>A beginner&#39;s question here as I dive deeper into the language. But upon reading the specification of the language, it mentions being a good tools for system programming. How should I understanding this statement, as in, the language is wellsuited for writing applications within the service/business logic layer, and not interacting with the UI layer? Or is it something else like operating system? </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Best-Gas-2203\"> /u/Best-Gas-2203 </a> <br/> <span><a href=\"https://www.reddit.com/r/golang/comments/1hn97pr/why_go_for_system_programming/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/golang/comments/1hn97pr/why_go_for_system_programming/\">[comments]</a></span>","flags":null,"enclosureUrl":"","enclosureMime":""},{"title":"What’s your favorite program that you’ve ever written in go?","url":"https://www.reddit.com/r/golang/comments/1hn0zl1/whats_your_favorite_program_that_youve_ever/","date":1735255359,"author":"/u/_K8s","unread":true,"desc":"","content":"<!-- SC_OFF --><div class=\"md\"><p>Do you have any cool programs that you have written or enjoyed writing over the years?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/_K8s\"> /u/_K8s </a> <br/> <span><a href=\"https://www.reddit.com/r/golang/comments/1hn0zl1/whats_your_favorite_program_that_youve_ever/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/golang/comments/1hn0zl1/whats_your_favorite_program_that_youve_ever/\">[comments]</a></span>","flags":null,"enclosureUrl":"","enclosureMime":""},{"title":"How to Make Go Structs More Efficient","url":"https://www.reddit.com/r/golang/comments/1hmwmeq/how_to_make_go_structs_more_efficient/","date":1735243322,"author":"/u/GolangProject","unread":true,"desc":"","content":"<table> <tr><td> <a href=\"https://www.reddit.com/r/golang/comments/1hmwmeq/how_to_make_go_structs_more_efficient/\"> <img src=\"https://external-preview.redd.it/iNQ-UqFqCarQzIUyZbEs4N8eRP3qJR_0el4tyeZTk_Y.jpg?width=640&amp;crop=smart&amp;auto=webp&amp;s=6b1e8640f3dbb03796dcfaa61e9f27c909301ea5\" alt=\"How to Make Go Structs More Efficient\" title=\"How to Make Go Structs More Efficient\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/GolangProject\"> /u/GolangProject </a> <br/> <span><a href=\"https://golangprojectstructure.com/how-to-make-go-structs-more-efficient/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/golang/comments/1hmwmeq/how_to_make_go_structs_more_efficient/\">[comments]</a></span> </td></tr></table>","flags":null,"enclosureUrl":"","enclosureMime":""},{"title":"How would you handle authentication and sessions within CLIs?","url":"https://www.reddit.com/r/golang/comments/1hmtmx6/how_would_you_handle_authentication_and_sessions/","date":1735235271,"author":"/u/soupgasm","unread":true,"desc":"","content":"<!-- SC_OFF --><div class=\"md\"><p>Hey guys, so I&#39;m currently building a CLI and for the API to work the user has to generate a personal access token. I&#39;m currently just getting the token before each API call and passing it to the HTTP client. This needs to be done. But I want a simple way to check that the user is logged in. Would I then wrap the whole CLI in the authentication wrapper and check the session? How would you do this? </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/soupgasm\"> /u/soupgasm </a> <br/> <span><a href=\"https://www.reddit.com/r/golang/comments/1hmtmx6/how_would_you_handle_authentication_and_sessions/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/golang/comments/1hmtmx6/how_would_you_handle_authentication_and_sessions/\">[comments]</a></span>","flags":null,"enclosureUrl":"","enclosureMime":""},{"title":"Single method interface pattern discussion","url":"https://www.reddit.com/r/golang/comments/1hmtiuf/single_method_interface_pattern_discussion/","date":1735234961,"author":"/u/TryRestartingItAgain","unread":true,"desc":"","content":"<!-- SC_OFF --><div class=\"md\"><p>Hey. As has been discussed many times the Golang standard library has many single method interfaces, e.g.</p> <pre><code>package io type Reader interface { Read(p []byte) (int, error) } </code></pre> <p>These interfaces are easy to implement and create mocks/fakes for.</p> <p>_But_ in web development we often have services, handlers, and store constructs that usually have multiple methods such as <code>SaveUser</code>, <code>GetUser</code>. A very simple User service spec:</p> <pre><code>type userStore interface { GetByID(context.Context, string) (User, error) Save(context.Context, user User) error } type UserService struct { store userStore } func (s UserService) GetUser(ctx context.Context, ID string) (User, error) { ... user, err := s.store.GetByID(ctx, ID) ... } </code></pre> <p>The problem I see with this is that we have a single interface for all of <code>userStore</code> functionality, so I generally create an interface on the producing side that the consumer can use and stub which goes against &quot;define interfaces on consumer side&quot;. The biggest issue I have with this approach is that any fakes must implement the full interface.</p> <p>I was playing around with something like this instead:</p> <pre><code>type userGetter interface { GetByID(context.Context, string) (User, error) } func (s UserService) GetUser(ctx context.Context, ID string) (User, error) { ... user, err := s.userGetter.GetByID(ctx, ID) ... } </code></pre> <p>The original <code>userStore</code> can still be used to implement the interface. It makes the coupling between store and service very relaxed, it&#39;s easy to move functionality and refactor.<br/> And it&#39;s very easy to fake in tests:</p> <pre><code>type UserGetterFn func(context.Context, string) (User, error) func (f UserGetterFn) GetByID(ctx context.Context, ID string) (User, error) { return f(ctx, ID) } svc := UserService{UserGetter: func(ctx context.Context, string) (User, error) { return User{}, fmt.Errorf(&quot;not found&quot;) }) </code></pre> <p>The downside is that it&#39;s a bit tedious to write these, but it&#39;s mostly in the test code so I think it&#39;s fine for it to be more verbose.</p> <p>I can&#39;t quite tell if I like it or not, currently just playing around with it so get a feeling.</p> <p>I&#39;ve never seen anyone use this, so I wonder if anyone has tried this more extreme style?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/TryRestartingItAgain\"> /u/TryRestartingItAgain </a> <br/> <span><a href=\"https://www.reddit.com/r/golang/comments/1hmtiuf/single_method_interface_pattern_discussion/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/golang/comments/1hmtiuf/single_method_interface_pattern_discussion/\">[comments]</a></span>","flags":null,"enclosureUrl":"","enclosureMime":""}]}
+{
+  "id": "USgKoryE83j5SszZjyr68sh7DjLn4j6MWUagcNjQES7kQ1n2HXebXN4bJpBn8stf6LqSMrbny1unc4R1hi6qmf",
+  "title": "top scoring links : golang",
+  "displayTitle": "Reddit - Go",
+  "url": "https://www.reddit.com/r/golang/top/.rss?sort=top&t=day&limit=6",
+  "feedLink": "https://www.reddit.com/r/golang/top/?sort=top&t=day&limit=6",
+  "is_query": false,
+  "items": [
+    {
+      "title": "Learning CS with go rather than python, java, c, etc. Recommend?",
+      "url": "https://www.reddit.com/r/golang/comments/1hosyew/learning_cs_with_go_rather_than_python_java_c_etc/",
+      "date": 1735466358,
+      "author": "/u/WynActTroph",
+      "unread": true,
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Really enjoy golang’s simplicity. It feels as if I get to use more of the concepts usually under the hood compared to most high level languages. </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/WynActTroph\"> /u/WynActTroph </a> <br/> <span><a href=\"https://www.reddit.com/r/golang/comments/1hosyew/learning_cs_with_go_rather_than_python_java_c_etc/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/golang/comments/1hosyew/learning_cs_with_go_rather_than_python_java_c_etc/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "Simple system monitoring with Go and Svelte",
+      "url": "https://www.reddit.com/r/golang/comments/1hor4g0/simple_system_monitoring_with_go_and_svelte/",
+      "date": 1735458157,
+      "author": "/u/mishokthearchitect",
+      "unread": true,
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi everyone!</p> <p>Wanted to share simple app that I created for my home server to monitor it CPU/RAM usage and uptime. I used Go for backed and SvelteKit for frontend</p> <p>It may be useful for you to take a look if you need an example of how to:</p> <ul> <li>Structure project with frontend and backend in the same repo</li> <li>Build such project</li> <li>Create Docker image</li> <li>Configure CI/CD with GitHub Actions</li> </ul> <p>Please take a look if you are interested: <a href=\"https://github.com/mishankov/simple-system-monitor\">https://github.com/mishankov/simple-system-monitor</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/mishokthearchitect\"> /u/mishokthearchitect </a> <br/> <span><a href=\"https://www.reddit.com/r/golang/comments/1hor4g0/simple_system_monitoring_with_go_and_svelte/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/golang/comments/1hor4g0/simple_system_monitoring_with_go_and_svelte/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "Order of writing to an HTTP server response in \"net/http\"?",
+      "url": "https://www.reddit.com/r/golang/comments/1honb3w/order_of_writing_to_an_http_server_response_in/",
+      "date": 1735443877,
+      "author": "/u/AgreeableServe965",
+      "unread": true,
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi all,</p> <p>Question about the order of operations when dealing with the standard Go <code>http</code> server. Everything I am doing is working thus far, so I don&#39;t have an exact problem, but I feel like I don&#39;t have a good mental model of how to handle HTTP responses (this is all from the server&#39;s perspective btw). I&#39;ve done a lot of googling and looking for Github examples/best practices but haven&#39;t found the specifics I&#39;m looking for.</p> <p>Some example questions I have:</p> <ul> <li>When and how do you write whatever headers you need to add to the <code>ResponseWriter</code>? I&#39;ve found for websocket upgrades, I need to set them and then call <code>WriteHeader</code>, which seems to actually send the response to the client immediately? For normal HTTP I set headers using <code>Header().Set()</code> and not <code>WriteHeader</code>, but I sort of accidentally came across this, as I don&#39;t have a good mental model</li> <li>Can any headers be added <em>after</em> you&#39;re written to the body of the response?</li> <li>What is the best way to write to the body itself? I&#39;m currently using <code>fmt.Fprintf</code>, as the <code>ResponseWriter.Write()</code> method does some stuff (like <em>&quot;If [ResponseWriter.WriteHeader] has not yet been called, Write calls WriteHeader(http.StatusOK) before writing the data.&quot;</em>) that I don&#39;t fully understand.</li> <li>Is the standard practice to create a new response object and return it, or just modify the <code>ResponseWriter</code>? (I modify it)</li> <li>Are there any gotchas I should know about? I know there&#39;s something about not being able to read from the request after you&#39;ve read once. Another is <code>Header().Set()</code> vs. <code>Header().Add()</code></li> <li>Is it good practice to set all your headers as soon as possible, then do your processing and write to the response body, then return?</li> </ul> <p>Summed up, I&#39;m trying to improve my mental model of the request lifetime, the proper order of writing parts of the response, and best practices.</p> <p>Thanks!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AgreeableServe965\"> /u/AgreeableServe965 </a> <br/> <span><a href=\"https://www.reddit.com/r/golang/comments/1honb3w/order_of_writing_to_an_http_server_response_in/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/golang/comments/1honb3w/order_of_writing_to_an_http_server_response_in/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "First Project with backend in Go. Would love feedback",
+      "url": "https://www.reddit.com/r/golang/comments/1homj7o/first_project_with_backend_in_go_would_love/",
+      "date": 1735441272,
+      "author": "/u/Time_Departure_2393",
+      "unread": true,
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hello all! Recently I took on a full stack personal project and decided to write the backend in go with no prior experience in the language. It is now fully complete and functional, however I feel as if I did not follow all the right symantics that come with golang. Would love feedback, no matter how brutal I am still new to programming and especially golang but loved it and want to improve!</p> <p>Github: <a href=\"https://github.com/aiden-lee11/NUFood\">https://github.com/aiden-lee11/NUFood</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Time_Departure_2393\"> /u/Time_Departure_2393 </a> <br/> <span><a href=\"https://www.reddit.com/r/golang/comments/1homj7o/first_project_with_backend_in_go_would_love/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/golang/comments/1homj7o/first_project_with_backend_in_go_would_love/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "YT Shorts to Learn Go Programming Concepts Quickly!",
+      "url": "https://www.reddit.com/r/golang/comments/1hoj798/yt_shorts_to_learn_go_programming_concepts_quickly/",
+      "date": 1735430981,
+      "author": "/u/mr_geek012",
+      "unread": true,
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Here’s a playlist of YouTube Shorts covering essential Go topics like GRPC, concurrency, custom middleware, input validation, encryption, decryption, and hashing. Each video is brief, straight to the point, and designed for quick learning.</p> <p>Check it out: <a href=\"https://www.youtube.com/watch?v=QAc_FEKFc7A&amp;list=PLdKU4cv6BbKIugkN9EstI69HPnr_jplHv\">https://www.youtube.com/watch?v=QAc_FEKFc7A&amp;list=PLdKU4cv6BbKIugkN9EstI69HPnr_jplHv</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/mr_geek012\"> /u/mr_geek012 </a> <br/> <span><a href=\"https://www.reddit.com/r/golang/comments/1hoj798/yt_shorts_to_learn_go_programming_concepts_quickly/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/golang/comments/1hoj798/yt_shorts_to_learn_go_programming_concepts_quickly/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "Wendy: A CLI built with climate",
+      "url": "https://www.reddit.com/r/golang/comments/1hofbaa/wendy_a_cli_built_with_climate/",
+      "date": 1735419961,
+      "author": "/u/rahul_de",
+      "unread": true,
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey again fellow gophers,</p> <p>Following up from my last <a href=\"https://www.reddit.com/r/golang/comments/1he1uks\">post</a> on climate and tooling around OpenAPI specs, here is a proper example of a CLI built with that idea: <a href=\"https://github.com/bob-cd/wendy\">https://github.com/bob-cd/wendy</a></p> <p>The server side for this also is built on similar philosophies of being spec-first (not in Go though) and the CLI side is what gave the inspiration to build climate. I think I am able to capture the ideas I wanted to express in Wendy and would love to know what you all think!</p> <p>It&#39;s still a work in progress but is usable and has all the aspects of a CLI tooling that one would expect. Some of the methods I used doesn&#39;t seem to be used much elsewhere and hence hoping it also piques someone interest and they have some feedback!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/rahul_de\"> /u/rahul_de </a> <br/> <span><a href=\"https://www.reddit.com/r/golang/comments/1hofbaa/wendy_a_cli_built_with_climate/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/golang/comments/1hofbaa/wendy_a_cli_built_with_climate/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "First Golang App: Sourus a CLI Monitoring with Color Theme Support, incorporates CPU and GPU Information.",
+      "url": "https://www.reddit.com/r/golang/comments/1hoben9/first_golang_app_sourus_a_cli_monitoring_with/",
+      "date": 1735409341,
+      "author": "/u/Capital-Menu517",
+      "unread": true,
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>I picked up Go in a few days and I wrote this CLI app. I feel in love with the language on how quickly you can build things and just incorporate dependencies. Let me know what y&#39;all think! </p> <p><a href=\"https://github.com/nikpocuca/sourus\">https://github.com/nikpocuca/sourus</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Capital-Menu517\"> /u/Capital-Menu517 </a> <br/> <span><a href=\"https://www.reddit.com/r/golang/comments/1hoben9/first_golang_app_sourus_a_cli_monitoring_with/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/golang/comments/1hoben9/first_golang_app_sourus_a_cli_monitoring_with/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "What are some linters that you use and are not in golangci-lint (or in gerenal tools)?",
+      "url": "https://www.reddit.com/r/golang/comments/1ho690z/what_are_some_linters_that_you_use_and_are_not_in/",
+      "date": 1735394546,
+      "author": "/u/10xNinjaProdigy",
+      "unread": true,
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>The question above. I am getting into linters but i have also found some uber tools and fieldalignment tools. SO I am looking for hidden diamonds or anything tbh</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/10xNinjaProdigy\"> /u/10xNinjaProdigy </a> <br/> <span><a href=\"https://www.reddit.com/r/golang/comments/1ho690z/what_are_some_linters_that_you_use_and_are_not_in/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/golang/comments/1ho690z/what_are_some_linters_that_you_use_and_are_not_in/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "Crazy to use Go in a CRUD App?",
+      "url": "https://www.reddit.com/r/golang/comments/1ho5zn1/crazy_to_use_go_in_a_crud_app/",
+      "date": 1735393673,
+      "author": "/u/fakebizholdings",
+      "unread": true,
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>I own a freight brokerage that specializes in automation by making our own automation software. The “OS” of a freight brokerage is a Transportation Management System, these share many of the same objects as a CRM and generally are bundled with one. I made our first TMS on top of Salesforce with APEX because I had to spin something up on the fly.</p> <p>As I prepare for the development of the second version of this TMS+CRM that we will be hosting on-prem, I’ve sampled many languages and open-source software. I’m very impressed by the speed and efficiency of just about everything that is written in Go, yet I haven’t found one CRM or any notable CRUD apps that are using it on the backend.</p> <p>Having never programmed in Go before, I have to ask, is it feasible to consider creating our TMS+CRM in Go with something as simple as HTMX &amp; “Vanilla” JS on the front end?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/fakebizholdings\"> /u/fakebizholdings </a> <br/> <span><a href=\"https://www.reddit.com/r/golang/comments/1ho5zn1/crazy_to_use_go_in_a_crud_app/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/golang/comments/1ho5zn1/crazy_to_use_go_in_a_crud_app/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "Caching library designed to make applications resilient and highly performant",
+      "url": "https://www.reddit.com/r/golang/comments/1ho5ntj/caching_library_designed_to_make_applications/",
+      "date": 1735392513,
+      "author": "/u/creativecreaturedev",
+      "unread": true,
+      "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/golang/comments/1ho5ntj/caching_library_designed_to_make_applications/\"> <img src=\"https://external-preview.redd.it/u5sECMxrAez6noPtvy27Or4lSOz5Vl62ExM07b2xMEY.jpg?width=640&amp;crop=smart&amp;auto=webp&amp;s=880577e38ebcf73fab8b19339693e1664b88d72e\" alt=\"Caching library designed to make applications resilient and highly performant\" title=\"Caching library designed to make applications resilient and highly performant\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/creativecreaturedev\"> /u/creativecreaturedev </a> <br/> <span><a href=\"https://github.com/viccon/sturdyc\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/golang/comments/1ho5ntj/caching_library_designed_to_make_applications/\">[comments]</a></span> </td></tr></table>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "Building a Database from Scratch in Go (part 02) - Memory Management Principles",
+      "url": "https://www.reddit.com/r/golang/comments/1ho44am/building_a_database_from_scratch_in_go_part_02/",
+      "date": 1735386438,
+      "author": "/u/inelp",
+      "unread": true,
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hello folks, I published part 2 of my Building a DB from scratch series and this video is a bit theoretical.</p> <p>I try to explain the main principles of database memory management and how they drive the design and the implementation of more-or-less the entire database engine, and the two principles I cover are:</p> <p>- Minimize Disk Access</p> <p>- Don&#39;t Rely on OS Virtual Memory</p> <p>In case you&#39;re interested in learning more about this, here is the link to the video: <a href=\"https://youtu.be/TYBwOLlMLnI\">https://youtu.be/TYBwOLlMLnI</a></p> <p>I will appreciate all the feedback. Thanks</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/inelp\"> /u/inelp </a> <br/> <span><a href=\"https://www.reddit.com/r/golang/comments/1ho44am/building_a_database_from_scratch_in_go_part_02/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/golang/comments/1ho44am/building_a_database_from_scratch_in_go_part_02/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "Evil-Go: A PoC of a go compile chain with less IAT that bypass GoReSym",
+      "url": "https://www.reddit.com/r/golang/comments/1hntmvw/evilgo_a_poc_of_a_go_compile_chain_with_less_iat/",
+      "date": 1735346576,
+      "author": "/u/h4r0r",
+      "unread": true,
+      "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/golang/comments/1hntmvw/evilgo_a_poc_of_a_go_compile_chain_with_less_iat/\"> <img src=\"https://external-preview.redd.it/IPsOXDoz4LZTmQyqBd6jSqJtxZFGrxeGrStkRI4fQgI.jpg?width=640&amp;crop=smart&amp;auto=webp&amp;s=0ea650a4dd98a6879f5ed07ce334151bcb133a46\" alt=\"Evil-Go: A PoC of a go compile chain with less IAT that bypass GoReSym\" title=\"Evil-Go: A PoC of a go compile chain with less IAT that bypass GoReSym\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/h4r0r\"> /u/h4r0r </a> <br/> <span><a href=\"https://github.com/almounah/evil-go/tree/release-branch.go1.23\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/golang/comments/1hntmvw/evilgo_a_poc_of_a_go_compile_chain_with_less_iat/\">[comments]</a></span> </td></tr></table>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "concur - A replacement for the parts of GNU Parallel that I like.",
+      "url": "https://www.reddit.com/r/golang/comments/1hnrvpa/concur_a_replacement_for_the_parts_of_gnu/",
+      "date": 1735341480,
+      "author": "/u/EricWOsborne",
+      "unread": true,
+      "content": "<!-- SC_OFF --><div class=\"md\"><p><a href=\"https://github.com/ewosborne/concur\">https://github.com/ewosborne/concur</a></p> <p>I like what <code>parallel</code> can do. As a network guy, over the years I&#39;ve had to do things like copy a firmware update file to a tens or low hundreds of routers, or ping a bunch of hosts to see which ones were up, and <code>parallel</code> made those jobs really easy.</p> <p>You know what I don&#39;t like about <code>parallel</code>? It&#39;s got defaults that don&#39;t work for me (one job per core when I&#39;m blocking on network I/O is hugely inefficient). Its CLI is convoluted (yes, it&#39;s a hard problem to solve in general, but still). It&#39;s got a 120-page manual or a 20-minute training video to teach you how to use it. It&#39;s written in Perl. It has this weird thing where it can&#39;t do CSV right out of the box and you have to do manual CPAN stuff. Ain&#39;t nobody got time for any of that. </p> <p>And worst of all, it has that weird gold-digging &#39;I agree under penalty of death to cite parallel in any academic work&#39; clause. I understand that it&#39;s reasonable to ask for credit for writing free software, but if everyone did it the way <code>parallel</code> does then the whole open source industry would drown itself in a pool of compliance paperwork.</p> <p>Plus it&#39;s always cool to learn a new language by using it to solve a problem rather than grinding on leetcode.</p> <p>So I give you <code>concur</code>. I&#39;m never going to claim it&#39;s as fully featured as <code>parallel</code> but it does the bits I need, it&#39;s a few hundred lines of go, it has sensible defaults for things which aren&#39;t compute-bound, it has easy to read json output. It can flag jobs which exit with a return code other than zero. It can run all your jobs, or it can stop when the first one teminates. It&#39;s got an easy syntax for subbing in the thing you&#39;re iterating over (each entry in a list of hosts, for example).</p> <p>It does what I want and it does it well, all using <code>go&#39;s</code> built-in concurrency. Thus, <code>concur</code> (which as a verb is a <a href=\"https://www.thesaurus.com/browse/parallel\">synonym</a> for parallel).</p> <p>This project is very much under active development so the screen scrapes here may not match what&#39;s in the latest code but it&#39;ll be close.</p> <p>I also do not write code for a living so this started out clean and idiomatic and turned into a bit of a spaghetti mess. I&#39;ll clean it up eventually, once the feature set stabilizes. It has also almost no testing other than me running stuff by hand after every build. Testing is hard. </p> <p>Comments and PRs welcome.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/EricWOsborne\"> /u/EricWOsborne </a> <br/> <span><a href=\"https://www.reddit.com/r/golang/comments/1hnrvpa/concur_a_replacement_for_the_parts_of_gnu/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/golang/comments/1hnrvpa/concur_a_replacement_for_the_parts_of_gnu/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "I just released version 1.2.0 of my package \"aarol/reload\", which enables easy hot-reloading of web server assets",
+      "url": "https://www.reddit.com/r/golang/comments/1hnpl3b/i_just_released_version_120_of_my_package/",
+      "date": 1735335260,
+      "author": "/u/despacit0_",
+      "unread": true,
+      "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/golang/comments/1hnpl3b/i_just_released_version_120_of_my_package/\"> <img src=\"https://external-preview.redd.it/cXib0KD6i7Q1IyOfQnLa4r5DTBRCLg7k2nziWzUsJCE.jpg?width=640&amp;crop=smart&amp;auto=webp&amp;s=031900adf2bb1fb44191deef6c039f8ad8111012\" alt=\"I just released version 1.2.0 of my package &quot;aarol/reload&quot;, which enables easy hot-reloading of web server assets\" title=\"I just released version 1.2.0 of my package &quot;aarol/reload&quot;, which enables easy hot-reloading of web server assets\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/despacit0_\"> /u/despacit0_ </a> <br/> <span><a href=\"https://github.com/aarol/reload/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/golang/comments/1hnpl3b/i_just_released_version_120_of_my_package/\">[comments]</a></span> </td></tr></table>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "Is this a thing people do in Go?",
+      "url": "https://www.reddit.com/r/golang/comments/1hniqb1/is_this_a_thing_people_do_in_go/",
+      "date": 1735317236,
+      "author": "/u/RedProGamingTV",
+      "unread": true,
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Edit 2 electric boogaloo: I&#39;ve mostly figured this out, thanks to the advice over at Discord Gophers! An explanation for why the &quot;import order correction&quot; code works and 2 general routes of how to write this code, as per suggestions on the Discord server and in the replies, are at the bottom of the post. However, despite this, feel free to add potential solutions if you have any ideas! </p> <p>Hello everyone!<br/> So, a little bit of context:</p> <p>I&#39;m writing a piece of software, which is using a websocket server. I have some packet handler code in the <code>handlers</code> package, and all of my packets are in the <code>packets</code> package. The packets initialize themselves using <code>init()</code> functions such that they&#39;re a little easier to manage. I&#39;ve written this code generally just to work, but is this good practice? I don&#39;t want for the packet filenames to blend in with non-packet filenames.</p> <p>Unfortunately, I&#39;m not allowed to post images, therefore I will paste the piece of code in a codeblock.</p> <pre><code>import ( // ... // Import order correction &quot;main/handlers&quot; _ &quot;main/packets&quot; // ^ This is needed such that handlers (and the registry) are loaded first, // and we do not get runtime issues because the registry doesn&#39;t exist yet. // It&#39;s best to keep handlers and packets separate for clearer project structure. // Bit of a hack, but it works. // ... ) </code></pre> <p>So, I guess my question is, is this a widely done practice (to correct import order when using <code>init()</code>functions), and are there any better ways of achieving this while keeping the directory structure intact (the packet registry goes into the <code>handlers</code> package, the packets go into the <code>packets</code> package)?</p> <p>––––––––––––––––––––</p> <p>Edit for clarification: The packets import themselves via calling the <code>Register</code> function on the <code>Registry</code> variable inside <code>handlers</code>. For example:</p> <pre><code>// packets/ping.go // ... func init() { handlers.Registry.Register(&quot;ping&quot;, &amp;HandlerPing{}) } // handlers/packets.go // ... var Registry = NewPacketRegistry() // handlers/registry.go // ... func (r *PacketRegistry) Register(packetType string, handler PacketHandler) { r.handlers[packetType] = handler fmt.Printf(`Packet %s has been registered!` + &quot;\\r\\n&quot;, packetType) } // ... </code></pre> <p>Because the registry needs to be made before the packets get initialized, the handlers package has to be made before the packets package, if I were to use this method.<br/> ––––––––––––––––––––</p> <h1>Explanation:</h1> <p>Fundamentally, the execution of <code>init()</code> functions does not depend on import order (apparently ever since around go 1.19 or 1.20, thanks zephyrtronium), meaning the import order does not have any effect on how it is initialized. The compiler topologically sorts initializers, meaning if a certain expression depends on another, the latter is initialized first. Therefore, the actual import order doesn&#39;t matter.</p> <p>What does matter, however, is that the package is imported. If the package is not imported, the <code>init()</code> function does NOT get called. More on this: <a href=\"https://go.dev/ref/spec#Program_initialization\">https://go.dev/ref/spec#Program_initialization</a></p> <h1>Route 1 (current code):</h1> <p>Keep the import as is, but the order of the import doesn&#39;t actually matter. The <code>_ &quot;main/packets&quot;</code> declaration only calls the <code>init()</code> function depending on how exactly does the code depend on the other code, and does not really do anything beyond that.<br/> However, as some of you have noted, generally the use of <code>init()</code> should be avoided.</p> <h1>Route 2 (register manually):</h1> <p>Instead of using <code>init()</code>, switch to registering all packets manually (calling the Register function for each packet inside one file). However, this can be a bit messy at times, if you have a lot of packets, but it&#39;s probably the most obvious alternative.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/RedProGamingTV\"> /u/RedProGamingTV </a> <br/> <span><a href=\"https://www.reddit.com/r/golang/comments/1hniqb1/is_this_a_thing_people_do_in_go/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/golang/comments/1hniqb1/is_this_a_thing_people_do_in_go/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "Open source ERP written in Go",
+      "url": "https://www.reddit.com/r/golang/comments/1hnf6nx/open_source_erp_written_in_go/",
+      "date": 1735307137,
+      "author": "/u/diyor28s",
+      "unread": true,
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi reddit, me &amp; my team at <a href=\"https://www.iota.uz/\">IOTA</a> are developing an Odoo alternative with Go, Alpine.js, Templ and HTMX. For now the project is called IOTA-SDK.<br/> It&#39;s completely open source and hosted on <a href=\"https://github.com/iota-agency/iota-sdk\">Github</a>. You&#39;re welcome to use it for your own purposes.<br/> The project is still in it&#39;s early stages and being actively developed.</p> <p>The end goal is to turn it into a full featured SDK where you can create and customize an ERP for your goals relatively easily. Also in the works is an integration of a general purpose scripting language like Javascript or Python to allow advanced users or community to write custom workflows and plugins</p> <p>[UPDATE]: Was not expecting so much interest from the community, thank you everyone a lot! Answering your questions as fast as possible &amp; actively working on contribution guidelines &amp; roadmap.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/diyor28s\"> /u/diyor28s </a> <br/> <span><a href=\"https://www.reddit.com/r/golang/comments/1hnf6nx/open_source_erp_written_in_go/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/golang/comments/1hnf6nx/open_source_erp_written_in_go/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "How to Implement Server-Sent Events in Go",
+      "url": "https://www.reddit.com/r/golang/comments/1hnf3hq/how_to_implement_serversent_events_in_go/",
+      "date": 1735306852,
+      "author": "/u/der_gopher",
+      "unread": true,
+      "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/golang/comments/1hnf3hq/how_to_implement_serversent_events_in_go/\"> <img src=\"https://external-preview.redd.it/NbGnGVqcqkxRFPDqiyLPkVPmG1Zn2q5m5cTGNKhvwVM.jpg?width=320&amp;crop=smart&amp;auto=webp&amp;s=44ed4a9b3b283a0e6968dc060bc12fc91f1e5965\" alt=\"How to Implement Server-Sent Events in Go\" title=\"How to Implement Server-Sent Events in Go\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/der_gopher\"> /u/der_gopher </a> <br/> <span><a href=\"https://www.youtube.com/watch?v=nvijc5J-JAQ\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/golang/comments/1hnf3hq/how_to_implement_serversent_events_in_go/\">[comments]</a></span> </td></tr></table>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "native WebP encoder for Go",
+      "url": "https://www.reddit.com/r/golang/comments/1hnc57a/native_webp_encoder_for_go/",
+      "date": 1735295372,
+      "author": "/u/Pretend-Ad1926",
+      "unread": true,
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey everyone! 👋</p> <p>I just released nativewebp, a native WebP encoder written entirely in Go. Unlike most WebP encoders, this one has no dependencies on libwebp or other external libraries, making it perfect for Go projects that value simplicity and portability.</p> <p>Currently, the encoder supports only WebP lossless images (VP8L). It’s about ~40% faster than Go&#39;s native PNG encoder, while producing similar or smaller files!</p> <p>It’s still in early development, so feedback, ideas, or contributions are more than welcome! 🚀</p> <p>Check it out here: <a href=\"https://github.com/HugoSmits86/nativewebp\">https://github.com/HugoSmits86/nativewebp</a></p> <p>Looking forward to hearing what you think!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Pretend-Ad1926\"> /u/Pretend-Ad1926 </a> <br/> <span><a href=\"https://www.reddit.com/r/golang/comments/1hnc57a/native_webp_encoder_for_go/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/golang/comments/1hnc57a/native_webp_encoder_for_go/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "Naked returns \"considered harmful\"?",
+      "url": "https://www.reddit.com/r/golang/comments/1hnbcd4/naked_returns_considered_harmful/",
+      "date": 1735291824,
+      "author": "/u/AlexandraLinnea",
+      "unread": true,
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>In <a href=\"https://bitfieldconsulting.com/posts/defer\">Demystifying defer</a> it says:</p> <blockquote> <p>The Go specification actually allows us to omit the names from the return statement in this case, and this would implicitly return whatever the values of latitude and longitude happen to be at this point. But even though that’s legal syntax, it’s not good practice.</p> <p>It’s always clearer to specify the exact values or variables you’re returning, and there’s no benefit to omitting them. So you should avoid writing these so-called naked returns, even though you’ll sometimes see them in other people’s code.</p> <p>In particular, you should be aware that just because a function has named result parameters, that doesn’t mean you must write a naked return. You can, and should, make your return values explicit.</p> </blockquote> <p>Is it actually harmful to write naked returns? If so, why does anyone do it?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/AlexandraLinnea\"> /u/AlexandraLinnea </a> <br/> <span><a href=\"https://www.reddit.com/r/golang/comments/1hnbcd4/naked_returns_considered_harmful/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/golang/comments/1hnbcd4/naked_returns_considered_harmful/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "Why Go For System Programming",
+      "url": "https://www.reddit.com/r/golang/comments/1hn97pr/why_go_for_system_programming/",
+      "date": 1735282410,
+      "author": "/u/Best-Gas-2203",
+      "unread": true,
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>A beginner&#39;s question here as I dive deeper into the language. But upon reading the specification of the language, it mentions being a good tools for system programming. How should I understanding this statement, as in, the language is wellsuited for writing applications within the service/business logic layer, and not interacting with the UI layer? Or is it something else like operating system? </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Best-Gas-2203\"> /u/Best-Gas-2203 </a> <br/> <span><a href=\"https://www.reddit.com/r/golang/comments/1hn97pr/why_go_for_system_programming/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/golang/comments/1hn97pr/why_go_for_system_programming/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "What’s your favorite program that you’ve ever written in go?",
+      "url": "https://www.reddit.com/r/golang/comments/1hn0zl1/whats_your_favorite_program_that_youve_ever/",
+      "date": 1735255359,
+      "author": "",
+      "unread": true,
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Do you have any cool programs that you have written or enjoyed writing over the years?</p> </div><!-- SC_ON --> <br/> <span><a href=\"https://www.reddit.com/r/golang/comments/1hn0zl1/whats_your_favorite_program_that_youve_ever/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/golang/comments/1hn0zl1/whats_your_favorite_program_that_youve_ever/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "How to Make Go Structs More Efficient",
+      "url": "https://www.reddit.com/r/golang/comments/1hmwmeq/how_to_make_go_structs_more_efficient/",
+      "date": 1735243322,
+      "author": "/u/GolangProject",
+      "unread": true,
+      "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/golang/comments/1hmwmeq/how_to_make_go_structs_more_efficient/\"> <img src=\"https://external-preview.redd.it/iNQ-UqFqCarQzIUyZbEs4N8eRP3qJR_0el4tyeZTk_Y.jpg?width=640&amp;crop=smart&amp;auto=webp&amp;s=6b1e8640f3dbb03796dcfaa61e9f27c909301ea5\" alt=\"How to Make Go Structs More Efficient\" title=\"How to Make Go Structs More Efficient\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/GolangProject\"> /u/GolangProject </a> <br/> <span><a href=\"https://golangprojectstructure.com/how-to-make-go-structs-more-efficient/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/golang/comments/1hmwmeq/how_to_make_go_structs_more_efficient/\">[comments]</a></span> </td></tr></table>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "How would you handle authentication and sessions within CLIs?",
+      "url": "https://www.reddit.com/r/golang/comments/1hmtmx6/how_would_you_handle_authentication_and_sessions/",
+      "date": 1735235271,
+      "author": "/u/soupgasm",
+      "unread": true,
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey guys, so I&#39;m currently building a CLI and for the API to work the user has to generate a personal access token. I&#39;m currently just getting the token before each API call and passing it to the HTTP client. This needs to be done. But I want a simple way to check that the user is logged in. Would I then wrap the whole CLI in the authentication wrapper and check the session? How would you do this? </p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/soupgasm\"> /u/soupgasm </a> <br/> <span><a href=\"https://www.reddit.com/r/golang/comments/1hmtmx6/how_would_you_handle_authentication_and_sessions/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/golang/comments/1hmtmx6/how_would_you_handle_authentication_and_sessions/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "Single method interface pattern discussion",
+      "url": "https://www.reddit.com/r/golang/comments/1hmtiuf/single_method_interface_pattern_discussion/",
+      "date": 1735234961,
+      "author": "/u/TryRestartingItAgain",
+      "unread": true,
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hey. As has been discussed many times the Golang standard library has many single method interfaces, e.g.</p> <pre><code>package io type Reader interface { Read(p []byte) (int, error) } </code></pre> <p>These interfaces are easy to implement and create mocks/fakes for.</p> <p>_But_ in web development we often have services, handlers, and store constructs that usually have multiple methods such as <code>SaveUser</code>, <code>GetUser</code>. A very simple User service spec:</p> <pre><code>type userStore interface { GetByID(context.Context, string) (User, error) Save(context.Context, user User) error } type UserService struct { store userStore } func (s UserService) GetUser(ctx context.Context, ID string) (User, error) { ... user, err := s.store.GetByID(ctx, ID) ... } </code></pre> <p>The problem I see with this is that we have a single interface for all of <code>userStore</code> functionality, so I generally create an interface on the producing side that the consumer can use and stub which goes against &quot;define interfaces on consumer side&quot;. The biggest issue I have with this approach is that any fakes must implement the full interface.</p> <p>I was playing around with something like this instead:</p> <pre><code>type userGetter interface { GetByID(context.Context, string) (User, error) } func (s UserService) GetUser(ctx context.Context, ID string) (User, error) { ... user, err := s.userGetter.GetByID(ctx, ID) ... } </code></pre> <p>The original <code>userStore</code> can still be used to implement the interface. It makes the coupling between store and service very relaxed, it&#39;s easy to move functionality and refactor.<br/> And it&#39;s very easy to fake in tests:</p> <pre><code>type UserGetterFn func(context.Context, string) (User, error) func (f UserGetterFn) GetByID(ctx context.Context, ID string) (User, error) { return f(ctx, ID) } svc := UserService{UserGetter: func(ctx context.Context, string) (User, error) { return User{}, fmt.Errorf(&quot;not found&quot;) }) </code></pre> <p>The downside is that it&#39;s a bit tedious to write these, but it&#39;s mostly in the test code so I think it&#39;s fine for it to be more verbose.</p> <p>I can&#39;t quite tell if I like it or not, currently just playing around with it so get a feeling.</p> <p>I&#39;ve never seen anyone use this, so I wonder if anyone has tried this more extreme style?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/TryRestartingItAgain\"> /u/TryRestartingItAgain </a> <br/> <span><a href=\"https://www.reddit.com/r/golang/comments/1hmtiuf/single_method_interface_pattern_discussion/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/golang/comments/1hmtiuf/single_method_interface_pattern_discussion/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    }
+  ]
+}
