@@ -7,6 +7,28 @@
   "is_query": false,
   "items": [
     {
+      "title": "Visualizing memory layout of Rust's data types",
+      "url": "https://www.reddit.com/r/rust/comments/1hp3xjm/visualizing_memory_layout_of_rusts_data_types/",
+      "date": 1735501283,
+      "author": "/u/EventHelixCom",
+      "unread": true,
+      "content": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/EventHelixCom\"> /u/EventHelixCom </a> <br/> <span><a href=\"https://youtu.be/7_o-YRxf_cc?si=6__TBBF1wcln_JOJ\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/rust/comments/1hp3xjm/visualizing_memory_layout_of_rusts_data_types/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "refinement types & units of measure revisited",
+      "url": "https://www.reddit.com/r/rust/comments/1howvp9/refinement_types_units_of_measure_revisited/",
+      "date": 1735481859,
+      "author": "/u/gclichtenberg",
+      "unread": true,
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>In response to <a href=\"https://www.reddit.com/r/rust/comments/1hkkn2u/what_would_it_take_to_let_users_add_refinement/\">this earlier post</a>, a crate that <a href=\"https://github.com/bwo/units-poc\">features a minimal type-level system for doing what the author wants</a>. This is really just an illustration of some type-level programming: the <a href=\"https://docs.rs/uom/latest/uom/index.html\"><code>uom</code></a> crate actually knows what units of measure <em>are</em>, à la Frink.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/gclichtenberg\"> /u/gclichtenberg </a> <br/> <span><a href=\"https://www.reddit.com/r/rust/comments/1howvp9/refinement_types_units_of_measure_revisited/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/rust/comments/1howvp9/refinement_types_units_of_measure_revisited/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
       "title": "NNN: a new take on nutype",
       "url": "https://www.reddit.com/r/rust/comments/1hovz1p/nnn_a_new_take_on_nutype/",
       "date": 1735478771,

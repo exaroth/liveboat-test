@@ -7,23 +7,56 @@
   "is_query": false,
   "items": [
     {
-      "title": "Toronto man creates tiny mobile homes to help unhoused people escape the cold",
-      "url": "https://www.cbc.ca/lite/story/1.7419805",
-      "date": 1735491988,
-      "author": "colinprince",
+      "title": "President Jimmy Carter has passed away",
+      "url": "https://www.washingtonpost.com/obituaries/2024/12/29/jimmy-carter-president-dead/",
+      "date": 1735506501,
+      "author": "gkolli",
       "unread": true,
-      "content": "\n<p>Article URL: <a href=\"https://www.cbc.ca/lite/story/1.7419805\">https://www.cbc.ca/lite/story/1.7419805</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=42541173\">https://news.ycombinator.com/item?id=42541173</a></p>\n<p>Points: 83</p>\n<p># Comments: 31</p>\n",
+      "content": "\n<p>Article URL: <a href=\"https://www.washingtonpost.com/obituaries/2024/12/29/jimmy-carter-president-dead/\">https://www.washingtonpost.com/obituaries/2024/12/29/jimmy-carter-president-dead/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=42543128\">https://news.ycombinator.com/item?id=42543128</a></p>\n<p>Points: 304</p>\n<p># Comments: 85</p>\n",
       "flags": null,
       "enclosureUrl": "",
       "enclosureMime": ""
     },
     {
-      "title": "I Was Wrong about the Ethics Crisis (Moshe Vardi, CACM)",
+      "title": "Are PC hardware companies driving technology into restricted closed ecosystems?",
+      "url": "https://www.scottrlarson.com/updates/update-closed-technology-ecosystems-storage-configuration-lockdown/",
+      "date": 1735499503,
+      "author": "trinsic2",
+      "unread": true,
+      "content": "\n<p>Article URL: <a href=\"https://www.scottrlarson.com/updates/update-closed-technology-ecosystems-storage-configuration-lockdown/\">https://www.scottrlarson.com/updates/update-closed-technology-ecosystems-storage-configuration-lockdown/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=42542138\">https://news.ycombinator.com/item?id=42542138</a></p>\n<p>Points: 109</p>\n<p># Comments: 65</p>\n",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "Toronto man creates tiny mobile homes to help unhoused people escape the cold",
+      "url": "https://www.cbc.ca/lite/story/1.7419805",
+      "date": 1735491988,
+      "author": "colinprince",
+      "unread": true,
+      "content": "\n<p>Article URL: <a href=\"https://www.cbc.ca/lite/story/1.7419805\">https://www.cbc.ca/lite/story/1.7419805</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=42541173\">https://news.ycombinator.com/item?id=42541173</a></p>\n<p>Points: 136</p>\n<p># Comments: 100</p>\n",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "I was wrong about the ethics crisis",
       "url": "https://cacm.acm.org/opinion/i-was-wrong-about-the-ethics-crisis/",
       "date": 1735489398,
       "author": "bikenaga",
       "unread": true,
-      "content": "\n<p>Article URL: <a href=\"https://cacm.acm.org/opinion/i-was-wrong-about-the-ethics-crisis/\">https://cacm.acm.org/opinion/i-was-wrong-about-the-ethics-crisis/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=42540862\">https://news.ycombinator.com/item?id=42540862</a></p>\n<p>Points: 114</p>\n<p># Comments: 102</p>\n",
+      "content": "\n<p>Article URL: <a href=\"https://cacm.acm.org/opinion/i-was-wrong-about-the-ethics-crisis/\">https://cacm.acm.org/opinion/i-was-wrong-about-the-ethics-crisis/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=42540862\">https://news.ycombinator.com/item?id=42540862</a></p>\n<p>Points: 186</p>\n<p># Comments: 234</p>\n",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "BSD kqueue is a mountain of technical debt (2021)",
+      "url": "https://ariadne.space/2021/06/06/actually-bsd-kqueue-is-a-mountain-of-technical-debt/",
+      "date": 1735485646,
+      "author": "thunderbong",
+      "unread": true,
+      "content": "\n<p>Article URL: <a href=\"https://ariadne.space/2021/06/06/actually-bsd-kqueue-is-a-mountain-of-technical-debt/\">https://ariadne.space/2021/06/06/actually-bsd-kqueue-is-a-mountain-of-technical-debt/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=42540442\">https://news.ycombinator.com/item?id=42540442</a></p>\n<p>Points: 101</p>\n<p># Comments: 67</p>\n",
       "flags": null,
       "enclosureUrl": "",
       "enclosureMime": ""
@@ -40,6 +73,17 @@
       "enclosureMime": ""
     },
     {
+      "title": "Is Iceland getting ready to join the EU?",
+      "url": "https://mikegalsworthy.substack.com/p/is-iceland-getting-ready-to-join",
+      "date": 1735480831,
+      "author": "mariuz",
+      "unread": true,
+      "content": "\n<p>Article URL: <a href=\"https://mikegalsworthy.substack.com/p/is-iceland-getting-ready-to-join\">https://mikegalsworthy.substack.com/p/is-iceland-getting-ready-to-join</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=42539987\">https://news.ycombinator.com/item?id=42539987</a></p>\n<p>Points: 87</p>\n<p># Comments: 138</p>\n",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
       "title": "I don't do Domain Driven Design",
       "url": "https://www.tonymarston.net/php-mysql/dont-do-domain-driven-design.html",
       "date": 1735474651,
@@ -51,12 +95,23 @@
       "enclosureMime": ""
     },
     {
-      "title": "The Average American Spent 2.5 Months on Their Phone in 2024",
+      "title": "The average American spent 2.5 months on their phone in 2024",
       "url": "https://www.pcmag.com/articles/yikes-the-average-american-spent-25-months-on-their-phone-in-2024",
       "date": 1735474614,
       "author": "elorant",
       "unread": true,
-      "content": "\n<p>Article URL: <a href=\"https://www.pcmag.com/articles/yikes-the-average-american-spent-25-months-on-their-phone-in-2024\">https://www.pcmag.com/articles/yikes-the-average-american-spent-25-months-on-their-phone-in-2024</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=42539474\">https://news.ycombinator.com/item?id=42539474</a></p>\n<p>Points: 97</p>\n<p># Comments: 93</p>\n",
+      "content": "\n<p>Article URL: <a href=\"https://www.pcmag.com/articles/yikes-the-average-american-spent-25-months-on-their-phone-in-2024\">https://www.pcmag.com/articles/yikes-the-average-american-spent-25-months-on-their-phone-in-2024</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=42539474\">https://news.ycombinator.com/item?id=42539474</a></p>\n<p>Points: 135</p>\n<p># Comments: 160</p>\n",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "I Run LLMs Locally",
+      "url": "https://abishekmuthian.com/how-i-run-llms-locally/",
+      "date": 1735469340,
+      "author": "Abishek_Muthian",
+      "unread": true,
+      "content": "\n<p>Article URL: <a href=\"https://abishekmuthian.com/how-i-run-llms-locally/\">https://abishekmuthian.com/how-i-run-llms-locally/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=42539155\">https://news.ycombinator.com/item?id=42539155</a></p>\n<p>Points: 144</p>\n<p># Comments: 84</p>\n",
       "flags": null,
       "enclosureUrl": "",
       "enclosureMime": ""
@@ -67,7 +122,7 @@
       "date": 1735465713,
       "author": "doener",
       "unread": true,
-      "content": "\n<p>Article URL: <a href=\"https://media.ccc.de/v/38c3-we-ve-not-been-trained-for-this-life-after-the-newag-drm-disclosure\">https://media.ccc.de/v/38c3-we-ve-not-been-trained-for-this-life-after-the-newag-drm-disclosure</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=42538914\">https://news.ycombinator.com/item?id=42538914</a></p>\n<p>Points: 288</p>\n<p># Comments: 50</p>\n",
+      "content": "\n<p>Article URL: <a href=\"https://media.ccc.de/v/38c3-we-ve-not-been-trained-for-this-life-after-the-newag-drm-disclosure\">https://media.ccc.de/v/38c3-we-ve-not-been-trained-for-this-life-after-the-newag-drm-disclosure</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=42538914\">https://news.ycombinator.com/item?id=42538914</a></p>\n<p>Points: 326</p>\n<p># Comments: 54</p>\n",
       "flags": null,
       "enclosureUrl": "",
       "enclosureMime": ""
@@ -78,7 +133,7 @@
       "date": 1735465629,
       "author": "doener",
       "unread": true,
-      "content": "\n<p>Article URL: <a href=\"https://media.ccc.de/v/38c3-bioterrorism-will-save-your-life-with-the-4-thieves-vinegar-collective\">https://media.ccc.de/v/38c3-bioterrorism-will-save-your-life-with-the-4-thieves-vinegar-collective</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=42538903\">https://news.ycombinator.com/item?id=42538903</a></p>\n<p>Points: 92</p>\n<p># Comments: 71</p>\n",
+      "content": "\n<p>Article URL: <a href=\"https://media.ccc.de/v/38c3-bioterrorism-will-save-your-life-with-the-4-thieves-vinegar-collective\">https://media.ccc.de/v/38c3-bioterrorism-will-save-your-life-with-the-4-thieves-vinegar-collective</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=42538903\">https://news.ycombinator.com/item?id=42538903</a></p>\n<p>Points: 120</p>\n<p># Comments: 102</p>\n",
       "flags": null,
       "enclosureUrl": "",
       "enclosureMime": ""
@@ -89,7 +144,7 @@
       "date": 1735448073,
       "author": "type0",
       "unread": true,
-      "content": "\n<p>Article URL: <a href=\"https://media.ccc.de/c/38c3\">https://media.ccc.de/c/38c3</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=42537631\">https://news.ycombinator.com/item?id=42537631</a></p>\n<p>Points: 352</p>\n<p># Comments: 55</p>\n",
+      "content": "\n<p>Article URL: <a href=\"https://media.ccc.de/c/38c3\">https://media.ccc.de/c/38c3</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=42537631\">https://news.ycombinator.com/item?id=42537631</a></p>\n<p>Points: 399</p>\n<p># Comments: 60</p>\n",
       "flags": null,
       "enclosureUrl": "",
       "enclosureMime": ""
@@ -100,7 +155,18 @@
       "date": 1735447189,
       "author": "ChadNauseam",
       "unread": true,
-      "content": "\n<p>Article URL: <a href=\"https://paveldogreat.github.io/WebGL-Fluid-Simulation/\">https://paveldogreat.github.io/WebGL-Fluid-Simulation/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=42537567\">https://news.ycombinator.com/item?id=42537567</a></p>\n<p>Points: 263</p>\n<p># Comments: 30</p>\n",
+      "content": "\n<p>Article URL: <a href=\"https://paveldogreat.github.io/WebGL-Fluid-Simulation/\">https://paveldogreat.github.io/WebGL-Fluid-Simulation/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=42537567\">https://news.ycombinator.com/item?id=42537567</a></p>\n<p>Points: 315</p>\n<p># Comments: 39</p>\n",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "Can LLMs accurately recall the Bible?",
+      "url": "https://benkaiser.dev/can-llms-accurately-recall-the-bible/",
+      "date": 1735443892,
+      "author": "benkaiser",
+      "unread": true,
+      "content": "\n<p>Article URL: <a href=\"https://benkaiser.dev/can-llms-accurately-recall-the-bible/\">https://benkaiser.dev/can-llms-accurately-recall-the-bible/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=42537332\">https://news.ycombinator.com/item?id=42537332</a></p>\n<p>Points: 101</p>\n<p># Comments: 59</p>\n",
       "flags": null,
       "enclosureUrl": "",
       "enclosureMime": ""
@@ -133,7 +199,7 @@
       "date": 1735426961,
       "author": "aunderscored",
       "unread": true,
-      "content": "\n<p>Article URL: <a href=\"https://media.ccc.de/v/38c3-blinkencity-radio-controlling-street-lamps-and-power-plants\">https://media.ccc.de/v/38c3-blinkencity-radio-controlling-street-lamps-and-power-plants</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=42535622\">https://news.ycombinator.com/item?id=42535622</a></p>\n<p>Points: 157</p>\n<p># Comments: 31</p>\n",
+      "content": "\n<p>Article URL: <a href=\"https://media.ccc.de/v/38c3-blinkencity-radio-controlling-street-lamps-and-power-plants\">https://media.ccc.de/v/38c3-blinkencity-radio-controlling-street-lamps-and-power-plants</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=42535622\">https://news.ycombinator.com/item?id=42535622</a></p>\n<p>Points: 180</p>\n<p># Comments: 38</p>\n",
       "flags": null,
       "enclosureUrl": "",
       "enclosureMime": ""
@@ -166,7 +232,7 @@
       "date": 1735422511,
       "author": "gslin",
       "unread": true,
-      "content": "\n<p>Article URL: <a href=\"https://www.righto.com/2024/12/this-die-photo-of-pentium-shows.html\">https://www.righto.com/2024/12/this-die-photo-of-pentium-shows.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=42535071\">https://news.ycombinator.com/item?id=42535071</a></p>\n<p>Points: 304</p>\n<p># Comments: 81</p>\n",
+      "content": "\n<p>Article URL: <a href=\"https://www.righto.com/2024/12/this-die-photo-of-pentium-shows.html\">https://www.righto.com/2024/12/this-die-photo-of-pentium-shows.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=42535071\">https://news.ycombinator.com/item?id=42535071</a></p>\n<p>Points: 326</p>\n<p># Comments: 96</p>\n",
       "flags": null,
       "enclosureUrl": "",
       "enclosureMime": ""
@@ -210,7 +276,7 @@
       "date": 1735413750,
       "author": "latexr",
       "unread": true,
-      "content": "\n<p>Article URL: <a href=\"https://lapcatsoftware.com/articles/2024/12/3.html\">https://lapcatsoftware.com/articles/2024/12/3.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=42533685\">https://news.ycombinator.com/item?id=42533685</a></p>\n<p>Points: 980</p>\n<p># Comments: 752</p>\n",
+      "content": "\n<p>Article URL: <a href=\"https://lapcatsoftware.com/articles/2024/12/3.html\">https://lapcatsoftware.com/articles/2024/12/3.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=42533685\">https://news.ycombinator.com/item?id=42533685</a></p>\n<p>Points: 1100</p>\n<p># Comments: 832</p>\n",
       "flags": null,
       "enclosureUrl": "",
       "enclosureMime": ""
@@ -243,7 +309,7 @@
       "date": 1735399591,
       "author": "paul-tharun",
       "unread": true,
-      "content": "\n<p>Article URL: <a href=\"https://blog.daviddodda.com/how-i-automated-my-job-application-process-part-1\">https://blog.daviddodda.com/how-i-automated-my-job-application-process-part-1</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=42531695\">https://news.ycombinator.com/item?id=42531695</a></p>\n<p>Points: 515</p>\n<p># Comments: 718</p>\n",
+      "content": "\n<p>Article URL: <a href=\"https://blog.daviddodda.com/how-i-automated-my-job-application-process-part-1\">https://blog.daviddodda.com/how-i-automated-my-job-application-process-part-1</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=42531695\">https://news.ycombinator.com/item?id=42531695</a></p>\n<p>Points: 547</p>\n<p># Comments: 758</p>\n",
       "flags": null,
       "enclosureUrl": "",
       "enclosureMime": ""
@@ -254,7 +320,7 @@
       "date": 1735395750,
       "author": "JNRowe",
       "unread": true,
-      "content": "\n<p>Article URL: <a href=\"https://sachachua.com/blog/2024/12/emacsconf-2024-notes/\">https://sachachua.com/blog/2024/12/emacsconf-2024-notes/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=42531217\">https://news.ycombinator.com/item?id=42531217</a></p>\n<p>Points: 313</p>\n<p># Comments: 113</p>\n",
+      "content": "\n<p>Article URL: <a href=\"https://sachachua.com/blog/2024/12/emacsconf-2024-notes/\">https://sachachua.com/blog/2024/12/emacsconf-2024-notes/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=42531217\">https://news.ycombinator.com/item?id=42531217</a></p>\n<p>Points: 322</p>\n<p># Comments: 119</p>\n",
       "flags": null,
       "enclosureUrl": "",
       "enclosureMime": ""
@@ -287,7 +353,7 @@
       "date": 1735386195,
       "author": "vortex_ape",
       "unread": true,
-      "content": "\n<p>Article URL: <a href=\"https://www.chronotrains.com/en\">https://www.chronotrains.com/en</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=42530332\">https://news.ycombinator.com/item?id=42530332</a></p>\n<p>Points: 564</p>\n<p># Comments: 369</p>\n",
+      "content": "\n<p>Article URL: <a href=\"https://www.chronotrains.com/en\">https://www.chronotrains.com/en</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=42530332\">https://news.ycombinator.com/item?id=42530332</a></p>\n<p>Points: 587</p>\n<p># Comments: 383</p>\n",
       "flags": null,
       "enclosureUrl": "",
       "enclosureMime": ""
@@ -573,7 +639,7 @@
       "date": 1735283061,
       "author": "wxw",
       "unread": true,
-      "content": "\n<p>Article URL: <a href=\"https://codegolf.stackexchange.com/questions/11880/build-a-working-game-of-tetris-in-conways-game-of-life\">https://codegolf.stackexchange.com/questions/11880/build-a-working-game-of-tetris-in-conways-game-of-life</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=42520432\">https://news.ycombinator.com/item?id=42520432</a></p>\n<p>Points: 108</p>\n<p># Comments: 10</p>\n",
+      "content": "\n<p>Article URL: <a href=\"https://codegolf.stackexchange.com/questions/11880/build-a-working-game-of-tetris-in-conways-game-of-life\">https://codegolf.stackexchange.com/questions/11880/build-a-working-game-of-tetris-in-conways-game-of-life</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=42520432\">https://news.ycombinator.com/item?id=42520432</a></p>\n<p>Points: 144</p>\n<p># Comments: 14</p>\n",
       "flags": null,
       "enclosureUrl": "",
       "enclosureMime": ""

@@ -7,6 +7,17 @@
   "is_query": false,
   "items": [
     {
+      "title": "How to use SOPS with GitOps?",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1hp20m1/how_to_use_sops_with_gitops/",
+      "date": 1735496218,
+      "author": "/u/Bl4rc",
+      "unread": true,
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>I&#39;ve explored various tools aimed at integrating SOPS with GitOps workflows, such as:</p> <ul> <li><a href=\"https://github.com/viaduct-ai/kustomize-sops\">ksops</a></li> <li><a href=\"https://github.com/jkroepke/helm-secrets\">helm-secrets</a></li> <li><a href=\"https://fluxcd.io/flux/guides/mozilla-sops/#gitops-workflow\">flux</a> (which has built-in support for SOPS)</li> <li><a href=\"https://github.com/helmfile/helmfile\">helmfile</a></li> </ul> <p>While these are all great tools, none fully meet my needs. One of the things I love about SOPS is its simplicity: as long as I have the necessary private key, I can clone a repo and immediately access all the values used for deploying an application.</p> <h1>My Challenge</h1> <p>I frequently switch between deploying applications with Helm charts and using Kustomize. This is because some applications provide well-maintained Helm charts, while others only offer plain YAML manifests.</p> <p>Here’s where things get tricky:</p> <ol> <li><strong>For Helm charts</strong>: I’d like to encrypt the <code>values.yaml</code> file.</li> <li><strong>For plain YAML manifests</strong>: I prefer to use Kustomize and encrypt specific resources, like secrets, where needed.</li> </ol> <h1>Existing Solutions</h1> <ul> <li><strong>Helm-secrets</strong> works well for encrypting <code>values.yaml</code> files in Helm charts.</li> <li><strong>Ksops</strong> can handle encryption for Kustomize, but it requires enabling a feature flag and has uncertain long-term support, as Kustomize isn’t fully committed to supporting this use case.</li> </ul> <h1>What I’m Looking For</h1> <p>I need a solution that seamlessly integrates SOPS encryption into a workflow that supports both Helm and Kustomize. It should allow me to manage encrypted resources with minimal friction, regardless of whether I&#39;m dealing with Helm charts or plain YAMLs.</p> <p>Additionally, I’m looking for a solution that integrates well with GitOps tools like <strong>Argo CD</strong> and/or <strong>Flux</strong>. Ideally, it would simplify handling SOPS-encrypted resources within these platforms without requiring too many custom workarounds.</p> <p>Does anyone have a better approach, or know of a tool or workflow that bridges this gap?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Bl4rc\"> /u/Bl4rc </a> <br/> <span><a href=\"https://www.reddit.com/r/kubernetes/comments/1hp20m1/how_to_use_sops_with_gitops/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/kubernetes/comments/1hp20m1/how_to_use_sops_with_gitops/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
       "title": "Longhorn fatal error on HELM deployment - when following official documentation",
       "url": "https://www.reddit.com/r/kubernetes/comments/1hoyh0p/longhorn_fatal_error_on_helm_deployment_when/",
       "date": 1735486727,

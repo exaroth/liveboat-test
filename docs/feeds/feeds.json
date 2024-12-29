@@ -7,8 +7,9 @@
       "url": "",
       "feedlink": "",
       "hidden": false,
+      "is_query": true,
       "tags": [],
-      "num_items": 126
+      "num_items": 127
     },
     {
       "id": "2k6wXud2N91xpf4PwnSfo4j5WSuTNX5k",
@@ -17,8 +18,9 @@
       "url": "",
       "feedlink": "",
       "hidden": false,
+      "is_query": true,
       "tags": [],
-      "num_items": 93
+      "num_items": 78
     },
     {
       "id": "6NqfXMJvjScFnK97hKKrz4CmtGsYc",
@@ -27,8 +29,9 @@
       "url": "",
       "feedlink": "",
       "hidden": false,
+      "is_query": true,
       "tags": [],
-      "num_items": 53
+      "num_items": 57
     },
     {
       "id": "ETKeSdT1Jvn",
@@ -37,8 +40,9 @@
       "url": "",
       "feedlink": "",
       "hidden": false,
+      "is_query": true,
       "tags": [],
-      "num_items": 61
+      "num_items": 60
     },
     {
       "id": "4PaGeZyGUC",
@@ -47,8 +51,9 @@
       "url": "",
       "feedlink": "",
       "hidden": false,
+      "is_query": true,
       "tags": [],
-      "num_items": 247
+      "num_items": 248
     },
     {
       "id": "VMK7D8tQvwsLtnxKHzNdF9c4Yhtuqm",
@@ -57,6 +62,7 @@
       "url": "https://hnrss.org/best",
       "feedlink": "https://news.ycombinator.com/best",
       "hidden": false,
+      "is_query": false,
       "tags": [
         "dev"
       ],
@@ -69,6 +75,7 @@
       "url": "https://hnrss.org/show?points=60",
       "feedlink": "https://news.ycombinator.com/shownew",
       "hidden": false,
+      "is_query": false,
       "tags": [
         "dev"
       ],
@@ -81,10 +88,11 @@
       "url": "https://hnrss.org/frontpage?points=75",
       "feedlink": "https://news.ycombinator.com/",
       "hidden": false,
+      "is_query": false,
       "tags": [
         "dev"
       ],
-      "num_items": 74
+      "num_items": 80
     },
     {
       "id": "CQdwDV8xyajeX5DKoSYfBQhN4kkXBaTmXPYgJyANUWHyjCo5BpHUjy5gJhgngST",
@@ -93,6 +101,7 @@
       "url": "http://rss.slashdot.org/Slashdot/slashdotLinux",
       "feedlink": "https://linux.slashdot.org/",
       "hidden": false,
+      "is_query": false,
       "tags": [
         "dev"
       ],
@@ -105,6 +114,7 @@
       "url": "https://www.cyberciti.com/atom/atom.xml",
       "feedlink": "https://www.cyberciti.biz/atom/",
       "hidden": false,
+      "is_query": false,
       "tags": [
         "dev"
       ],
@@ -117,6 +127,7 @@
       "url": "http://rss.slashdot.org/Slashdot/slashdotDevelopers",
       "feedlink": "https://developers.slashdot.org/",
       "hidden": false,
+      "is_query": false,
       "tags": [
         "dev"
       ],
@@ -129,6 +140,7 @@
       "url": "http://aphyr.com/posts.atom",
       "feedlink": "http://aphyr.com/posts.atom",
       "hidden": false,
+      "is_query": false,
       "tags": [
         "dev"
       ],
@@ -141,6 +153,7 @@
       "url": "https://kubernetes.io/feed.xml",
       "feedlink": "https://kubernetes.io/",
       "hidden": false,
+      "is_query": false,
       "tags": [
         "dev"
       ],
@@ -153,6 +166,7 @@
       "url": "http://blog.golang.org/feed.atom",
       "feedlink": "http://blog.golang.org/feed.atom",
       "hidden": false,
+      "is_query": false,
       "tags": [
         "dev"
       ],
@@ -165,10 +179,11 @@
       "url": "https://www.reddit.com/r/golang/top/.rss?sort=top&t=day&limit=6",
       "feedlink": "https://www.reddit.com/r/golang/top/?sort=top&t=day&limit=6",
       "hidden": false,
+      "is_query": false,
       "tags": [
         "dev"
       ],
-      "num_items": 24
+      "num_items": 26
     },
     {
       "id": "2Qhhdda6Qnbf8RCfUPd4nB9sSt2WDQfEpF7H3gCnZZ4AsfbGMy3RmrCa6gigGY6TkbrrJn4wmHXXNYcVj1bK",
@@ -177,10 +192,11 @@
       "url": "https://www.reddit.com/r/rust/top/.rss?sort=top&t=day&limit=6",
       "feedlink": "https://www.reddit.com/r/rust/top/?sort=top&t=day&limit=6",
       "hidden": false,
+      "is_query": false,
       "tags": [
         "dev"
       ],
-      "num_items": 26
+      "num_items": 28
     },
     {
       "id": "7DceLgR4szFyHjpUotrBgPp9fEDdwmRmyXGW53xLQnbPAifjKVFPj1dyKJ6sHa1bC6AC9QFBhYUJLmJ6GyX57",
@@ -189,10 +205,11 @@
       "url": "https://www.reddit.com/r/linux/top/.rss?sort=top&t=day&limit=6",
       "feedlink": "https://www.reddit.com/r/linux/top/?sort=top&t=day&limit=6",
       "hidden": false,
+      "is_query": false,
       "tags": [
         "dev"
       ],
-      "num_items": 24
+      "num_items": 25
     },
     {
       "id": "46aP2QbqUqBrWfYqAibo8xS24qkvbDNgWZUrxgZ6XNcyUn6fFxkgS1aSWJWwPwaqFp34erWr8NxVvd6jro8uiaPvDUjw",
@@ -201,10 +218,11 @@
       "url": "https://www.reddit.com/r/kubernetes/top/.rss?sort=top&t=day&limit=6",
       "feedlink": "https://www.reddit.com/r/kubernetes/top/?sort=top&t=day&limit=6",
       "hidden": false,
+      "is_query": false,
       "tags": [
         "dev"
       ],
-      "num_items": 25
+      "num_items": 26
     },
     {
       "id": "EfcLDDAkyqguXw9Vbtcae7fRhxCsY1chPUNLpwbK9oHS42b4dGEMeGvA2hWHB2j3LFSAo7qhibLNgPBcA5djbGp95Jk5T",
@@ -213,10 +231,11 @@
       "url": "https://www.reddit.com/r/programming/top/.rss?sort=top&t=day&limit=6",
       "feedlink": "https://www.reddit.com/r/programming/top/?sort=top&t=day&limit=6",
       "hidden": false,
+      "is_query": false,
       "tags": [
         "dev"
       ],
-      "num_items": 29
+      "num_items": 30
     },
     {
       "id": "BRWJ2YmdUFoz1jUcCg5P21RYgb4CmSRDHkju2uMS7GB1447d",
@@ -225,6 +244,7 @@
       "url": "https://blog.pythonlibrary.org/feed",
       "feedlink": "https://www.blog.pythonlibrary.org/",
       "hidden": false,
+      "is_query": false,
       "tags": [
         "dev"
       ],
@@ -237,6 +257,7 @@
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCvqbFHwN-nwalWPjPUKpvTA",
       "feedlink": "https://www.youtube.com/channel/UCvqbFHwN-nwalWPjPUKpvTA",
       "hidden": false,
+      "is_query": false,
       "tags": [
         "dev"
       ],
@@ -249,6 +270,7 @@
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA",
       "feedlink": "https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA",
       "hidden": false,
+      "is_query": false,
       "tags": [
         "dev"
       ],
@@ -261,6 +283,7 @@
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCIat2Cdg661wF5DQDWTQAmg",
       "feedlink": "https://www.youtube.com/channel/UCIat2Cdg661wF5DQDWTQAmg",
       "hidden": false,
+      "is_query": false,
       "tags": [
         "dev"
       ],
@@ -273,6 +296,7 @@
       "url": "https://medium.com/@kyodo-tech/feed",
       "feedlink": "https://medium.com/@kyodo-tech?source=rss-ac02ab142942------2",
       "hidden": false,
+      "is_query": false,
       "tags": [
         "dev"
       ],
@@ -285,6 +309,7 @@
       "url": "https://jvns.ca/atom.xml",
       "feedlink": "https://jvns.ca/atom.xml",
       "hidden": false,
+      "is_query": false,
       "tags": [
         "dev"
       ],
@@ -297,6 +322,7 @@
       "url": "https://martinfowler.com/feed.atom",
       "feedlink": "https://martinfowler.com/feed.atom",
       "hidden": false,
+      "is_query": false,
       "tags": [
         "dev"
       ],
@@ -309,6 +335,7 @@
       "url": "https://transactional.blog/feed.xml",
       "feedlink": "https://transactional.blog/",
       "hidden": false,
+      "is_query": false,
       "tags": [
         "dev"
       ],
@@ -321,10 +348,11 @@
       "url": "https://newsletter.systemdesign.one/feed",
       "feedlink": "https://newsletter.systemdesign.one/",
       "hidden": false,
+      "is_query": false,
       "tags": [
         "dev"
       ],
-      "num_items": 1
+      "num_items": 2
     },
     {
       "id": "2bP4pJr4wVimh6yine63HqNeafoyheTFz1gqCrQ4h7Z",
@@ -333,10 +361,11 @@
       "url": "https://blog.algomaster.io/feed",
       "feedlink": "https://blog.algomaster.io/",
       "hidden": false,
+      "is_query": false,
       "tags": [
         "dev"
       ],
-      "num_items": 5
+      "num_items": 8
     },
     {
       "id": "368La1qZAv727wqsvC8sbLBZGryhH8SVwbTpqXaweRcuutW1gXksMDmNaCNQmszjC3ZZGEBhaSSEnnHmMXtmcZ71",
@@ -345,6 +374,7 @@
       "url": "https://access.acast.com/rss/theeconomistmorningbriefing/default",
       "feedlink": "https://www.economist.com/audio/podcasts/the-world-in-brief",
       "hidden": false,
+      "is_query": false,
       "tags": [
         "news"
       ],
@@ -357,10 +387,11 @@
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCknLrEdhRCp1aegoMqRaCZg",
       "feedlink": "https://www.youtube.com/channel/UCknLrEdhRCp1aegoMqRaCZg",
       "hidden": false,
+      "is_query": false,
       "tags": [
         "news"
       ],
-      "num_items": 42
+      "num_items": 43
     },
     {
       "id": "B69zEhWZA8UEAMn3PhHgwARc5WGncWEYFkmfHhvUDpmmwCTb86SBbpJu5kTKr3v5o6YroQ4JppXXAQCe8LGUnBWHDnF4s2jjN39bSf9J",
@@ -369,10 +400,11 @@
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UC52X5wxOL_s5yw0dQk7NtgA",
       "feedlink": "https://www.youtube.com/channel/UC52X5wxOL_s5yw0dQk7NtgA",
       "hidden": false,
+      "is_query": false,
       "tags": [
         "news"
       ],
-      "num_items": 63
+      "num_items": 66
     },
     {
       "id": "B69zEhWZA8UEAMn3PhHgwARc5WGncWEYFkmfHhvUDpmmwCTb86SBbpJu5kTKr3v5o6YroQ4JppdVoDHLN4yWZAVi5Siw4M8AuwbDYBxU",
@@ -381,6 +413,7 @@
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCK7tptUDHh-RYDsdxO1-5QQ",
       "feedlink": "https://www.youtube.com/channel/UCK7tptUDHh-RYDsdxO1-5QQ",
       "hidden": false,
+      "is_query": false,
       "tags": [
         "news"
       ],
@@ -393,6 +426,7 @@
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCIALMKvObZNtJ6AmdCLP7Lg",
       "feedlink": "https://www.youtube.com/channel/UCIALMKvObZNtJ6AmdCLP7Lg",
       "hidden": false,
+      "is_query": false,
       "tags": [
         "news"
       ],
@@ -405,10 +439,11 @@
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UChqUTb7kYRX8-EiaN3XFrSQ",
       "feedlink": "https://www.youtube.com/channel/UChqUTb7kYRX8-EiaN3XFrSQ",
       "hidden": false,
+      "is_query": false,
       "tags": [
         "news"
       ],
-      "num_items": 38
+      "num_items": 40
     },
     {
       "id": "46aP2QbqUqBrWfYqAibo8xS24qkvbDNgWZV4Z6rf2nuJ3cBJ971pKb6XZkWhnDxr957c82fPU4Cg4j63MSkVSUXrPi55",
@@ -417,10 +452,11 @@
       "url": "https://www.reddit.com/r/worldnews/top/.rss?sort=top&t=day&limit=10",
       "feedlink": "https://www.reddit.com/r/worldnews/top/?sort=top&t=day&limit=10",
       "hidden": false,
+      "is_query": false,
       "tags": [
         "news"
       ],
-      "num_items": 46
+      "num_items": 49
     },
     {
       "id": "368La1qZAv72idE55Whuffkk2TBtHuSndX6iNywdUkLBDxxx55cLvowsw5Rj5VbHUHjCYUBR5tHfX6BAYFQZS3af",
@@ -429,10 +465,11 @@
       "url": "https://www.reddit.com/r/europe/top/.rss?sort=top&t=day&limit=10",
       "feedlink": "https://www.reddit.com/r/europe/top/?sort=top&t=day&limit=10",
       "hidden": false,
+      "is_query": false,
       "tags": [
         "news"
       ],
-      "num_items": 49
+      "num_items": 52
     },
     {
       "id": "7ohP4GDMGPrTecAsbdk4Ux7kX8oRRvqavmV8ox2Lg53hhcq7wNE81x1V7wRzBRAAwq1qwKSjzyWP8JBzbs6Uq6UgbUcg21dXiqZm",
@@ -441,6 +478,7 @@
       "url": "https://access.acast.com/rss/c939f8d1-c4bc-478e-8bb9-e5343f9a7ab5/default",
       "feedlink": "https://www.historyhit.com/podcasts/",
       "hidden": false,
+      "is_query": false,
       "tags": [
         "podcast"
       ],
@@ -453,6 +491,7 @@
       "url": "https://changelog.com/gotime/feed",
       "feedlink": "https://changelog.com/gotime",
       "hidden": false,
+      "is_query": false,
       "tags": [
         "podcast"
       ],
@@ -465,10 +504,11 @@
       "url": "https://changelog.com/podcast/feed",
       "feedlink": "https://changelog.com/podcast",
       "hidden": false,
+      "is_query": false,
       "tags": [
         "podcast"
       ],
-      "num_items": 6
+      "num_items": 5
     },
     {
       "id": "B69zEhWZA8UEAMn3PhHgwARc5WGncWEYFkmfHhvUDpmmwCTb86SBbpJu5kTKr3v5o6YroQ4JpprHFm2UV2vWRfa9mX2y2pfXs5n2xbtt",
@@ -477,6 +517,7 @@
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCzQUP1qoWDoEbmsQxvdjxgQ",
       "feedlink": "https://www.youtube.com/channel/UCzQUP1qoWDoEbmsQxvdjxgQ",
       "hidden": false,
+      "is_query": false,
       "tags": [
         "podcast"
       ],
@@ -489,6 +530,7 @@
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCSHZKyawb77ixDdsGog4iWA",
       "feedlink": "https://www.youtube.com/channel/UCSHZKyawb77ixDdsGog4iWA",
       "hidden": false,
+      "is_query": false,
       "tags": [
         "podcast"
       ],
@@ -501,6 +543,7 @@
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCl9StMQ79LtEvlrskzjoYbQ",
       "feedlink": "https://www.youtube.com/channel/UCl9StMQ79LtEvlrskzjoYbQ",
       "hidden": false,
+      "is_query": false,
       "tags": [
         "podcast"
       ],
@@ -513,6 +556,7 @@
       "url": "https://softwareengineeringdaily.com/category/podcast/feed",
       "feedlink": "http://softwareengineeringdaily.com/category/all-episodes/exclusive-content/podcast/",
       "hidden": false,
+      "is_query": false,
       "tags": [
         "podcast"
       ],
@@ -525,6 +569,7 @@
       "url": "https://anchor.fm/s/174cb1b8/podcast/rss",
       "feedlink": "https://mlops.community/",
       "hidden": false,
+      "is_query": false,
       "tags": [
         "podcast"
       ],
@@ -537,6 +582,7 @@
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCfuj1MM5p37CRzWYPv_PsWA",
       "feedlink": "https://www.youtube.com/channel/UCfuj1MM5p37CRzWYPv_PsWA",
       "hidden": false,
+      "is_query": false,
       "tags": [
         "podcast"
       ],

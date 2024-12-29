@@ -7,6 +7,61 @@
   "is_query": true,
   "items": [
     {
+      "title": "President Jimmy Carter has passed away",
+      "url": "https://www.washingtonpost.com/obituaries/2024/12/29/jimmy-carter-president-dead/",
+      "date": 1735506501,
+      "author": "gkolli",
+      "unread": true,
+      "content": "\n<p>Article URL: <a href=\"https://www.washingtonpost.com/obituaries/2024/12/29/jimmy-carter-president-dead/\">https://www.washingtonpost.com/obituaries/2024/12/29/jimmy-carter-president-dead/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=42543128\">https://news.ycombinator.com/item?id=42543128</a></p>\n<p>Points: 304</p>\n<p># Comments: 85</p>\n",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "Visualizing memory layout of Rust's data types",
+      "url": "https://www.reddit.com/r/rust/comments/1hp3xjm/visualizing_memory_layout_of_rusts_data_types/",
+      "date": 1735501283,
+      "author": "/u/EventHelixCom",
+      "unread": true,
+      "content": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/EventHelixCom\"> /u/EventHelixCom </a> <br/> <span><a href=\"https://youtu.be/7_o-YRxf_cc?si=6__TBBF1wcln_JOJ\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/rust/comments/1hp3xjm/visualizing_memory_layout_of_rusts_data_types/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "Are PC hardware companies driving technology into restricted closed ecosystems?",
+      "url": "https://www.scottrlarson.com/updates/update-closed-technology-ecosystems-storage-configuration-lockdown/",
+      "date": 1735499503,
+      "author": "trinsic2",
+      "unread": true,
+      "content": "\n<p>Article URL: <a href=\"https://www.scottrlarson.com/updates/update-closed-technology-ecosystems-storage-configuration-lockdown/\">https://www.scottrlarson.com/updates/update-closed-technology-ecosystems-storage-configuration-lockdown/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=42542138\">https://news.ycombinator.com/item?id=42542138</a></p>\n<p>Points: 109</p>\n<p># Comments: 65</p>\n",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "Television 0.8.0",
+      "url": "https://www.reddit.com/r/linux/comments/1hp2iy4/television_080/",
+      "date": 1735497561,
+      "author": "/u/damien__f1",
+      "unread": true,
+      "content": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/damien__f1\"> /u/damien__f1 </a> <br/> <span><a href=\"https://i.redd.it/py7hnt911u9e1.png\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/linux/comments/1hp2iy4/television_080/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "How to use SOPS with GitOps?",
+      "url": "https://www.reddit.com/r/kubernetes/comments/1hp20m1/how_to_use_sops_with_gitops/",
+      "date": 1735496218,
+      "author": "/u/Bl4rc",
+      "unread": true,
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>I&#39;ve explored various tools aimed at integrating SOPS with GitOps workflows, such as:</p> <ul> <li><a href=\"https://github.com/viaduct-ai/kustomize-sops\">ksops</a></li> <li><a href=\"https://github.com/jkroepke/helm-secrets\">helm-secrets</a></li> <li><a href=\"https://fluxcd.io/flux/guides/mozilla-sops/#gitops-workflow\">flux</a> (which has built-in support for SOPS)</li> <li><a href=\"https://github.com/helmfile/helmfile\">helmfile</a></li> </ul> <p>While these are all great tools, none fully meet my needs. One of the things I love about SOPS is its simplicity: as long as I have the necessary private key, I can clone a repo and immediately access all the values used for deploying an application.</p> <h1>My Challenge</h1> <p>I frequently switch between deploying applications with Helm charts and using Kustomize. This is because some applications provide well-maintained Helm charts, while others only offer plain YAML manifests.</p> <p>Here’s where things get tricky:</p> <ol> <li><strong>For Helm charts</strong>: I’d like to encrypt the <code>values.yaml</code> file.</li> <li><strong>For plain YAML manifests</strong>: I prefer to use Kustomize and encrypt specific resources, like secrets, where needed.</li> </ol> <h1>Existing Solutions</h1> <ul> <li><strong>Helm-secrets</strong> works well for encrypting <code>values.yaml</code> files in Helm charts.</li> <li><strong>Ksops</strong> can handle encryption for Kustomize, but it requires enabling a feature flag and has uncertain long-term support, as Kustomize isn’t fully committed to supporting this use case.</li> </ul> <h1>What I’m Looking For</h1> <p>I need a solution that seamlessly integrates SOPS encryption into a workflow that supports both Helm and Kustomize. It should allow me to manage encrypted resources with minimal friction, regardless of whether I&#39;m dealing with Helm charts or plain YAMLs.</p> <p>Additionally, I’m looking for a solution that integrates well with GitOps tools like <strong>Argo CD</strong> and/or <strong>Flux</strong>. Ideally, it would simplify handling SOPS-encrypted resources within these platforms without requiring too many custom workarounds.</p> <p>Does anyone have a better approach, or know of a tool or workflow that bridges this gap?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Bl4rc\"> /u/Bl4rc </a> <br/> <span><a href=\"https://www.reddit.com/r/kubernetes/comments/1hp20m1/how_to_use_sops_with_gitops/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/kubernetes/comments/1hp20m1/how_to_use_sops_with_gitops/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
       "title": "'International Obfuscated C Code Contest' Will Relaunch, Celebrating 40th Anniversary",
       "url": "https://developers.slashdot.org/story/24/12/29/1730224/international-obfuscated-c-code-contest-will-relaunch-celebrating-40th-anniversary?utm_source=rss1.0mainlinkanon&utm_medium=feed",
       "date": 1735493640,
@@ -23,7 +78,7 @@
       "date": 1735491988,
       "author": "colinprince",
       "unread": true,
-      "content": "\n<p>Article URL: <a href=\"https://www.cbc.ca/lite/story/1.7419805\">https://www.cbc.ca/lite/story/1.7419805</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=42541173\">https://news.ycombinator.com/item?id=42541173</a></p>\n<p>Points: 83</p>\n<p># Comments: 31</p>\n",
+      "content": "\n<p>Article URL: <a href=\"https://www.cbc.ca/lite/story/1.7419805\">https://www.cbc.ca/lite/story/1.7419805</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=42541173\">https://news.ycombinator.com/item?id=42541173</a></p>\n<p>Points: 136</p>\n<p># Comments: 100</p>\n",
       "flags": null,
       "enclosureUrl": "",
       "enclosureMime": ""
@@ -40,12 +95,12 @@
       "enclosureMime": ""
     },
     {
-      "title": "I Was Wrong about the Ethics Crisis (Moshe Vardi, CACM)",
+      "title": "I was wrong about the ethics crisis",
       "url": "https://cacm.acm.org/opinion/i-was-wrong-about-the-ethics-crisis/",
       "date": 1735489398,
       "author": "bikenaga",
       "unread": true,
-      "content": "\n<p>Article URL: <a href=\"https://cacm.acm.org/opinion/i-was-wrong-about-the-ethics-crisis/\">https://cacm.acm.org/opinion/i-was-wrong-about-the-ethics-crisis/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=42540862\">https://news.ycombinator.com/item?id=42540862</a></p>\n<p>Points: 114</p>\n<p># Comments: 102</p>\n",
+      "content": "\n<p>Article URL: <a href=\"https://cacm.acm.org/opinion/i-was-wrong-about-the-ethics-crisis/\">https://cacm.acm.org/opinion/i-was-wrong-about-the-ethics-crisis/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=42540862\">https://news.ycombinator.com/item?id=42540862</a></p>\n<p>Points: 186</p>\n<p># Comments: 234</p>\n",
       "flags": null,
       "enclosureUrl": "",
       "enclosureMime": ""
@@ -73,6 +128,17 @@
       "enclosureMime": ""
     },
     {
+      "title": "BSD kqueue is a mountain of technical debt (2021)",
+      "url": "https://ariadne.space/2021/06/06/actually-bsd-kqueue-is-a-mountain-of-technical-debt/",
+      "date": 1735485646,
+      "author": "thunderbong",
+      "unread": true,
+      "content": "\n<p>Article URL: <a href=\"https://ariadne.space/2021/06/06/actually-bsd-kqueue-is-a-mountain-of-technical-debt/\">https://ariadne.space/2021/06/06/actually-bsd-kqueue-is-a-mountain-of-technical-debt/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=42540442\">https://news.ycombinator.com/item?id=42540442</a></p>\n<p>Points: 101</p>\n<p># Comments: 67</p>\n",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
       "title": "China turns members of its diaspora into spies",
       "url": "https://www.economist.com/china/2024/12/26/how-china-turns-members-of-its-diaspora-into-spies",
       "date": 1735485493,
@@ -84,12 +150,45 @@
       "enclosureMime": ""
     },
     {
+      "title": "Struggling on understanding error type in golang",
+      "url": "https://www.reddit.com/r/golang/comments/1hox5p0/struggling_on_understanding_error_type_in_golang/",
+      "date": 1735482757,
+      "author": "/u/Retsu_Alp",
+      "unread": true,
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi;</p> <p>I was learning go from tour of go in website and I am currently having trouble on understanding on returning error. <a href=\"https://go.dev/tour/methods/20\">https://go.dev/tour/methods/20</a></p> <p>```go package main</p> <p>import ( &quot;fmt&quot; )</p> <p>type ErrNegativeSqrt float64</p> <p>func (e ErrNegativeSqrt) Error() string { return fmt.Sprintf(&quot;cannot Sqrt negative number: %v&quot;, float64(e)) }</p> <p>func Sqrt(x float64) (float64, error) { if x &lt; 0 { return 0, ErrNegativeSqrt(x) } z := 1.0 for i := 0; i &lt; 10; i++ { z -= (z*z - x) / (2 * z) }</p> <pre><code>return z, nil </code></pre> <p>}</p> <p>func main() { fmt.Println(Sqrt(2)) fmt.Println(Sqrt(-2)) }</p> <p>```</p> <p>My question is how does ErrNegativeSqrt(x) returns an error. I tried to get help from chatGPT but it is still unclear for me. Thanks in advance.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Retsu_Alp\"> /u/Retsu_Alp </a> <br/> <span><a href=\"https://www.reddit.com/r/golang/comments/1hox5p0/struggling_on_understanding_error_type_in_golang/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/golang/comments/1hox5p0/struggling_on_understanding_error_type_in_golang/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
       "title": "Cloud architecture diagramming and design tools",
       "url": "https://www.reddit.com/r/kubernetes/comments/1hox3p0/cloud_architecture_diagramming_and_design_tools/",
       "date": 1735482580,
       "author": "/u/EquivalentDepthFrom",
       "unread": true,
       "content": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/EquivalentDepthFrom\"> /u/EquivalentDepthFrom </a> <br/> <span><a href=\"https://cloudarchitecture.tools/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/kubernetes/comments/1hox3p0/cloud_architecture_diagramming_and_design_tools/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "refinement types & units of measure revisited",
+      "url": "https://www.reddit.com/r/rust/comments/1howvp9/refinement_types_units_of_measure_revisited/",
+      "date": 1735481859,
+      "author": "/u/gclichtenberg",
+      "unread": true,
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>In response to <a href=\"https://www.reddit.com/r/rust/comments/1hkkn2u/what_would_it_take_to_let_users_add_refinement/\">this earlier post</a>, a crate that <a href=\"https://github.com/bwo/units-poc\">features a minimal type-level system for doing what the author wants</a>. This is really just an illustration of some type-level programming: the <a href=\"https://docs.rs/uom/latest/uom/index.html\"><code>uom</code></a> crate actually knows what units of measure <em>are</em>, à la Frink.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/gclichtenberg\"> /u/gclichtenberg </a> <br/> <span><a href=\"https://www.reddit.com/r/rust/comments/1howvp9/refinement_types_units_of_measure_revisited/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/rust/comments/1howvp9/refinement_types_units_of_measure_revisited/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "Is Iceland getting ready to join the EU?",
+      "url": "https://mikegalsworthy.substack.com/p/is-iceland-getting-ready-to-join",
+      "date": 1735480831,
+      "author": "mariuz",
+      "unread": true,
+      "content": "\n<p>Article URL: <a href=\"https://mikegalsworthy.substack.com/p/is-iceland-getting-ready-to-join\">https://mikegalsworthy.substack.com/p/is-iceland-getting-ready-to-join</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=42539987\">https://news.ycombinator.com/item?id=42539987</a></p>\n<p>Points: 87</p>\n<p># Comments: 138</p>\n",
       "flags": null,
       "enclosureUrl": "",
       "enclosureMime": ""
@@ -150,12 +249,12 @@
       "enclosureMime": ""
     },
     {
-      "title": "The Average American Spent 2.5 Months on Their Phone in 2024",
+      "title": "The average American spent 2.5 months on their phone in 2024",
       "url": "https://www.pcmag.com/articles/yikes-the-average-american-spent-25-months-on-their-phone-in-2024",
       "date": 1735474614,
       "author": "elorant",
       "unread": true,
-      "content": "\n<p>Article URL: <a href=\"https://www.pcmag.com/articles/yikes-the-average-american-spent-25-months-on-their-phone-in-2024\">https://www.pcmag.com/articles/yikes-the-average-american-spent-25-months-on-their-phone-in-2024</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=42539474\">https://news.ycombinator.com/item?id=42539474</a></p>\n<p>Points: 97</p>\n<p># Comments: 93</p>\n",
+      "content": "\n<p>Article URL: <a href=\"https://www.pcmag.com/articles/yikes-the-average-american-spent-25-months-on-their-phone-in-2024\">https://www.pcmag.com/articles/yikes-the-average-american-spent-25-months-on-their-phone-in-2024</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=42539474\">https://news.ycombinator.com/item?id=42539474</a></p>\n<p>Points: 135</p>\n<p># Comments: 160</p>\n",
       "flags": null,
       "enclosureUrl": "",
       "enclosureMime": ""
@@ -183,12 +282,34 @@
       "enclosureMime": ""
     },
     {
+      "title": "I Run LLMs Locally",
+      "url": "https://abishekmuthian.com/how-i-run-llms-locally/",
+      "date": 1735469340,
+      "author": "Abishek_Muthian",
+      "unread": true,
+      "content": "\n<p>Article URL: <a href=\"https://abishekmuthian.com/how-i-run-llms-locally/\">https://abishekmuthian.com/how-i-run-llms-locally/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=42539155\">https://news.ycombinator.com/item?id=42539155</a></p>\n<p>Points: 144</p>\n<p># Comments: 84</p>\n",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
       "title": "What is a thing every programmer should know?",
       "url": "https://www.reddit.com/r/programming/comments/1hotewm/what_is_a_thing_every_programmer_should_know/",
       "date": 1735468403,
       "author": "/u/tevelee",
       "unread": true,
       "content": "<!-- SC_OFF --><div class=\"md\"><p>In the book “97 things every programmer should know” they asked a bunch of authors for one idea/method/principle they think is important to know. There are thousands of experienced software engineers reading this subreddit, there must be a lot of great advice out there. What is yours?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/tevelee\"> /u/tevelee </a> <br/> <span><a href=\"https://www.oreilly.com/library/view/97-things-every/9780596809515/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1hotewm/what_is_a_thing_every_programmer_should_know/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "Simple web chat app built using React and Go",
+      "url": "https://www.reddit.com/r/golang/comments/1hotdez/simple_web_chat_app_built_using_react_and_go/",
+      "date": 1735468211,
+      "author": "/u/DixGee",
+      "unread": true,
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi I built a web chat app using go where people can chat anonymously. This is my 1st app in go. I would like to know your thoughts.</p> <p><a href=\"https://github.com/shaon72/golang-chat-app\">https://github.com/shaon72/golang-chat-app</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/DixGee\"> /u/DixGee </a> <br/> <span><a href=\"https://www.reddit.com/r/golang/comments/1hotdez/simple_web_chat_app_built_using_react_and_go/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/golang/comments/1hotdez/simple_web_chat_app_built_using_react_and_go/\">[comments]</a></span>",
       "flags": null,
       "enclosureUrl": "",
       "enclosureMime": ""
@@ -243,7 +364,7 @@
       "date": 1735465713,
       "author": "doener",
       "unread": true,
-      "content": "\n<p>Article URL: <a href=\"https://media.ccc.de/v/38c3-we-ve-not-been-trained-for-this-life-after-the-newag-drm-disclosure\">https://media.ccc.de/v/38c3-we-ve-not-been-trained-for-this-life-after-the-newag-drm-disclosure</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=42538914\">https://news.ycombinator.com/item?id=42538914</a></p>\n<p>Points: 288</p>\n<p># Comments: 50</p>\n",
+      "content": "\n<p>Article URL: <a href=\"https://media.ccc.de/v/38c3-we-ve-not-been-trained-for-this-life-after-the-newag-drm-disclosure\">https://media.ccc.de/v/38c3-we-ve-not-been-trained-for-this-life-after-the-newag-drm-disclosure</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=42538914\">https://news.ycombinator.com/item?id=42538914</a></p>\n<p>Points: 326</p>\n<p># Comments: 54</p>\n",
       "flags": null,
       "enclosureUrl": "",
       "enclosureMime": ""
@@ -254,7 +375,7 @@
       "date": 1735465629,
       "author": "doener",
       "unread": true,
-      "content": "\n<p>Article URL: <a href=\"https://media.ccc.de/v/38c3-bioterrorism-will-save-your-life-with-the-4-thieves-vinegar-collective\">https://media.ccc.de/v/38c3-bioterrorism-will-save-your-life-with-the-4-thieves-vinegar-collective</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=42538903\">https://news.ycombinator.com/item?id=42538903</a></p>\n<p>Points: 92</p>\n<p># Comments: 71</p>\n",
+      "content": "\n<p>Article URL: <a href=\"https://media.ccc.de/v/38c3-bioterrorism-will-save-your-life-with-the-4-thieves-vinegar-collective\">https://media.ccc.de/v/38c3-bioterrorism-will-save-your-life-with-the-4-thieves-vinegar-collective</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=42538903\">https://news.ycombinator.com/item?id=42538903</a></p>\n<p>Points: 120</p>\n<p># Comments: 102</p>\n",
       "flags": null,
       "enclosureUrl": "",
       "enclosureMime": ""
@@ -309,7 +430,7 @@
       "date": 1735448073,
       "author": "type0",
       "unread": true,
-      "content": "\n<p>Article URL: <a href=\"https://media.ccc.de/c/38c3\">https://media.ccc.de/c/38c3</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=42537631\">https://news.ycombinator.com/item?id=42537631</a></p>\n<p>Points: 352</p>\n<p># Comments: 55</p>\n",
+      "content": "\n<p>Article URL: <a href=\"https://media.ccc.de/c/38c3\">https://media.ccc.de/c/38c3</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=42537631\">https://news.ycombinator.com/item?id=42537631</a></p>\n<p>Points: 399</p>\n<p># Comments: 60</p>\n",
       "flags": null,
       "enclosureUrl": "",
       "enclosureMime": ""
@@ -320,7 +441,7 @@
       "date": 1735447189,
       "author": "ChadNauseam",
       "unread": true,
-      "content": "\n<p>Article URL: <a href=\"https://paveldogreat.github.io/WebGL-Fluid-Simulation/\">https://paveldogreat.github.io/WebGL-Fluid-Simulation/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=42537567\">https://news.ycombinator.com/item?id=42537567</a></p>\n<p>Points: 263</p>\n<p># Comments: 30</p>\n",
+      "content": "\n<p>Article URL: <a href=\"https://paveldogreat.github.io/WebGL-Fluid-Simulation/\">https://paveldogreat.github.io/WebGL-Fluid-Simulation/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=42537567\">https://news.ycombinator.com/item?id=42537567</a></p>\n<p>Points: 315</p>\n<p># Comments: 39</p>\n",
       "flags": null,
       "enclosureUrl": "",
       "enclosureMime": ""
@@ -343,6 +464,17 @@
       "author": "/u/rkj",
       "unread": true,
       "content": "<!-- SC_OFF --><div class=\"md\"><p>I&#39;ve just installed fresh Talos cluster on Proxmox following standard guide. Installed metallb using helm, but when trying to add default address pool I was getting errors:</p> <p><code>kubectl apply -f default-pool.yaml Error from server (InternalError): error when creating &quot;default-pool.yaml&quot;: Internal error occurred: failed calling webhook &quot;ipaddresspoolvalidationwebhook.metallb.io&quot;: failed to call webhook: Post &quot;https://metallb-webhook-service.metallb-system.svc:443/validate-metallb-io-v1beta1-ipaddresspool?timeout=10s&quot;: context deadline exceeded</code></p> <p>Took me lot of debugging to figure out the network between pods on different hosts do not work, but works internally, pointing to issue with tunneling. I know nothing how it works or why, and long back and forth with ChatGPT didn&#39;t help much. Finally Claude suggested to add &quot;VNI&quot; to the flannel config and that fixed the issue.</p> <p>Is this a problem with default Talos install, with my proxmox setup or some other thing I should read about? Any links would be appreciated or explanation what is going on. Thanks!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/rkj\"> /u/rkj </a> <br/> <span><a href=\"https://www.reddit.com/r/kubernetes/comments/1honu05/problem_with_networking_on_fresh_talos/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/kubernetes/comments/1honu05/problem_with_networking_on_fresh_talos/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "Can LLMs accurately recall the Bible?",
+      "url": "https://benkaiser.dev/can-llms-accurately-recall-the-bible/",
+      "date": 1735443892,
+      "author": "benkaiser",
+      "unread": true,
+      "content": "\n<p>Article URL: <a href=\"https://benkaiser.dev/can-llms-accurately-recall-the-bible/\">https://benkaiser.dev/can-llms-accurately-recall-the-bible/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=42537332\">https://news.ycombinator.com/item?id=42537332</a></p>\n<p>Points: 101</p>\n<p># Comments: 59</p>\n",
       "flags": null,
       "enclosureUrl": "",
       "enclosureMime": ""
@@ -458,6 +590,17 @@
       "enclosureMime": ""
     },
     {
+      "title": "Seergdb v2.5 released for Linux.",
+      "url": "https://www.reddit.com/r/programming/comments/1hoiqcg/seergdb_v25_released_for_linux/",
+      "date": 1735429642,
+      "author": "/u/epasveer",
+      "unread": true,
+      "content": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/epasveer\"> /u/epasveer </a> <br/> <span><a href=\"https://github.com/epasveer/seer/releases/tag/v2.5\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/programming/comments/1hoiqcg/seergdb_v25_released_for_linux/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
       "title": "Seergdb v2.5 released.",
       "url": "https://www.reddit.com/r/linux/comments/1hoinq7/seergdb_v25_released/",
       "date": 1735429432,
@@ -474,7 +617,7 @@
       "date": 1735426961,
       "author": "aunderscored",
       "unread": true,
-      "content": "\n<p>Article URL: <a href=\"https://media.ccc.de/v/38c3-blinkencity-radio-controlling-street-lamps-and-power-plants\">https://media.ccc.de/v/38c3-blinkencity-radio-controlling-street-lamps-and-power-plants</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=42535622\">https://news.ycombinator.com/item?id=42535622</a></p>\n<p>Points: 157</p>\n<p># Comments: 31</p>\n",
+      "content": "\n<p>Article URL: <a href=\"https://media.ccc.de/v/38c3-blinkencity-radio-controlling-street-lamps-and-power-plants\">https://media.ccc.de/v/38c3-blinkencity-radio-controlling-street-lamps-and-power-plants</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=42535622\">https://news.ycombinator.com/item?id=42535622</a></p>\n<p>Points: 180</p>\n<p># Comments: 38</p>\n",
       "flags": null,
       "enclosureUrl": "",
       "enclosureMime": ""
@@ -529,7 +672,7 @@
       "date": 1735422511,
       "author": "gslin",
       "unread": true,
-      "content": "\n<p>Article URL: <a href=\"https://www.righto.com/2024/12/this-die-photo-of-pentium-shows.html\">https://www.righto.com/2024/12/this-die-photo-of-pentium-shows.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=42535071\">https://news.ycombinator.com/item?id=42535071</a></p>\n<p>Points: 304</p>\n<p># Comments: 81</p>\n",
+      "content": "\n<p>Article URL: <a href=\"https://www.righto.com/2024/12/this-die-photo-of-pentium-shows.html\">https://www.righto.com/2024/12/this-die-photo-of-pentium-shows.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=42535071\">https://news.ycombinator.com/item?id=42535071</a></p>\n<p>Points: 326</p>\n<p># Comments: 96</p>\n",
       "flags": null,
       "enclosureUrl": "",
       "enclosureMime": ""
@@ -617,7 +760,7 @@
       "date": 1735413750,
       "author": "latexr",
       "unread": true,
-      "content": "\n<p>Article URL: <a href=\"https://lapcatsoftware.com/articles/2024/12/3.html\">https://lapcatsoftware.com/articles/2024/12/3.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=42533685\">https://news.ycombinator.com/item?id=42533685</a></p>\n<p>Points: 980</p>\n<p># Comments: 752</p>\n",
+      "content": "\n<p>Article URL: <a href=\"https://lapcatsoftware.com/articles/2024/12/3.html\">https://lapcatsoftware.com/articles/2024/12/3.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=42533685\">https://news.ycombinator.com/item?id=42533685</a></p>\n<p>Points: 1100</p>\n<p># Comments: 832</p>\n",
       "flags": null,
       "enclosureUrl": "",
       "enclosureMime": ""
@@ -738,7 +881,7 @@
       "date": 1735399591,
       "author": "paul-tharun",
       "unread": true,
-      "content": "\n<p>Article URL: <a href=\"https://blog.daviddodda.com/how-i-automated-my-job-application-process-part-1\">https://blog.daviddodda.com/how-i-automated-my-job-application-process-part-1</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=42531695\">https://news.ycombinator.com/item?id=42531695</a></p>\n<p>Points: 515</p>\n<p># Comments: 718</p>\n",
+      "content": "\n<p>Article URL: <a href=\"https://blog.daviddodda.com/how-i-automated-my-job-application-process-part-1\">https://blog.daviddodda.com/how-i-automated-my-job-application-process-part-1</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=42531695\">https://news.ycombinator.com/item?id=42531695</a></p>\n<p>Points: 547</p>\n<p># Comments: 758</p>\n",
       "flags": null,
       "enclosureUrl": "",
       "enclosureMime": ""
@@ -782,7 +925,7 @@
       "date": 1735395750,
       "author": "JNRowe",
       "unread": true,
-      "content": "\n<p>Article URL: <a href=\"https://sachachua.com/blog/2024/12/emacsconf-2024-notes/\">https://sachachua.com/blog/2024/12/emacsconf-2024-notes/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=42531217\">https://news.ycombinator.com/item?id=42531217</a></p>\n<p>Points: 313</p>\n<p># Comments: 113</p>\n",
+      "content": "\n<p>Article URL: <a href=\"https://sachachua.com/blog/2024/12/emacsconf-2024-notes/\">https://sachachua.com/blog/2024/12/emacsconf-2024-notes/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=42531217\">https://news.ycombinator.com/item?id=42531217</a></p>\n<p>Points: 322</p>\n<p># Comments: 119</p>\n",
       "flags": null,
       "enclosureUrl": "",
       "enclosureMime": ""
@@ -892,7 +1035,7 @@
       "date": 1735386195,
       "author": "vortex_ape",
       "unread": true,
-      "content": "\n<p>Article URL: <a href=\"https://www.chronotrains.com/en\">https://www.chronotrains.com/en</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=42530332\">https://news.ycombinator.com/item?id=42530332</a></p>\n<p>Points: 564</p>\n<p># Comments: 369</p>\n",
+      "content": "\n<p>Article URL: <a href=\"https://www.chronotrains.com/en\">https://www.chronotrains.com/en</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=42530332\">https://news.ycombinator.com/item?id=42530332</a></p>\n<p>Points: 587</p>\n<p># Comments: 383</p>\n",
       "flags": null,
       "enclosureUrl": "",
       "enclosureMime": ""
@@ -1256,138 +1399,6 @@
       "author": "DrPhish",
       "unread": true,
       "content": "\n<p>After decades of tracking my exercise programs in progressively more complex spreadsheets I eventually burned out on metrics and complicated periodization programs to the point where I had almost stopped exercising.<p>I am now at a place where I simply want the minimal amount of structure and tracking to make sure I can maintain my fitness, so I boiled the entire concept down to what I felt was its essence: enough information and structure to remind you of what is needed today, and how it went on the same exercises last week.<p>To reduce friction, the interface is kept as simple as possible. Simple to the point where all setup is done by editing the html source file and there is only one freeform \"weight\" textbox per exercise to manipulate. Data is autosaved as it is entered. It never nags or judges you except by showing the last date you entered data in for that day-of-the-week's exercises. The only quality-of-life feature is a super-simple rest period timer in the footer.<p>It has no external dependencies and only uses browser local storage. There is no possibility of monetizing it.<p>I was on the fence about sharing since it is such a small and simple project, but decided I would share here in case anyone is looking to make a fresh start in the new year and finds the philosophy appealing.</p>\n<hr>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=42526769\">https://news.ycombinator.com/item?id=42526769</a></p>\n<p>Points: 115</p>\n<p># Comments: 38</p>\n",
-      "flags": null,
-      "enclosureUrl": "",
-      "enclosureMime": ""
-    },
-    {
-      "title": "Italy fines OpenAI over ChatGPT privacy rules breach",
-      "url": "https://www.reddit.com/r/linux/comments/1hnq47s/italy_fines_openai_over_chatgpt_privacy_rules/",
-      "date": 1735336698,
-      "author": "/u/Alexander_Selkirk",
-      "unread": true,
-      "content": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Alexander_Selkirk\"> /u/Alexander_Selkirk </a> <br/> <span><a href=\"https://www.channelnewsasia.com/business/italy-fines-openai-over-chatgpt-privacy-rules-breach-4819041\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/linux/comments/1hnq47s/italy_fines_openai_over_chatgpt_privacy_rules/\">[comments]</a></span>",
-      "flags": null,
-      "enclosureUrl": "",
-      "enclosureMime": ""
-    },
-    {
-      "title": "$50,000 Rust open source bounties",
-      "url": "https://www.reddit.com/r/rust/comments/1hnq2pc/50000_rust_open_source_bounties/",
-      "date": 1735336580,
-      "author": "/u/ioannisflo",
-      "unread": true,
-      "content": "<!-- SC_OFF --><div class=\"md\"><p>A list of available Rust OSS bounties on GitHub from <a href=\"http://Algora.io\">Algora.io</a></p> <p>Project: <a href=\"http://Golem.cloud\">Golem.cloud</a></p> <ul> <li>$25,000 <a href=\"https://github.com/golemcloud/golem/issues/1201\">gRPC and OpenAPI Integration</a></li> <li>$10,000 <a href=\"https://github.com/golemcloud/golem/issues/1178\">Develop OpenAPI Export for API Definition</a></li> <li>$5,000 <a href=\"https://github.com/golemcloud/golem/issues/1210\">First-Class Windows Development Environment</a></li> <li>$5,000 <a href=\"https://github.com/golemcloud/golem/issues/1016\">Implement wasm-rdbms interface for standardized database access</a></li> </ul> <p>Project: <a href=\"http://NativeLink.com\">NativeLink.com</a></p> <ul> <li>$2,500 <a href=\"https://github.com/TraceMachina/nativelink/issues/659\">Implement Google Cloud Bucket Store</a></li> <li>$2,000 <a href=\"https://github.com/TraceMachina/nativelink/issues/1542\">Implement an Azure store</a></li> <li>$1,000 <a href=\"https://github.com/TraceMachina/nativelink/issues/1325\">Support digest_function in GrpcStore</a></li> </ul> <p>Project: Screen.pipe</p> <ul> <li>$1,000 <a href=\"https://github.com/mediar-ai/screenpipe/issues/850\">Make RDP work</a></li> </ul> <p>Bounties are paid in USD after pull requests are merged.<br/> These are some of the largest ones available. Happy building!</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/ioannisflo\"> /u/ioannisflo </a> <br/> <span><a href=\"https://www.reddit.com/r/rust/comments/1hnq2pc/50000_rust_open_source_bounties/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/rust/comments/1hnq2pc/50000_rust_open_source_bounties/\">[comments]</a></span>",
-      "flags": null,
-      "enclosureUrl": "",
-      "enclosureMime": ""
-    },
-    {
-      "title": "Kubernetes DNS Resolution Help",
-      "url": "https://www.reddit.com/r/kubernetes/comments/1hnpw8h/kubernetes_dns_resolution_help/",
-      "date": 1735336103,
-      "author": "/u/HolidayCupcake9745",
-      "unread": true,
-      "content": "<!-- SC_OFF --><div class=\"md\"><p>Greetings everyone, i am new to K8s and recently i set up my 1 master 2 worker cluster using kubeadm and calico as CNI My biggest gripe is the DNS resolution of the services i deploy. It doesnt work until i add the entry of “namespace.svc.cluster.local” in the etc/resolv.conf of the worker node. So it means everytime i create a new namespace and deploy my application i have to add dns entry in all worker nodes etc/resolv.conf? I installed busybox for debugging and i found out i cant nslookup for kubernetes.default i get NxError but when i nslookup kubernetes.default.svc.cluster.local i get expected result i.e 10.96.0.1. I chatgped and searched everywhere but i cant figure this out please help me</p> <p>Just for further context i m using calico for networking my pod CIDR is 172.24.0.0/16 and my host network is on 192.168.x.x</p> <p>UPDATE: after one of the comment’s recommendations i uninstalled calico and gave cilium a try. I chose 10.244.0.0/24 as my pod cidr and I successfully installed it. Now everything was looking good cilium test -wait showed all good. But when i do cilium connectivity test it deploys a sample app and service for testing the connectivity and it failed at the step below</p> <p>timeout reached waiting for NodePort 192.168.250.114:31457 (cilium-test-1/echo-same-node) (last error: error with exec request (pod=cilium-test-1/client-b65598b6f-knt7l, container=): context deadline exceeded: &quot;&quot;) Please note this is master node and my worker node passed this test successfully. Then i did actual field test of my DNS resolution. And yes it worked everything was resolving nicely. But heres the new problem. Now lets say you deploy a service as NodePort on your any worker nodes. You access it from outside using workernodeip:nodeport it works but when i use masternodeip:nodeport it fails. This should work coz kube-proxy is there it doesn’t matter which node ip you use it should work so any idea guys ?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/HolidayCupcake9745\"> /u/HolidayCupcake9745 </a> <br/> <span><a href=\"https://www.reddit.com/r/kubernetes/comments/1hnpw8h/kubernetes_dns_resolution_help/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/kubernetes/comments/1hnpw8h/kubernetes_dns_resolution_help/\">[comments]</a></span>",
-      "flags": null,
-      "enclosureUrl": "",
-      "enclosureMime": ""
-    },
-    {
-      "title": "I just released version 1.2.0 of my package \"aarol/reload\", which enables easy hot-reloading of web server assets",
-      "url": "https://www.reddit.com/r/golang/comments/1hnpl3b/i_just_released_version_120_of_my_package/",
-      "date": 1735335260,
-      "author": "/u/despacit0_",
-      "unread": true,
-      "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/golang/comments/1hnpl3b/i_just_released_version_120_of_my_package/\"> <img src=\"https://external-preview.redd.it/cXib0KD6i7Q1IyOfQnLa4r5DTBRCLg7k2nziWzUsJCE.jpg?width=640&amp;crop=smart&amp;auto=webp&amp;s=031900adf2bb1fb44191deef6c039f8ad8111012\" alt=\"I just released version 1.2.0 of my package &quot;aarol/reload&quot;, which enables easy hot-reloading of web server assets\" title=\"I just released version 1.2.0 of my package &quot;aarol/reload&quot;, which enables easy hot-reloading of web server assets\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/despacit0_\"> /u/despacit0_ </a> <br/> <span><a href=\"https://github.com/aarol/reload/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/golang/comments/1hnpl3b/i_just_released_version_120_of_my_package/\">[comments]</a></span> </td></tr></table>",
-      "flags": null,
-      "enclosureUrl": "",
-      "enclosureMime": ""
-    },
-    {
-      "title": "Demystifying Common Microcontroller Debug Protocols [video]",
-      "url": "https://media.ccc.de/v/38c3-demystifying-common-microcontroller-debug-protocols",
-      "date": 1735334054,
-      "author": "doener",
-      "unread": true,
-      "content": "\n<p>Article URL: <a href=\"https://media.ccc.de/v/38c3-demystifying-common-microcontroller-debug-protocols\">https://media.ccc.de/v/38c3-demystifying-common-microcontroller-debug-protocols</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=42526092\">https://news.ycombinator.com/item?id=42526092</a></p>\n<p>Points: 89</p>\n<p># Comments: 0</p>\n",
-      "flags": null,
-      "enclosureUrl": "",
-      "enclosureMime": ""
-    },
-    {
-      "title": "Breaking the Mirror – A Look at Apple's New iPhone Remote Control Feature [video]",
-      "url": "https://media.ccc.de/v/38c3-breaking-the-mirror-a-look-at-apple-s-new-iphone-remote-control-feature",
-      "date": 1735333977,
-      "author": "doener",
-      "unread": true,
-      "content": "\n<p>Article URL: <a href=\"https://media.ccc.de/v/38c3-breaking-the-mirror-a-look-at-apple-s-new-iphone-remote-control-feature\">https://media.ccc.de/v/38c3-breaking-the-mirror-a-look-at-apple-s-new-iphone-remote-control-feature</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=42526081\">https://news.ycombinator.com/item?id=42526081</a></p>\n<p>Points: 80</p>\n<p># Comments: 11</p>\n",
-      "flags": null,
-      "enclosureUrl": "",
-      "enclosureMime": ""
-    },
-    {
-      "title": "DivestOS ROM shuts after ten years",
-      "url": "https://divestos.org/pages/news#end",
-      "date": 1735331171,
-      "author": "azalemeth",
-      "unread": true,
-      "content": "\n<p>Article URL: <a href=\"https://divestos.org/pages/news#end\">https://divestos.org/pages/news#end</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=42525719\">https://news.ycombinator.com/item?id=42525719</a></p>\n<p>Points: 91</p>\n<p># Comments: 58</p>\n",
-      "flags": null,
-      "enclosureUrl": "",
-      "enclosureMime": ""
-    },
-    {
-      "title": "You did it! You helped KDE raise €50,000... and €100,000 elsewhere.",
-      "url": "https://www.reddit.com/r/linux/comments/1hnntqz/you_did_it_you_helped_kde_raise_50000_and_100000/",
-      "date": 1735330577,
-      "author": "/u/imbev",
-      "unread": true,
-      "content": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/imbev\"> /u/imbev </a> <br/> <span><a href=\"/r/kde/comments/1hnmfrd/you_did_it_you_helped_kde_raise_50000_and_100000/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/linux/comments/1hnntqz/you_did_it_you_helped_kde_raise_50000_and_100000/\">[comments]</a></span>",
-      "flags": null,
-      "enclosureUrl": "",
-      "enclosureMime": ""
-    },
-    {
-      "title": "Plasticlist Report – Data on plastic chemicals in Bay Area foods",
-      "url": "https://www.plasticlist.org/report",
-      "date": 1735330544,
-      "author": "jeff18",
-      "unread": true,
-      "content": "\n<p>Article URL: <a href=\"https://www.plasticlist.org/report\">https://www.plasticlist.org/report</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=42525633\">https://news.ycombinator.com/item?id=42525633</a></p>\n<p>Points: 593</p>\n<p># Comments: 179</p>\n",
-      "flags": null,
-      "enclosureUrl": "",
-      "enclosureMime": ""
-    },
-    {
-      "title": "Rust and libcosmic in Bottles Next",
-      "url": "https://www.reddit.com/r/linux/comments/1hnnm6z/rust_and_libcosmic_in_bottles_next/",
-      "date": 1735329988,
-      "author": "/u/TallMasterShifu",
-      "unread": true,
-      "content": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/TallMasterShifu\"> /u/TallMasterShifu </a> <br/> <span><a href=\"https://usebottles.com/posts/2024-12-27-rust-libcosmic-next/?s=09\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/linux/comments/1hnnm6z/rust_and_libcosmic_in_bottles_next/\">[comments]</a></span>",
-      "flags": null,
-      "enclosureUrl": "",
-      "enclosureMime": ""
-    },
-    {
-      "title": "TSMC's Arizona Plant to Start Making Advanced Chips",
-      "url": "https://spectrum.ieee.org/tsmc-arizona",
-      "date": 1735328603,
-      "author": "rbanffy",
-      "unread": true,
-      "content": "\n<p>Article URL: <a href=\"https://spectrum.ieee.org/tsmc-arizona\">https://spectrum.ieee.org/tsmc-arizona</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=42525384\">https://news.ycombinator.com/item?id=42525384</a></p>\n<p>Points: 321</p>\n<p># Comments: 143</p>\n",
-      "flags": null,
-      "enclosureUrl": "",
-      "enclosureMime": ""
-    },
-    {
-      "title": "Show HN: I made a web app to bring children's drawings to life",
-      "url": "https://doodledreams.cc/",
-      "date": 1735325415,
-      "author": "vikmex",
-      "unread": true,
-      "content": "\n<p>Hey HN!<p>I used to spend hours drawing all kind of things as a kid. Sadly though, those drawings are long gone.<p>Inspired by this, I created DoodleDreams. A webapp that brings drawings to life using AI and stores them as memories. You can always look back at the drawings, see who made them, and even know the age they were drawn at.<p>I thought it was a fun way to preserve those memories. What do you think?<p>Viktor</p>\n<hr>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=42524848\">https://news.ycombinator.com/item?id=42524848</a></p>\n<p>Points: 214</p>\n<p># Comments: 75</p>\n",
       "flags": null,
       "enclosureUrl": "",
       "enclosureMime": ""

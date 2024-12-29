@@ -7,6 +7,28 @@
   "is_query": false,
   "items": [
     {
+      "title": "Struggling on understanding error type in golang",
+      "url": "https://www.reddit.com/r/golang/comments/1hox5p0/struggling_on_understanding_error_type_in_golang/",
+      "date": 1735482757,
+      "author": "/u/Retsu_Alp",
+      "unread": true,
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi;</p> <p>I was learning go from tour of go in website and I am currently having trouble on understanding on returning error. <a href=\"https://go.dev/tour/methods/20\">https://go.dev/tour/methods/20</a></p> <p>```go package main</p> <p>import ( &quot;fmt&quot; )</p> <p>type ErrNegativeSqrt float64</p> <p>func (e ErrNegativeSqrt) Error() string { return fmt.Sprintf(&quot;cannot Sqrt negative number: %v&quot;, float64(e)) }</p> <p>func Sqrt(x float64) (float64, error) { if x &lt; 0 { return 0, ErrNegativeSqrt(x) } z := 1.0 for i := 0; i &lt; 10; i++ { z -= (z*z - x) / (2 * z) }</p> <pre><code>return z, nil </code></pre> <p>}</p> <p>func main() { fmt.Println(Sqrt(2)) fmt.Println(Sqrt(-2)) }</p> <p>```</p> <p>My question is how does ErrNegativeSqrt(x) returns an error. I tried to get help from chatGPT but it is still unclear for me. Thanks in advance.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Retsu_Alp\"> /u/Retsu_Alp </a> <br/> <span><a href=\"https://www.reddit.com/r/golang/comments/1hox5p0/struggling_on_understanding_error_type_in_golang/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/golang/comments/1hox5p0/struggling_on_understanding_error_type_in_golang/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
+      "title": "Simple web chat app built using React and Go",
+      "url": "https://www.reddit.com/r/golang/comments/1hotdez/simple_web_chat_app_built_using_react_and_go/",
+      "date": 1735468211,
+      "author": "/u/DixGee",
+      "unread": true,
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi I built a web chat app using go where people can chat anonymously. This is my 1st app in go. I would like to know your thoughts.</p> <p><a href=\"https://github.com/shaon72/golang-chat-app\">https://github.com/shaon72/golang-chat-app</a></p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/DixGee\"> /u/DixGee </a> <br/> <span><a href=\"https://www.reddit.com/r/golang/comments/1hotdez/simple_web_chat_app_built_using_react_and_go/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/golang/comments/1hotdez/simple_web_chat_app_built_using_react_and_go/\">[comments]</a></span>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
       "title": "Learning CS with go rather than python, java, c, etc. Recommend?",
       "url": "https://www.reddit.com/r/golang/comments/1hosyew/learning_cs_with_go_rather_than_python_java_c_etc/",
       "date": 1735466358,
