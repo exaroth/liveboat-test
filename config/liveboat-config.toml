@@ -13,6 +13,9 @@ time_threshold = 40
 # This denotes whether articles marked as read by Newsboat
 # should be included on the page.
 show_read_articles = true
+# Set this flag to false if you don't want to include article 
+# content in generated RSS xml file.
+include_article_content_in_rss_feeds = true
 # Below variables define default directories 
 # and typically should not be changed.
 newsboat_urls_file = "./config/newsboat-urls"
