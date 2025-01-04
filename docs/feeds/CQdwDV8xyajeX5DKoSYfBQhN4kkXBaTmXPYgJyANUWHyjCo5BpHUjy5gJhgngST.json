@@ -7,34 +7,23 @@
   "is_query": false,
   "items": [
     {
+      "title": "Is 2025 the Year of the Linux Desktop?",
+      "url": "https://linux.slashdot.org/story/24/12/31/205245/is-2025-the-year-of-the-linux-desktop?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+      "date": 1735676400,
+      "author": "msmash",
+      "unread": true,
+      "content": "The long-anticipated \"year of the Linux desktop\" could see renewed interest in 2025 as Microsoft's planned end of support for Windows 10 approaches, potentially driving users to explore alternatives. \n\nWith Windows 10 reaching end of support in October 2025, many users will face decisions about upgrading hardware for Windows 11 or considering different operating systems entirely. Linux distributions have evolved to offer increasingly polished desktop experiences, with improving hardware compatibility and familiar user interfaces. \n\n2024 saw Linux adoption grow thanks to the Steam Deck's success, reaching a 4.04% market share in December, up from 3.85% during the same time last year. More Linux laptops, improved gaming compatibility, and growing awareness of its benefits also contributed to its steady rise.<p><div class=\"share_submission\" style=\"position:relative;\">\n<a class=\"slashpop\" href=\"http://twitter.com/home?status=Is+2025+the+Year+of+the+Linux+Desktop%3F%3A+https%3A%2F%2Flinux.slashdot.org%2Fstory%2F24%2F12%2F31%2F205245%2F%3Futm_source%3Dtwitter%26utm_medium%3Dtwitter\"><img src=\"https://a.fsdn.com/sd/twitter_icon_large.png\"></a>\n<a class=\"slashpop\" href=\"http://www.facebook.com/sharer.php?u=https%3A%2F%2Flinux.slashdot.org%2Fstory%2F24%2F12%2F31%2F205245%2Fis-2025-the-year-of-the-linux-desktop%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook\"><img src=\"https://a.fsdn.com/sd/facebook_icon_large.png\"></a>\n\n\n\n</div></p><p><a href=\"https://linux.slashdot.org/story/24/12/31/205245/is-2025-the-year-of-the-linux-desktop?utm_source=rss1.0moreanon&amp;utm_medium=feed\">Read more of this story</a> at Slashdot.</p>",
+      "flags": null,
+      "enclosureUrl": "",
+      "enclosureMime": ""
+    },
+    {
       "title": "T2 Linux SDE 24.12 'Sky's the Limit!' Released With 37 ISOs For 25 CPU ISAs",
       "url": "https://linux.slashdot.org/story/24/12/21/2143207/t2-linux-sde-2412-skys-the-limit-released-with-37-isos-for-25-cpu-isas?utm_source=rss1.0mainlinkanon&utm_medium=feed",
       "date": 1734818520,
       "author": "EditorDavid",
       "unread": true,
       "content": "Berlin-based T2 Linux developer Ren&eacute; Rebe is also long-time Slashdot reader ReneR &mdash; and popped by with a special announcement for the holidays:\n\nThe T2 Linux team has unveiled T2 Linux SDE 24.12, codenamed \"Sky's the Limit!\", delivering a massive update for this highly portable source-based Linux distribution... With 3,280 package updates, 206 new features, and the ability to boot on systems with as little as 512MB RAM, this release further strengthens T2 Linux's position as the ultimate tool for developers working across diverse hardware and embedded systems.\n \nSome highlights from Rene's announcement:\n\n \"The release includes 37 pre-compiled ISOs with Glibc, Musl, and uClibc, supporting 25 CPU architectures like ARM(64), RISCV(64), Loongarch64, SPARC(64), and vintage retro computing platforms such as M68k, Alpha, and even initial Nintendo Wii U support added.\"\n\" The Cosmic Desktop, a modern Rust-based environment, debuts alongside expanded application support for non-mainstream RISC architectures, now featuring LibreOffice, OpenJDK, and QEMU.\"\n\nAnd T2sde.org gives this glimpse of the future: \n\n\"While initially created for the Linux kernel, T2 already has proof-of-concept support for building 'home-brew' pkg for Other OS, including: BSDs, macOS and Haiku. Work on alternative micro kernels, such as L4, Fuchsia, RedoxOS or integrating building 'AOSP' Android is being worked on as well.\"<p><div class=\"share_submission\" style=\"position:relative;\">\n<a class=\"slashpop\" href=\"http://twitter.com/home?status=T2+Linux+SDE+24.12+'Sky's+the+Limit!'+Released+With+37+ISOs+For+25+CPU+ISAs%3A+https%3A%2F%2Flinux.slashdot.org%2Fstory%2F24%2F12%2F21%2F2143207%2F%3Futm_source%3Dtwitter%26utm_medium%3Dtwitter\"><img src=\"https://a.fsdn.com/sd/twitter_icon_large.png\"></a>\n<a class=\"slashpop\" href=\"http://www.facebook.com/sharer.php?u=https%3A%2F%2Flinux.slashdot.org%2Fstory%2F24%2F12%2F21%2F2143207%2Ft2-linux-sde-2412-skys-the-limit-released-with-37-isos-for-25-cpu-isas%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook\"><img src=\"https://a.fsdn.com/sd/facebook_icon_large.png\"></a>\n\n\n\n</div></p><p><a href=\"https://linux.slashdot.org/story/24/12/21/2143207/t2-linux-sde-2412-skys-the-limit-released-with-37-isos-for-25-cpu-isas?utm_source=rss1.0moreanon&amp;utm_medium=feed\">Read more of this story</a> at Slashdot.</p>",
-      "flags": null,
-      "enclosureUrl": "",
-      "enclosureMime": ""
-    },
-    {
-      "title": "Linux Predictions For 2025",
-      "url": "https://linux.slashdot.org/story/24/12/14/0058244/linux-predictions-for-2025?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-      "date": 1734181200,
-      "author": "BeauHD",
-      "unread": true,
-      "content": "BrianFagioli shares a report from BetaNews: As we close out 2024, we Linux enthusiasts are once again looking ahead to what the future holds. While Linux has long been the unsung hero of technology, powering servers, supercomputers, and the cloud, it's also a dominant force in the consumer space, even if many don't realize it. With Android leading the way as the most widely used Linux-based operating system, 2025 is shaping up to be another landmark year for the open source world Here are the predictions mentioned in the article:\n \n- Linux will continue to dominate the enterprise sector\n- Linux will further solidify its role in powering cloud infrastructure, with major providers like AWS and Google Cloud relying on it.\n- Gaming on Linux is set to grow in 2025 \n- Linux will play a major role in AI development \n- Linux's appeal to developers and tech enthusiasts will remain strong\n- The open source movement will grow stronger\n \nWhat additional predictions do you have for Linux in 2025?<p><div class=\"share_submission\" style=\"position:relative;\">\n<a class=\"slashpop\" href=\"http://twitter.com/home?status=Linux+Predictions+For+2025%3A+https%3A%2F%2Flinux.slashdot.org%2Fstory%2F24%2F12%2F14%2F0058244%2F%3Futm_source%3Dtwitter%26utm_medium%3Dtwitter\"><img src=\"https://a.fsdn.com/sd/twitter_icon_large.png\"></a>\n<a class=\"slashpop\" href=\"http://www.facebook.com/sharer.php?u=https%3A%2F%2Flinux.slashdot.org%2Fstory%2F24%2F12%2F14%2F0058244%2Flinux-predictions-for-2025%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook\"><img src=\"https://a.fsdn.com/sd/facebook_icon_large.png\"></a>\n\n\n\n</div></p><p><a href=\"https://linux.slashdot.org/story/24/12/14/0058244/linux-predictions-for-2025?utm_source=rss1.0moreanon&amp;utm_medium=feed\">Read more of this story</a> at Slashdot.</p>",
-      "flags": null,
-      "enclosureUrl": "",
-      "enclosureMime": ""
-    },
-    {
-      "title": "Linux Mint Dethrones MX Linux As the Most Popular Distro On DistroWatch",
-      "url": "https://linux.slashdot.org/story/24/12/10/1754230/linux-mint-dethrones-mx-linux-as-the-most-popular-distro-on-distrowatch?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-      "date": 1733853240,
-      "author": "msmash",
-      "unread": true,
-      "content": "BrianFagioli writes: Linux Mint has reclaimed its position as the top-ranked Linux distribution on DistroWatch, dethroning MX Linux. The latest page hit rankings, which reflect the popularity of distributions among DistroWatch users, place Linux Mint in first place with 2,412 hits per day. MX Linux, previously the reigning champ, now sits in second with 2,280 hits.<p><div class=\"share_submission\" style=\"position:relative;\">\n<a class=\"slashpop\" href=\"http://twitter.com/home?status=Linux+Mint+Dethrones+MX+Linux+As+the+Most+Popular+Distro+On+DistroWatch%3A+https%3A%2F%2Flinux.slashdot.org%2Fstory%2F24%2F12%2F10%2F1754230%2F%3Futm_source%3Dtwitter%26utm_medium%3Dtwitter\"><img src=\"https://a.fsdn.com/sd/twitter_icon_large.png\"></a>\n<a class=\"slashpop\" href=\"http://www.facebook.com/sharer.php?u=https%3A%2F%2Flinux.slashdot.org%2Fstory%2F24%2F12%2F10%2F1754230%2Flinux-mint-dethrones-mx-linux-as-the-most-popular-distro-on-distrowatch%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook\"><img src=\"https://a.fsdn.com/sd/facebook_icon_large.png\"></a>\n\n\n\n</div></p><p><a href=\"https://linux.slashdot.org/story/24/12/10/1754230/linux-mint-dethrones-mx-linux-as-the-most-popular-distro-on-distrowatch?utm_source=rss1.0moreanon&amp;utm_medium=feed\">Read more of this story</a> at Slashdot.</p>",
       "flags": null,
       "enclosureUrl": "",
       "enclosureMime": ""
